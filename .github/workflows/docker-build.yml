@@ -1,0 +1,25 @@
+name: Build and Push agrowest
+
+on:
+  push:
+    branches:
+      - master 
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repository-ni klonla
+        uses: actions/checkout@v3
+
+      - name: Docker üçün mühit qur
+        uses: docker/setup-buildx-action@v2
+
+      - name: GitHub Container Registry üçün login et
+        run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u $GITHUB_ACTOR --password-stdin
+
+      - name: Docker imajını build et və GitHub Container Registry-ə push et
+        run: |
+          docker build -t ghcr.io/faganzeynalli/agrowest:latest .
+          docker push ghcr.io/faganzeynalli/agrowest:latest
