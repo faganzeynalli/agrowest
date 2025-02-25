@@ -8,7 +8,7 @@ info:
   version: 0.20.4
 servers:
   -
-    url: 'https://demo.azuracast.com/api'
+    url: 'Demo'
     description: 'AzuraCast Public Demo Server'
 paths:
   /admin/custom_fields:
@@ -3396,7 +3396,7 @@ components:
         url:
           description: 'Station homepage URL'
           type: string
-          example: 'https://www.azuracast.com/'
+          example: 'https://10.10.40.200:8443/'
           nullable: true
         genre:
           description: 'The genre of the station'
@@ -4807,7 +4807,7 @@ components:
         base_url:
           description: 'Site Base URL'
           type: string
-          example: 'https://your.azuracast.site'
+          example: 'https://10.10.40.200:8443/'
           nullable: true
         instance_name:
           description: 'AzuraCast Instance Name'
@@ -5084,7 +5084,7 @@ components:
               nullable: true
             url:
               type: string
-              example: 'https://demo.azuracast.com/'
+              example: 'https://10.10.40.200:8443/'
               nullable: true
             genre:
               type: string
@@ -5575,4 +5575,4 @@ tags:
     description: 'Administration: CPU stats'
 externalDocs:
   description: 'AzuraCast on GitHub'
-  url: 'https://github.com/AzuraCast/AzuraCast'
+  url: 'https://github.com/faganzeynalli/agrowest'

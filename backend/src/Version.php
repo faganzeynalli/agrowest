@@ -156,7 +156,8 @@ final class Version
         $releaseChannel = $this->getReleaseChannelEnum();
 
         if (ReleaseChannel::RollingRelease === $releaseChannel) {
-            $commitLink = 'https://github.com/AzuraCast/AzuraCast/commit/' . $details['commit'];
+            // $commitLink = 'https://github.com/AzuraCast/AzuraCast/commit/' . $details['commit'];
+            $commitLink = 'https://github.com/faganzeynalli/agrowest/commit/' . $details['commit'];
             $commitText = sprintf(
                 '#<a href="%s" target="_blank">%s</a> (%s)',
                 $commitLink,

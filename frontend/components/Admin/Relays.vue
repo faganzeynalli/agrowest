@@ -10,7 +10,7 @@
             <a
                 class="btn btn-sm btn-light"
                 target="_blank"
-                href="https://github.com/AzuraCast/AzuraRelay"
+                href="https://github.com/faganzeynalli/agrowest"
             >
                 {{ $gettext('About AzuraRelay') }}
             </a>

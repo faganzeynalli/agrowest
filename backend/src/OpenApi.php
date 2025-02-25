@@ -63,7 +63,8 @@ use OpenApi\Attributes as OA;
         ],
         externalDocs: new OA\ExternalDocumentation(
             description: "AzuraCast on GitHub",
-            url: "https://github.com/AzuraCast/AzuraCast"
+            // url: "https://github.com/AzuraCast/AzuraCast"
+            url: "https://github.com/faganzeynalli/agrowest"
         )
     ),
     OA\Parameter(

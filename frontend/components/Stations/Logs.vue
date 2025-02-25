@@ -59,7 +59,7 @@
                     <a
                         class="btn btn-primary"
                         role="button"
-                        href="https://github.com/AzuraCast/AzuraCast/issues/new/choose"
+                        href="https://github.com/faganzeynalli/agrowest"
                         target="_blank"
                     >
                         <icon :icon="IconSupport" />
