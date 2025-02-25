@@ -226,7 +226,7 @@ msgstr ""
 #: frontend/components/Stations/Playlists.vue:35
 #: frontend/components/Stations/Playlists/EditModal.vue:80
 msgid "Add Playlist"
-msgstr ""
+msgstr "Playlist elave et"
 
 #: frontend/components/Stations/Podcasts.vue:20
 #: frontend/components/Stations/Podcasts/PodcastEditModal.vue:118
@@ -4322,11 +4322,11 @@ msgstr ""
 
 #: frontend/components/Stations/Playlists.vue:187
 msgid "Reorder"
-msgstr ""
+msgstr "Sirala"
 
 #: frontend/components/Stations/Playlists/ReorderModal.vue:6
 msgid "Reorder Playlist"
-msgstr ""
+msgstr "Playlisti sirala"
 
 #: frontend/components/Public/WebDJ/PlaylistPanel.vue:145
 msgid "Repeat"
@@ -6423,11 +6423,11 @@ msgstr ""
 #: frontend/components/Login.vue:17
 #: frontend/components/Setup/Register.vue:19
 msgid "Welcome to AzuraCast!"
-msgstr ""
+msgstr "Salam Colpa"
 
 #: frontend/components/Login.vue:11
 msgid "Welcome!"
-msgstr ""
+msgstr "Salam"
 
 #: frontend/components/Account/ApiKeyNewKey.vue:24
 msgid "When making API calls, you can pass this value in the \"X-API-Key\" header to authenticate as yourself."
