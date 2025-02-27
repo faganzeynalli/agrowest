@@ -47,7 +47,7 @@
                             class="form-control"
                             autocomplete="username webauthn"
                             :placeholder="$gettext('name@example.com')"
-                            :aria-label="$gettext('E-mail Address')"
+                            :aria-label="$gettext('Colpa_E-mail Address')"
                             required
                             autofocus
                         >
@@ -67,7 +67,7 @@
                             class="form-control"
                             autocomplete="current-password"
                             :placeholder="$gettext('Enter your password')"
-                            :aria-label="$gettext('Password')"
+                            :aria-label="$gettext('Colpa__Password')"
                             required
                         >
                     </div>
