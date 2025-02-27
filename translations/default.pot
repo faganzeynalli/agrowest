@@ -4902,7 +4902,7 @@ msgstr ""
 #: frontend/components/Login.vue:95
 #: frontend/components/Login.vue:98
 msgid "Sign In"
-msgstr ""
+msgstr "Colpa Colpa"
 
 #: frontend/components/Login.vue:120
 #: frontend/components/Login.vue:124
@@ -8108,7 +8108,7 @@ msgstr ""
 #: /var/azuracast/www/backend/templates/frontend/account/two_factor.phtml:22
 #: /var/azuracast/www/backend/templates/frontend/account/two_factor.phtml:23
 msgid "Sign in"
-msgstr ""
+msgstr "colpa"
 
 #: /var/azuracast/www/backend/templates/frontend/account/forgot.phtml:32
 msgid "Send Recovery E-mail"
