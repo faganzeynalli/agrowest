@@ -1,6 +1,6 @@
 services:
   web:
-    image: ghcr.io/faganzeynalli/agrowest:development
+    image: ghcr.io/faganzeynalli/agrowest:latest
     build:
       context: .
       target: development
