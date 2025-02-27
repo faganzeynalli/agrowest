@@ -37,7 +37,7 @@
                         >
                             <icon :icon="IconMail" />
                             <strong>
-                                {{ $gettext('E-mail Address') }}
+                                {{ $gettext('Coolpa___E-mail Address') }}
                             </strong>
                         </label>
                         <input
