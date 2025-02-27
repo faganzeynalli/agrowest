@@ -392,9 +392,6 @@ install-docker-compose() {
 }
 
 run-installer() {
-  local AZURACAST_RELEASE_BRANCH
-  AZURACAST_RELEASE_BRANCH=$(get-release-branch-name)
-
   if [[ ! -f .env ]]; then
     curl -fsSL https://raw.githubusercontent.com/faganzeynalli/mo/main/sample.env -o .env
   fi
@@ -413,6 +410,7 @@ run-installer() {
       install-docker-compose
     fi
   fi
+
 
   curl -fsSL https://raw.githubusercontent.com/faganzeynalli/mo/main/docker-compose.installer.yml -o docker-compose.installer.yml
 
