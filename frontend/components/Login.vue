@@ -71,6 +71,7 @@
                             required
                         >
                     </div>
+                    <!-- fagan edit
                     <div class="form-group mt-4">
                         <div class="custom-control custom-checkbox">
                             <input
@@ -88,6 +89,7 @@
                             </label>
                         </div>
                     </div>
+                    -->
                     <div class="block-buttons mt-3 mb-3">
                         <button
                             type="submit"
