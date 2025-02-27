@@ -115,26 +115,7 @@
                         :value="validateData"
                     >
 
-                    <div class="block-buttons mb-3">
-                        <button
-                            type="button"
-                            role="button"
-                            :title="$gettext('Sign In with Passkey')"
-                            class="btn btn-sm btn-secondary"
-                            @click="logInWithPasskey"
-                        >
-                            {{ $gettext('Sign In with Passkey') }}
-                        </button>
-                    </div>
                 </form>
-
-                <p class="text-center m-0">
-                    {{ $gettext('Please log in to continue.') }}
-
-                    <a :href="forgotPasswordUrl">
-                        {{ $gettext('Forgot your password?') }}
-                    </a>
-                </p>
             </div>
         </div>
     </div>
