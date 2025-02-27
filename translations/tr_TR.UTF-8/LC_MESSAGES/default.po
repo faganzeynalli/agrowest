@@ -19,7 +19,7 @@ msgstr "Bölümler"
 
 #: frontend/components/Stations/Playlists.vue:347
 msgid "# Songs"
-msgstr "# Şarkılar"
+msgstr "# Şarkılar---"
 
 #: frontend/components/Stations/Webhooks/Form/Common/SocialPostFields.vue:115
 msgid "%{ dj } is now live on %{ station }! Tune in now: %{ url }"
@@ -1438,7 +1438,7 @@ msgstr "Koyu Tema"
 #: frontend/components/PanelLayout.vue:62
 #: /home/runner/work/AzuraCast/AzuraCast/backend/src/Controller/Frontend/DashboardAction.php:35
 msgid "Dashboard"
-msgstr "Anasayfa"
+msgstr "Anasayfa---"
 
 #: frontend/components/Stations/Reports/Requests.vue:121
 msgid "Date Played"
@@ -4912,7 +4912,7 @@ msgstr ""
 #: frontend/components/Login.vue:95
 #: frontend/components/Login.vue:98
 msgid "Sign In"
-msgstr "Oturum Aç"
+msgstr "Oturum Aç---"
 
 #: frontend/components/Login.vue:120
 #: frontend/components/Login.vue:124
