@@ -1,0 +1,1 @@
+import{a as o}from"./index-DXvg9C8z.js";import{H as r}from"./usePlayerStore-KLtIIp-S.js";import{U as c,r as f}from"./vue-B-dHMJBO.js";function u(s){const t=c(s),n=f(t.value);return r(t,e=>{n.value=e}),n}function l(s,t,n={}){const e=o(s,t,{resetOnExecute:!1,...n}),a=e.isLoading;return e.isLoading=u(a),e}export{l as u};
