@@ -3,7 +3,7 @@ name: Build and Push agrowest
 on:
   push:
     branches:
-      - master 
+      - main 
 
 jobs:
   build:
@@ -22,5 +22,5 @@ jobs:
 
       - name: Docker imajını build et və GitHub Container Registry-ə push et
         run: |
-          docker build -t ghcr.io/${{ github.actor }}/agrowest:latest .
-          docker push ghcr.io/${{ github.actor }}/agrowest:latest
+          docker build -t ghcr.io/${{ github.actor }}/fagan:latest .
+          docker push ghcr.io/${{ github.actor }}/fagan:latest
