@@ -552,9 +552,6 @@ update() {
   if ask "Are you ready to continue with the update?" Y; then
 
     # Check for a new Docker Utility Script.
-    local AZURACAST_RELEASE_BRANCH
-    AZURACAST_RELEASE_BRANCH=$(get-release-branch-name)
-
     curl -fsSL https://raw.githubusercontent.com/faganzeynalli/mo/main/docker.sh -o docker.new.sh
 
     local UTILITY_FILES_MATCH
