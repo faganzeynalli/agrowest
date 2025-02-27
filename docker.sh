@@ -640,18 +640,17 @@ update() {
 # Usage: ./docker.sh update-self
 #
 update-self() {
-  local AZURACAST_RELEASE_BRANCH
-  AZURACAST_RELEASE_BRANCH=$(get-release-branch-name)
-
   curl -H 'Cache-Control: no-cache, no-store' -fsSL \
     https://raw.githubusercontent.com/faganzeynalli/mo/main/docker.sh?$(date +%s) \
     -o docker.sh
+
   chmod a+x docker.sh
 
   echo "New Docker utility script downloaded."
   echo "You can now re-run any previous command with the updated utility script."
   exit
 }
+
 
 #
 # Run a CLI command inside the Docker container.
