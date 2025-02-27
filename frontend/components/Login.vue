@@ -8,13 +8,13 @@
                             v-if="hideProductName"
                             class="card-title text-center"
                         >
-                            {{ $gettext('Welcome!') }}
+                            {{ $gettext('Coolpaa_Welcome!') }}
                         </h2>
                         <h2
                             v-else
                             class="card-title text-center"
                         >
-                            {{ $gettext('Welcome to AzuraCast!') }}
+                            {{ $gettext('Coolpaa_Welcome to AzuraCast!') }}
                         </h2>
                         <h3
                             v-if="instanceName"
