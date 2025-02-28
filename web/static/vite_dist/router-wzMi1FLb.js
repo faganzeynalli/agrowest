@@ -1,0 +1,1 @@
+import{b as e}from"./usePlayerStore-BJXDzq-w.js";import{c as r,C as a}from"./vue-B-dHMJBO.js";function u(n){return r(()=>`/api${n}`)}function l(n,o){if(!o){const t=e();if(t)o=t.id;else throw new Error("Can't find station ID!")}return r(()=>{const t=a(o),i=a(n),s=`/station/${t}${i}`;return u(s).value})}export{u as a,l as g};
