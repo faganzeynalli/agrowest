@@ -1,8 +1,6 @@
 header.navbar {
-  background-image: url('/static/img/header_bg.webp'), linear-gradient(90deg, #0a6fc2 0%, #2196f3 100%);
-  background-position: top left, center;
-  background-repeat: no-repeat;
-  background-size: 500px 100px, cover;
+  background: linear-gradient(90deg, #212325 0%, #414241 100%);
+
 
   min-height: $header-nav-height;
   padding: 1rem;

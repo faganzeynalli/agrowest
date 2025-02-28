@@ -3313,7 +3313,7 @@ msgstr ""
 #: /var/azuracast/www/backend/src/Controller/Frontend/Account/LoginAction.php:137
 #: /var/azuracast/www/backend/templates/frontend/account/two_factor.phtml:3
 msgid "Log In"
-msgstr ""
+msgstr "Daxil ol"
 
 #: frontend/components/Admin/Debug/TaskOutputModal.vue:4
 msgid "Log Output"
@@ -3367,7 +3367,7 @@ msgstr ""
 
 #: frontend/components/Dashboard.vue:139
 msgid "Manage Stations"
-msgstr ""
+msgstr "Filialları idarə edin"
 
 #: frontend/components/Admin/Stations/Form/BackendForm.vue:224
 msgid "Manual AutoDJ Mode"
@@ -4289,11 +4289,11 @@ msgstr ""
 
 #: frontend/components/PanelLayout.vue:156
 msgid "Powered by"
-msgstr ""
+msgstr "Copyright"
 
 #: frontend/components/Stations/Webhooks/Form/Discord.vue:128
 msgid "Powered by Aplus"
-msgstr ""
+msgstr "Agrowest tərəfindən hazırlanmışdır"
 
 #: frontend/components/Admin/Settings/GeneralTab.vue:29
 msgid "Prefer Browser URL (If Available)"
@@ -7454,7 +7454,7 @@ msgstr ""
 
 #: /var/azuracast/www/backend/src/Exception/Http/NotLoggedInException.php:26
 msgid "You must be logged in to access this page."
-msgstr ""
+msgstr "Səhifəyə keçid üçün hesaba daxil olmalısınız."
 
 #: /var/azuracast/www/backend/src/Exception/Http/PermissionDeniedException.php:26
 msgid "You do not have permission to access this portion of the site."
@@ -8188,7 +8188,7 @@ msgstr ""
 #: /var/azuracast/www/backend/src/Controller/Frontend/Account/TwoFactorAction.php:32
 #: /var/azuracast/www/backend/src/Controller/Frontend/Account/MasqueradeAction.php:45
 msgid "Logged in successfully."
-msgstr "Uğurla daxil oldunuz."
+msgstr "Daxil oldunuz."
 
 #: /var/azuracast/www/backend/src/Controller/Frontend/Account/LoginAction.php:106
 msgid "Complete the setup process to get started."

@@ -1,0 +1,1 @@
+import{f as c,d as u}from"./usePlayerStore-B-xb-_xl.js";import{u as r}from"./useDialog-B7mv4txH.js";function D(o,e){const{confirmDelete:s}=r(),{notifySuccess:i}=c(),{axios:a}=u();return{doDelete:async n=>{const{value:f}=await s({title:o});if(f){const{data:t}=await a.delete(n);i(t.message),typeof e=="function"&&e(t)}}}}export{D as u};

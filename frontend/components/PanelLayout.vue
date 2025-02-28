@@ -159,9 +159,11 @@
                 target="_blank"
             >Aplus</a>
             &bull;
+            <!-- fagan edit
             <span v-html="version" />
-            &bull;
+            &bull; -->
             <span v-html="platform" /><br>
+            <!-- fagan edit
             {{ $gettext('Like our software?') }}
             <a
                 href=""
@@ -169,6 +171,7 @@
             >
                 {{ $gettext('Donate to support Aplus!') }}
             </a>
+            -->
         </footer>
     </div>
 </template>

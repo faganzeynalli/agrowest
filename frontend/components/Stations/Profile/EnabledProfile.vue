@@ -25,13 +25,15 @@
             <template v-else>
                 <now-playing-not-started-panel />
             </template>
-
+            <!-- fagan edit
             <profile-public-pages
                 v-bind="props"
             />
+        -->
         </div>
 
         <div class="col-lg-5">
+            <!-- fagan edit
             <profile-requests
                 v-if="stationSupportsRequests"
                 v-bind="props"
@@ -41,6 +43,7 @@
                 v-if="stationSupportsStreamers"
                 v-bind="props"
             />
+            -->
 
             <template v-if="hasActiveFrontend">
                 <profile-frontend
