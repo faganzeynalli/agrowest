@@ -1980,7 +1980,7 @@ msgstr ""
 #: frontend/components/Stations/Profile/StationDisabledPanel.vue:19
 #: frontend/components/Stations/Sidebar.vue:24
 msgid "Edit Profile"
-msgstr ""
+msgstr "Stansiyanı redaktə et"
 
 #: frontend/components/Stations/Remotes/EditModal.vue:70
 msgid "Edit Remote Relay"
@@ -2607,7 +2607,7 @@ msgstr ""
 
 #: frontend/components/Stations/Media/Breadcrumb.vue:8
 msgid "Home"
-msgstr ""
+msgstr "Əsas"
 
 #: frontend/components/Admin/Branding/BrandingForm.vue:58
 msgid "Homepage Redirect URL"
@@ -3363,7 +3363,7 @@ msgstr ""
 
 #: frontend/components/Stations/Media.vue:36
 msgid "Manage SFTP Accounts"
-msgstr ""
+msgstr "SFTP Hesablarını idarə et"
 
 #: frontend/components/Dashboard.vue:139
 msgid "Manage Stations"
@@ -4901,7 +4901,7 @@ msgstr ""
 
 #: frontend/components/Common/FlowUpload.vue:55
 msgid "Select File"
-msgstr ""
+msgstr "Yüklə"
 
 #: frontend/components/Stations/Mounts/Form/Intro.vue:9
 msgid "Select Intro File"
@@ -6948,7 +6948,7 @@ msgstr ""
 
 #: frontend/components/Stations/Media.vue:28
 msgid "You can also upload files in bulk via SFTP."
-msgstr ""
+msgstr "Siz həmçinin SFTP vasitəsilə faylları toplu şəkildə yükləyə bilərsiniz."
 
 #: frontend/components/Stations/Logs.vue:42
 msgid ""
