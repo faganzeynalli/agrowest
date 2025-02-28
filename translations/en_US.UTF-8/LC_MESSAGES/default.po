@@ -48,8 +48,8 @@ msgstr[1] ""
 #: frontend/components/Stations/Profile/NowPlayingPanel.vue:285
 msgid "%{listeners} Listener"
 msgid_plural "%{listeners} Listeners"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%{listeners} dinləyici"
+msgstr[1] "%{listeners} dinləyici"
 
 #: frontend/components/Admin/Debug.vue:150
 msgid "%{messages} queued messages"
@@ -343,7 +343,7 @@ msgstr ""
 
 #: frontend/components/Stations/Reports/Overview/ListenersByTimePeriodTab.vue:174
 msgid "All Days"
-msgstr ""
+msgstr "Hər gün"
 
 #: frontend/components/Admin/Settings/ServicesTab.vue:57
 msgid ""
@@ -357,11 +357,11 @@ msgstr "Bütün Pleylist"
 
 #: frontend/components/Stations/PodcastEpisodes.vue:44
 msgid "All Podcasts"
-msgstr ""
+msgstr "Bütün Podcastlar"
 
 #: frontend/components/Stations/Reports/Listeners/FiltersBar.vue:37
 msgid "All Types"
-msgstr ""
+msgstr "Bütün növ"
 
 #: frontend/components/Stations/Webhooks/Form/Common/FormattingInfo.vue:14
 msgid ""
@@ -3203,7 +3203,7 @@ msgstr ""
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:86
 #: /var/azuracast/www/backend/src/Controller/Api/Frontend/Dashboard/ChartsAction.php:182
 msgid "Listeners"
-msgstr ""
+msgstr "Dinləyicilər"
 
 #: frontend/components/Stations/Reports/Overview/ListenersByTimePeriodTab.vue:42
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:54
@@ -3355,7 +3355,7 @@ msgstr ""
 #: frontend/components/Dashboard.vue:234
 #: frontend/components/Stations/Profile/StreamersPanel.vue:24
 msgid "Manage"
-msgstr ""
+msgstr "İdarə et"
 
 #: frontend/components/Common/Avatar.vue:8
 msgid "Manage Avatar"
@@ -3670,7 +3670,7 @@ msgstr ""
 #: frontend/components/Stations/menu.ts:75
 #: frontend/components/Stations/Profile/BackendPanel.vue:31
 msgid "Music Files"
-msgstr ""
+msgstr "Mahnılar"
 
 #: frontend/components/Admin/Stations/Form/BackendForm.vue:499
 msgid "Music General"
@@ -3683,7 +3683,7 @@ msgstr ""
 #: frontend/components/Common/MuteButton.vue:48
 #: frontend/components/Common/Waveform.vue:37
 msgid "Mute"
-msgstr ""
+msgstr "Səssiz"
 
 #: frontend/components/Account.vue:3 frontend/components/Dashboard.vue:18
 #: frontend/components/PanelLayout.vue:83
@@ -3766,7 +3766,7 @@ msgstr ""
 
 #: frontend/components/Admin/Stations/CloneModalForm.vue:7
 msgid "New Station Name"
-msgstr ""
+msgstr "Yeni Filial adı"
 
 #: frontend/components/Admin/Debug.vue:296
 msgid "Next Run"
@@ -3887,11 +3887,11 @@ msgstr ""
 #: frontend/components/Dashboard.vue:332
 #: frontend/components/Stations/Profile/NowPlayingPanel.vue:56
 msgid "Now Playing"
-msgstr ""
+msgstr "İndi səslənir"
 
 #: frontend/components/Stations/Webhooks/Form/Discord.vue:119
 msgid "Now playing on %{ station }:"
-msgstr ""
+msgstr "%{ station } filialında indi səslənir"
 
 #: frontend/components/Stations/Webhooks/Form/Common/SocialPostFields.vue:105
 msgid ""
@@ -4128,11 +4128,11 @@ msgstr ""
 #: frontend/components/Common/PlayButton.vue:60
 #: frontend/components/Stations/Media/Form/WaveformEditor.vue:21
 msgid "Play"
-msgstr ""
+msgstr "Başlat"
 
 #: frontend/components/Stations/Media/MediaToolbar.vue:157
 msgid "Play Now"
-msgstr ""
+msgstr "İndi başlat"
 
 #: frontend/components/Stations/Playlists/Form/BasicInfo.vue:320
 msgid "Play once every $x minutes."
@@ -4425,11 +4425,11 @@ msgstr ""
 #: frontend/components/Admin/Debug.vue:130
 #: frontend/components/Admin/Debug.vue:74
 msgid "Refresh"
-msgstr ""
+msgstr "Yenilə"
 
 #: frontend/components/Common/DataTable.vue:51
 msgid "Refresh rows"
-msgstr ""
+msgstr "Yenilə"
 
 #: frontend/components/Admin/StorageLocations/Form/S3.vue:32
 #: frontend/components/Stations/Reports/Listeners/Map.vue:14
@@ -4807,7 +4807,7 @@ msgstr ""
 
 #: frontend/components/Common/DataTable.vue:40
 msgid "Search"
-msgstr ""
+msgstr "Axtar"
 
 #: frontend/components/Stations/PodcastEpisodes.vue:231
 #: frontend/components/Stations/Podcasts/BatchEditModal.vue:26
@@ -5200,7 +5200,7 @@ msgstr "Passkey ilə daxil ol"
 
 #: frontend/components/PanelLayout.vue:128
 msgid "Sign Out"
-msgstr ""
+msgstr "Çıxış"
 
 #: frontend/components/Admin/Settings/GeneralTab.vue:13
 msgid "Site Base URL"
@@ -5428,7 +5428,7 @@ msgstr ""
 
 #: frontend/components/Dashboard.vue:322
 msgid "Station Name"
-msgstr ""
+msgstr "Filial adı"
 
 #: frontend/components/Dashboard.vue:207
 #: frontend/components/Public/Player.vue:29
@@ -5443,7 +5443,7 @@ msgstr ""
 
 #: frontend/components/Dashboard.vue:126
 msgid "Station Overview"
-msgstr ""
+msgstr "Filiallara baxış"
 
 #: frontend/components/Admin/Permissions/Form/StationForm.vue:2
 #: frontend/components/Admin/Permissions/Form/StationRow.vue:33
@@ -6446,7 +6446,7 @@ msgstr ""
 #: frontend/components/Stations/Profile/StreamsPanel.vue:142
 #: frontend/components/Stations/Profile/StreamsPanel.vue:53
 msgid "Unique"
-msgstr ""
+msgstr "Unikal"
 
 #: frontend/components/Stations/Webhooks/Form/Telegram.vue:28
 msgid ""
@@ -6458,7 +6458,7 @@ msgstr ""
 #: frontend/components/Stations/Reports/Listeners.vue:85
 #: frontend/components/Stations/Reports/Overview/ListenersByTimePeriodTab.vue:30
 msgid "Unique Listeners"
-msgstr ""
+msgstr "Unikal dinləyici"
 
 #: frontend/components/Stations/Reports/Listeners.vue:155
 #: frontend/components/Stations/Reports/Listeners.vue:172
@@ -8099,7 +8099,7 @@ msgstr ""
 
 #: /var/azuracast/www/backend/src/Controller/Api/Frontend/Dashboard/ChartsAction.php:134
 msgid "All Stations"
-msgstr ""
+msgstr "Bütün Filiallar"
 
 #: /var/azuracast/www/backend/src/Controller/Api/Admin/Stations/StorageLocationsAction.php:21
 msgid "Create a new storage location based on the base directory."

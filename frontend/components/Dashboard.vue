@@ -3,6 +3,7 @@
         id="dashboard"
         class="row-of-cards"
     >
+        <!-- fagan edit
         <section
             class="card"
             role="region"
@@ -77,7 +78,8 @@
                 </div>
             </template>
         </section>
-
+        -->
+        <!-- fagan edit
         <card-page
             v-if="showCharts"
             header-id="hdr_listeners_per_station"
@@ -114,7 +116,7 @@
                 <dashboard-charts :charts-url="chartsUrl" />
             </div>
         </card-page>
-
+        -->
         <card-page header-id="hdr_stations">
             <template #header="{id}">
                 <div class="d-flex flex-wrap align-items-center">

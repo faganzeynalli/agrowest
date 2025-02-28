@@ -1,0 +1,1 @@
+import{l as d}from"./lodash-Bdl6ys83.js";import{B as i}from"./vue-DTJ-1uEH.js";function f(t){return typeof t=="object"&&Object(t)===t&&!Array.isArray(t)}function m(t,a){const s=i(t),r=i(a),e=d.cloneDeep(s);for(const o in s)if(o in r&&s[o]!==void 0&&r[o]!==void 0){const c=s[o],n=r[o];f(n)&&f(c)?e[o]=m(c,n):e[o]=n}return e}export{m};

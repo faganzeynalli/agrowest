@@ -1,7 +1,7 @@
 openapi: 3.0.0
 info:
   title: AzuraCast
-  description: 'Aplus is a standalone, turnkey web radio management tool. Radio stations hosted by AzuraCast expose a public API for viewing now playing data, making requests and more.'
+  description: 'Aplus Stream.'
   license:
     name: 'Apache 2.0'
     url: 'https://www.apache.org/licenses/LICENSE-2.0.html'

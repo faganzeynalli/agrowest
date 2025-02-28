@@ -28,7 +28,7 @@
             class="navbar-brand ms-0 me-auto"
             :href="homeUrl"
         >
-            azura<strong>cast</strong>
+            Aplus<strong> Stream</strong>
             <small v-if="instanceName">{{ instanceName }}</small>
         </a>
 
