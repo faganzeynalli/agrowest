@@ -149,7 +149,7 @@ class Station implements Stringable, IdentifiableEntityInterface
     protected ?string $description = null;
 
     #[
-        OA\Property(example: "https://demo.azuracast.com/"),
+        OA\Property(example: "https://demo.example.com/"),
         ORM\Column(length: 255, nullable: true),
         Serializer\Groups([EntityGroupsInterface::GROUP_GENERAL, EntityGroupsInterface::GROUP_ALL])
     ]
@@ -558,7 +558,7 @@ class Station implements Stringable, IdentifiableEntityInterface
     }
 
     /**
-     * Whether the station uses AzuraCast to directly manage the AutoDJ or lets the backend handle it.
+     * Whether the station uses Aplus to directly manage the AutoDJ or lets the backend handle it.
      */
     public function useManualAutoDJ(): bool
     {

@@ -30,15 +30,15 @@ final class DonateAdvisorCheck
         }
 
         $notification = new Notification();
-        $notification->title = __('AzuraCast is free and open-source software.');
+        $notification->title = __('Aplus is free and open-source software.');
         $notification->body = __(
-            'If you are enjoying AzuraCast, please consider donating to support our work. We depend ' .
-            'on donations to build new features, fix bugs, and keep AzuraCast modern, accessible and free.',
+            'If you are enjoying Aplus, please consider donating to support our work. We depend ' .
+            'on donations to build new features, fix bugs, and keep Aplus modern, accessible and free.',
         );
         $notification->type = FlashLevels::Info->value;
 
-        $notification->actionLabel = __('Donate to AzuraCast');
-        $notification->actionUrl = 'https://donate.azuracast.com/';
+        $notification->actionLabel = __('Donate to Aplus');
+        $notification->actionUrl = '';
 
         $event->addNotification($notification);
     }

@@ -41,7 +41,7 @@ final class UpdateCheck
 
         $router = $event->getRequest()->getRouter();
 
-        $actionLabel = __('Update AzuraCast');
+        $actionLabel = __('Update Aplus');
         $actionUrl = $router->named('admin:updates:index');
 
         $releaseChannel = $this->version->getReleaseChannelEnum();
@@ -52,7 +52,7 @@ final class UpdateCheck
         ) {
             $notification = new Notification();
             $notification->title = __(
-                'New AzuraCast Stable Release Available',
+                'New Aplus Stable Release Available',
             );
             $notification->body = sprintf(
                 __(
@@ -73,7 +73,7 @@ final class UpdateCheck
             if ($updateData['needs_rolling_update'] ?? false) {
                 $notification = new Notification();
                 $notification->title = __(
-                    'New AzuraCast Rolling Release Available'
+                    'New Aplus Rolling Release Available'
                 );
                 $notification->body = sprintf(
                     __(

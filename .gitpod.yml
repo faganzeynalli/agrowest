@@ -12,10 +12,10 @@ github:
     addBadge: true
 
 ports:
-  - name: AzuraCast HTTP
+  - name: Aplus HTTP
     port: 8050
     onOpen: ignore
-  - name: AzuraCast HTTPS
+  - name: Aplus HTTPS
     port: 8443
     onOpen: open-browser
     visibility: public

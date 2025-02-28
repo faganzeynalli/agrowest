@@ -26,7 +26,7 @@ final class AzuraCastCentral
     }
 
     /**
-     * Ping the AzuraCast Central server for updates and return them if there are any.
+     * Ping the Aplus Central server for updates and return them if there are any.
      *
      * @return mixed[]|null
      */
@@ -81,7 +81,7 @@ final class AzuraCastCentral
     }
 
     /**
-     * Ping the AzuraCast Central server to retrieve this installation's likely public-facing IP.
+     * Ping the Aplus Central server to retrieve this installation's likely public-facing IP.
      *
      * @param bool $cached
      */

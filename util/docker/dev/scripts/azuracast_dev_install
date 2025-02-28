@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo "AzuraCast Dev Install"
+echo "Aplus Dev Install"
 
 azuracast_install "$@"
 

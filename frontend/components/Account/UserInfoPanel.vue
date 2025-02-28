@@ -19,7 +19,7 @@
                 v-else
                 class="card-title"
             >
-                {{ $gettext('AzuraCast User') }}
+                {{ $gettext('Aplus User') }}
             </h2>
             <h3 class="card-subtitle">
                 {{ user.email }}

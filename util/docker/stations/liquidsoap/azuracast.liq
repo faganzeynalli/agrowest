@@ -1,8 +1,8 @@
 #<-----
-AzuraCast Common Runtime
+Aplus Common Runtime
 ----->#
 
-# Default Settings for AzuraCast Instances
+# Default Settings for Aplus Instances
 init.daemon := false
 
 log.stdout := true
@@ -23,7 +23,7 @@ Settings
 let settings.azuracast = ()
 
 let settings.azuracast.api_url = settings.make(
-    description="The API URL used by AzuraCast API calls.",
+    description="The API URL used by Aplus API calls.",
     ""
 )
 
@@ -48,7 +48,7 @@ let settings.azuracast.temp_path = settings.make(
 )
 
 let settings.azuracast.compute_autocue = settings.make(
-    description="Whether to compute autocue metadata on-the-fly if AzuraCast does not have values specified.",
+    description="Whether to compute autocue metadata on-the-fly if Aplus does not have values specified.",
     false
 )
 
@@ -151,7 +151,7 @@ def azuracast.api_call(~timeout=settings.azuracast.http_timeout(), url, payload)
         response = http.post(full_url,
             headers=[
                 ("Content-Type", "application/json"),
-                ("User-Agent", "Liquidsoap AzuraCast"),
+                ("User-Agent", "Liquidsoap Aplus"),
                 ("X-Liquidsoap-Api-Key", "#{settings.azuracast.api_key()}")
             ],
             timeout=timeout,
@@ -180,7 +180,7 @@ def azuracast.api_call(~timeout=settings.azuracast.http_timeout(), url, payload)
     end
 end
 
-# AzuraCast protocol implementation.
+# Aplus protocol implementation.
 def azuracast.media_protocol(~rlog=_,~maxtime,arg) =
     station_media_dir = settings.azuracast.media_path()
     if station_media_dir == "api" then
@@ -228,7 +228,7 @@ end
 protocol.add(
     "media",
     azuracast.media_protocol,
-    doc="Pull files from AzuraCast media directory.",
+    doc="Pull files from Aplus media directory.",
     syntax="media:uri"
 )
 
@@ -273,7 +273,7 @@ def azuracast.autocue(
         log(
             level=3,
             label=label,
-            "AzuraCast AutoCue data: #{autocue_result}."
+            "Aplus AutoCue data: #{autocue_result}."
         )
 
         autocue_result
@@ -592,7 +592,7 @@ end
 Feedback API
 ----->#
 
-# Send metadata changes back to AzuraCast
+# Send metadata changes back to Aplus
 def azuracast.send_feedback(m) =
     def f() =
         if (m["is_error_file"] != "true") then
@@ -600,7 +600,7 @@ def azuracast.send_feedback(m) =
                 azuracast.last_title := m["title"]
                 azuracast.last_artist := m["artist"]
 
-                # Only send some metadata to AzuraCast
+                # Only send some metadata to Aplus
                 def fl(k, _) =
                     tags = ["song_id", "media_id", "playlist_id", "sq_id", "artist", "title"]
                     list.mem(k, tags)

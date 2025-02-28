@@ -139,7 +139,7 @@ version-number() {
   echo "$@" | awk -F. '{ printf("%03d%03d%03d\n", $1,$2,$3); }'
 }
 
-# Get the current release channel for AzuraCast
+# Get the current release channel for Aplus
 get-release-channel() {
   local AZURACAST_VERSION="latest"
   if [[ -f .env ]]; then
@@ -215,7 +215,7 @@ envfile-set() {
 }
 
 #
-# Configure the ports used by AzuraCast.
+# Configure the ports used by Aplus.
 #
 setup-ports() {
   envfile-set "AZURACAST_HTTP_PORT" "8050" "Port to use for HTTP connections"
@@ -268,7 +268,7 @@ check-install-requirements() {
 
   set -e
 
-  echo "Checking installation requirements for AzuraCast..."
+  echo "Checking installation requirements for Aplus..."
 
   CURRENT_OS=$(uname -s)
   if [[ $CURRENT_OS == "Linux" ]]; then
@@ -277,7 +277,7 @@ check-install-requirements() {
     echo -en "\e[41m[FAIL]\e[0m Operating System: ${CURRENT_OS}\n"
 
     echo "       You are running an unsupported operating system."
-    echo "       Automated AzuraCast installation is not currently supported on this"
+    echo "       Automated Aplus installation is not currently supported on this"
     echo "       operating system."
     exit 1
   fi
@@ -291,7 +291,7 @@ check-install-requirements() {
     echo -en "\e[41m[FAIL]\e[0m Architecture: ${CURRENT_ARCH}\n"
 
     echo "       You are running an unsupported processor architecture."
-    echo "       Automated AzuraCast installation is not currently supported on this "
+    echo "       Automated Aplus installation is not currently supported on this "
     echo "       operating system."
     exit 1
   fi
@@ -331,8 +331,8 @@ check-install-requirements() {
     echo -en "\e[32m[PASS]\e[0m Installation Directory\n"
   else
     echo -en "\e[93m[WARN]\e[0m Installation Directory\n"
-    echo "       AzuraCast is not installed in /var/azuracast, as is recommended"
-    echo "       for most installations. This will not prevent AzuraCast from"
+    echo "       Aplus is not installed in /var/azuracast, as is recommended"
+    echo "       for most installations. This will not prevent Aplus from"
     echo "       working, but you will need to update any instructions in our"
     echo "       documentation to reflect your current directory:"
     echo "       $SCRIPT_DIR"
@@ -421,7 +421,7 @@ run-installer() {
 }
 
 #
-# Run the initial installer of Docker and AzuraCast.
+# Run the initial installer of Docker and Aplus.
 # Usage: ./docker.sh install
 #
 install() {
@@ -706,18 +706,18 @@ backup() {
 }
 
 #
-# Restore an AzuraCast backup into Docker.
+# Restore an Aplus backup into Docker.
 # Usage:
 # ./docker.sh restore [/custom/backup/dir/custombackupname.zip]
 #
 restore() {
   if [[ ! -f .env ]] || [[ ! -f azuracast.env ]]; then
-    echo "AzuraCast hasn't been installed yet on this server."
+    echo "Aplus hasn't been installed yet on this server."
     echo "You should run './docker.sh install' first before restoring."
     exit 1
   fi
 
-  if ask "Restoring will remove any existing AzuraCast installation data, replacing it with your backup. Continue?" Y; then
+  if ask "Restoring will remove any existing Aplus installation data, replacing it with your backup. Continue?" Y; then
     if [[ $1 != "" ]]; then
       local BACKUP_PATH BACKUP_DIR BACKUP_FILENAME BACKUP_EXT
       BACKUP_PATH=$(readlink -f ${1:-"./backup.tar.gz"})
@@ -733,7 +733,7 @@ restore() {
 
       dc down
 
-      # Remove most AzuraCast volumes but preserve some essential ones.
+      # Remove most Aplus volumes but preserve some essential ones.
       d volume rm -f $(d volume ls | grep 'azuracast' | grep -v 'station\|install' | awk 'NR>1 {print $2}')
       d volume create azuracast_backups
 
@@ -760,7 +760,7 @@ restore() {
     else
       dc down
 
-      # Remove most AzuraCast volumes but preserve some essential ones.
+      # Remove most Aplus volumes but preserve some essential ones.
       d volume rm -f $(d volume ls | grep 'azuracast' | grep -v 'station\|backups\|install' | awk 'NR>1 {print $2}')
 
       dc run --rm web -- azuracast_restore "$@"
@@ -820,7 +820,7 @@ uninstall() {
     dc rm -f
     d volume prune -f
 
-    echo "All AzuraCast Docker containers and volumes were removed."
+    echo "All Aplus Docker containers and volumes were removed."
     echo "To remove *all* Docker containers and volumes, run:"
     echo "  docker stop \$(docker ps -a -q)"
     echo "  docker rm \$(docker ps -a -q)"
@@ -895,12 +895,12 @@ change-ports() {
 # Helper scripts for basic Docker Compose functions
 #
 up() {
-  echo "Starting up AzuraCast services..."
+  echo "Starting up Aplus services..."
   dc up -d
 }
 
 down() {
-  echo "Shutting down AzuraCast services..."
+  echo "Shutting down Aplus services..."
   dc down --timeout 60
 }
 

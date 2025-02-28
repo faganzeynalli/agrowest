@@ -16,7 +16,7 @@ use Symfony\Component\Console\Style\SymfonyStyle;
 
 #[AsCommand(
     name: 'azuracast:setup',
-    description: 'Run all general AzuraCast setup steps.',
+    description: 'Run all general Aplus setup steps.',
 )]
 final class SetupCommand extends CommandAbstract
 {
@@ -57,11 +57,11 @@ final class SetupCommand extends CommandAbstract
 
         // Header display
         if ($isInit) {
-            $io->title(__('AzuraCast Initializing...'));
+            $io->title(__('Aplus Initializing...'));
         } else {
-            $io->title(__('AzuraCast Setup'));
+            $io->title(__('Aplus Setup'));
             $io->writeln(
-                __('Welcome to AzuraCast. Please wait while some key dependencies of AzuraCast are set up...')
+                __('Welcome to Aplus. Please wait while some key dependencies of Aplus are set up...')
             );
             $io->newLine();
         }
@@ -122,7 +122,7 @@ final class SetupCommand extends CommandAbstract
         if ($update) {
             $io->success(
                 [
-                    __('AzuraCast is now updated to the latest version!'),
+                    __('Aplus is now updated to the latest version!'),
                 ]
             );
         } else {
@@ -131,7 +131,7 @@ final class SetupCommand extends CommandAbstract
             /** @noinspection HttpUrlsUsage */
             $io->success(
                 [
-                    __('AzuraCast installation complete!'),
+                    __('Aplus installation complete!'),
                     sprintf(
                         __('Visit %s to complete setup.'),
                         'http://' . $publicIp

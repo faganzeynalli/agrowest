@@ -65,7 +65,7 @@ export function useAdminMenu(): ReactiveMenu {
                     },
                     {
                         key: 'updates',
-                        label: computed(() => $gettext('Update AzuraCast')),
+                        label: computed(() => $gettext('Update Aplus')),
                         url: {
                             name: 'admin:updates:index'
                         },

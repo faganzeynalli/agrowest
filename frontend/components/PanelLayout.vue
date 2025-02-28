@@ -155,19 +155,19 @@
         <footer id="footer">
             {{ $gettext('Powered by') }}
             <a
-                href="https://www.azuracast.com/"
+                href=""
                 target="_blank"
-            >AzuraCast</a>
+            >Aplus</a>
             &bull;
             <span v-html="version" />
             &bull;
             <span v-html="platform" /><br>
             {{ $gettext('Like our software?') }}
             <a
-                href="https://donate.azuracast.com/"
+                href=""
                 target="_blank"
             >
-                {{ $gettext('Donate to support AzuraCast!') }}
+                {{ $gettext('Donate to support Aplus!') }}
             </a>
         </footer>
     </div>

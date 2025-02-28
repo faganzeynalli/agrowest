@@ -62,7 +62,7 @@ final class Customization
     }
 
     /**
-     * Get the instance name for this AzuraCast instance.
+     * Get the instance name for this Aplus instance.
      */
     public function getInstanceName(): string
     {
@@ -179,7 +179,7 @@ final class Customization
     }
 
     /**
-     * Return whether to show or hide the AzuraCast name from public-facing pages.
+     * Return whether to show or hide the Aplus name from public-facing pages.
      */
     public function hideProductName(): bool
     {

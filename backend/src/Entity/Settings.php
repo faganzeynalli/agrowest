@@ -100,7 +100,7 @@ class Settings implements Stringable
     }
 
     #[
-        OA\Property(description: "AzuraCast Instance Name", example: "My AzuraCast Instance"),
+        OA\Property(description: "Aplus Instance Name", example: "My Aplus Instance"),
         ORM\Column(length: 255, nullable: true),
         Groups(self::GROUP_GENERAL)
     ]
@@ -453,7 +453,7 @@ class Settings implements Stringable
     }
 
     #[
-        OA\Property(description: "Hide AzuraCast Branding on Public Pages", example: "false"),
+        OA\Property(description: "Hide Aplus Branding on Public Pages", example: "false"),
         ORM\Column,
         Groups(self::GROUP_BRANDING)
     ]
@@ -835,7 +835,7 @@ class Settings implements Stringable
     }
 
     #[
-        OA\Property(description: "The name of the sender of system e-mails.", example: "AzuraCast"),
+        OA\Property(description: "The name of the sender of system e-mails.", example: "Aplus"),
         ORM\Column(length: 255, nullable: true),
         Groups(self::GROUP_GENERAL)
     ]

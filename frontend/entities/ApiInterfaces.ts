@@ -17,22 +17,22 @@ export interface ApiAdminRelay {
   id?: number;
   /**
    * Station name
-   * @example "AzuraTest Radio"
+   * @example "AplusTest Radio"
    */
   name?: string | null;
   /**
    * Station "short code", used for URL and folder paths
-   * @example "azuratest_radio"
+   * @example "Aplustest_radio"
    */
   shortcode?: string | null;
   /**
    * Station description
-   * @example "An AzuraCast station!"
+   * @example "An Aplus station!"
    */
   description?: string | null;
   /**
    * Station homepage URL
-   * @example "https://www.azuracast.com/"
+   * @example ""
    */
   url?: string | null;
   /**
@@ -554,7 +554,7 @@ export interface ApiNowPlayingStation {
   shortcode?: string;
   /**
    * Station description
-   * @example "An AzuraCast station!"
+   * @example "An Aplus station!"
    */
   description?: string;
   /**
@@ -1172,8 +1172,8 @@ export interface Settings {
    */
   base_url?: string | null;
   /**
-   * AzuraCast Instance Name
-   * @example "My AzuraCast Instance"
+   * Aplus Instance Name
+   * @example "My Aplus Instance"
    */
   instance_name?: string | null;
   /**
@@ -1256,7 +1256,7 @@ export interface Settings {
    */
   last_fm_api_key?: string | null;
   /**
-   * Hide AzuraCast Branding on Public Pages
+   * Hide Aplus Branding on Public Pages
    * @example "false"
    */
   hide_product_name?: boolean;
@@ -1357,7 +1357,7 @@ export interface Settings {
   mail_enabled?: boolean;
   /**
    * The name of the sender of system e-mails.
-   * @example "AzuraCast"
+   * @example "Aplus"
    */
   mail_sender_name?: string | null;
   /**
@@ -1452,7 +1452,7 @@ export type Station = HasAutoIncrementId & {
   backend_config?: object;
   /** @example "A sample radio station." */
   description?: string | null;
-  /** @example "https://demo.azuracast.com/" */
+  /** @example "https://demo.example.com/" */
   url?: string | null;
   /** @example "Various" */
   genre?: string | null;
@@ -1701,7 +1701,7 @@ export interface HasUniqueId {
 }
 
 export type User = HasAutoIncrementId & {
-  /** @example "demo@azuracast.com" */
+  /** @example "demo@example.com" */
   email?: string;
   /** @example "" */
   new_password?: string | null;

@@ -35,13 +35,13 @@ final class Relay implements ResolvableUrlInterface
 
     #[OA\Property(
         description: 'Station description',
-        example: 'An AzuraCast station!'
+        example: 'An Aplus station!'
     )]
     public ?string $description;
 
     #[OA\Property(
         description: 'Station homepage URL',
-        example: 'https://www.azuracast.com/'
+        example: ''
     )]
     public ?string $url;
 

@@ -8,13 +8,13 @@
                             v-if="hideProductName"
                             class="card-title text-center"
                         >
-                            {{ $gettext('Coolpaa_Welcome!') }}
+                            {{ $gettext('Welcome!') }}
                         </h2>
                         <h2
                             v-else
                             class="card-title text-center"
                         >
-                            {{ $gettext('Coolpaa_Welcome to AzuraCast!') }}
+                            {{ $gettext('Welcome to Aplus!') }}
                         </h2>
                         <h3
                             v-if="instanceName"
@@ -37,7 +37,7 @@
                         >
                             <icon :icon="IconMail" />
                             <strong>
-                                {{ $gettext('Coolpa___E-mail Address') }}
+                                {{ $gettext('E-mail Address') }}
                             </strong>
                         </label>
                         <input
@@ -47,7 +47,7 @@
                             class="form-control"
                             autocomplete="username webauthn"
                             :placeholder="$gettext('name@example.com')"
-                            :aria-label="$gettext('Colpa_E-mail Address')"
+                            :aria-label="$gettext('E-mail Address')"
                             required
                             autofocus
                         >
@@ -67,7 +67,7 @@
                             class="form-control"
                             autocomplete="current-password"
                             :placeholder="$gettext('Enter your password')"
-                            :aria-label="$gettext('Colpa__Password')"
+                            :aria-label="$gettext('Password')"
                             required
                         >
                     </div>

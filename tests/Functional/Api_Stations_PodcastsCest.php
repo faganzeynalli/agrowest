@@ -28,14 +28,14 @@ class Api_Stations_PodcastsCest extends CestAbstract
                 'title' => 'My Awesome Podcast',
                 'description' => 'A functional test podcast.',
                 'language' => 'en',
-                'author' => 'AzuraCast',
-                'email' => 'demo@azuracast.com',
+                'author' => 'Aplus',
+                'email' => 'demo@example.com',
             ],
             [
                 'title' => 'My Modified Podcast',
                 'language' => 'de',
                 'author' => 'Test',
-                'email' => 'test@azuracast.com',
+                'email' => 'test@example.com',
             ]
         );
 
@@ -46,8 +46,8 @@ class Api_Stations_PodcastsCest extends CestAbstract
                 'title' => 'Episode Test Podcast',
                 'description' => 'A podcast with episodes.',
                 'language' => 'en',
-                'author' => 'AzuraCast',
-                'email' => 'demo@azuracast.com',
+                'author' => 'Aplus',
+                'email' => 'demo@example.com',
             ]
         );
         $I->seeResponseCodeIs(200);

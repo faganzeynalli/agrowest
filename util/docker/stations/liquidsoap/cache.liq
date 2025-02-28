@@ -1,5 +1,5 @@
 #<-----
-AzuraCast Cache Functions
+Aplus Cache Functions
 ----->#
 
 let settings.azuracast.cache = ()

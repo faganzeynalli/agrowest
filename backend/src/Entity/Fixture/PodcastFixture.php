@@ -21,12 +21,12 @@ final class PodcastFixture extends AbstractFixture implements DependentFixtureIn
 
         $podcast = new Podcast($podcastStorage);
 
-        $podcast->setTitle('The AzuraTest Podcast');
-        $podcast->setLink('https://demo.azuracast.com');
+        $podcast->setTitle('The AplusTest Podcast');
+        $podcast->setLink('https://demo.example.com');
         $podcast->setLanguage('en');
-        $podcast->setDescription('The unofficial testing podcast for the AzuraCast development team.');
-        $podcast->setAuthor('AzuraCast');
-        $podcast->setEmail('demo@azuracast.com');
+        $podcast->setDescription('The unofficial testing podcast for the Aplus development team.');
+        $podcast->setAuthor('Aplus');
+        $podcast->setEmail('demo@example.com');
         $manager->persist($podcast);
 
         $category = new PodcastCategory($podcast, 'Technology');

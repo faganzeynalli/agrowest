@@ -161,7 +161,7 @@ final class NewVersionCommand extends CommandAbstract
                 $newChangelogLines[] = '';
                 $newChangelogLines[] = '---';
                 $newChangelogLines[] = '';
-                $newChangelogLines[] = '# AzuraCast ' . $version . ' (' . date('M j, Y') . ')';
+                $newChangelogLines[] = '# Aplus ' . $version . ' (' . date('M j, Y') . ')';
                 $newChangelogLines[] = '';
 
                 $hasNewHeader = true;

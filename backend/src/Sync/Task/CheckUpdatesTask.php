@@ -66,10 +66,10 @@ final class CheckUpdatesTask extends AbstractTask
 
                 $this->logger->info('Successfully checked for updates.', ['results' => $updates]);
             } else {
-                $this->logger->error('Error parsing update data response from AzuraCast central.');
+                $this->logger->error('Error parsing update data response from Aplus central.');
             }
         } catch (TransferException $e) {
-            $this->logger->error(sprintf('Error from AzuraCast Central (%d): %s', $e->getCode(), $e->getMessage()));
+            $this->logger->error(sprintf('Error from Aplus Central (%d): %s', $e->getCode(), $e->getMessage()));
             return;
         }
     }

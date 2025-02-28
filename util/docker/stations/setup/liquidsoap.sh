@@ -40,7 +40,7 @@ export LIQ_CACHE_USER_DIR=/var/azuracast/www_tmp/liquidsoap_cache
 
 gosu azuracast liquidsoap --cache-stdlib
 
-# Add Common AzuraCast Functions
+# Add Common Aplus Functions
 mkdir -p /var/azuracast/liquidsoap
 cp /bd_build/stations/liquidsoap/* /var/azuracast/liquidsoap
 chown -R azuracast:azuracast /var/azuracast/liquidsoap
