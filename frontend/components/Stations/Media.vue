@@ -143,7 +143,7 @@
                         <small v-if="item.type === FileTypes.Media">{{ item.path_short }}</small>
                         <small v-else>{{ item.text }}</small>
                     </div>
-
+                    <!-- fagan edit
                     <album-art
                         v-if="item.media?.art"
                         :src="item.media.art"
@@ -154,6 +154,7 @@
                         :src="item.links.download"
                         class="flex-shrink-1 ps-2"
                     />
+                -->
                 </div>
             </template>
             <!-- eslint-disable-next-line -->

@@ -629,7 +629,7 @@ msgstr ""
 #: frontend/components/Admin/Stations/Form/BackendForm.vue:14
 #: frontend/components/Stations/Profile/BackendPanel.vue:11
 msgid "AutoDJ Service"
-msgstr ""
+msgstr "Avto Playlist"
 
 #: frontend/components/Admin/Backups.vue:14
 msgid "Automatic Backups"
@@ -859,7 +859,7 @@ msgstr ""
 
 #: frontend/components/Stations/Profile/FrontendPanel.vue:12
 msgid "Broadcasting Service"
-msgstr ""
+msgstr "Yayım xidməti"
 
 #: frontend/components/Stations/Streamers.vue:70
 msgid "Broadcasts"
@@ -1837,20 +1837,20 @@ msgstr ""
 #: frontend/components/Stations/StereoToolConfig.vue:65
 #: frontend/components/Stations/Streamers/BroadcastsModal.vue:35
 msgid "Download"
-msgstr ""
+msgstr "Yüklə"
 
 #: frontend/components/Stations/Reports/Listeners.vue:21
 #: frontend/components/Stations/Reports/Timeline.vue:17
 msgid "Download CSV"
-msgstr ""
+msgstr "CVS yüklə"
 
 #: frontend/components/Stations/Profile/StreamsPanel.vue:166
 msgid "Download M3U"
-msgstr ""
+msgstr "M3U yüklə"
 
 #: frontend/components/Stations/Profile/StreamsPanel.vue:157
 msgid "Download PLS"
-msgstr ""
+msgstr "PLS yüklə"
 
 #: frontend/components/Admin/StereoTool.vue:43
 msgid "Download the appropriate binary from the Stereo Tool downloads page:"
@@ -1862,7 +1862,7 @@ msgstr ""
 
 #: frontend/components/Common/FlowUpload.vue:47
 msgid "Drag file(s) here to upload or"
-msgstr ""
+msgstr "Faylları bura sürüşdürüb atın və ya"
 
 #: frontend/components/Admin/StorageLocations/Form/Dropbox.vue:17
 msgid "Dropbox App Console"
@@ -1890,7 +1890,7 @@ msgstr ""
 
 #: frontend/components/Stations/Podcasts/PodcastForm/BasicInfo.vue:53
 msgid "E-Mail"
-msgstr ""
+msgstr "E-poçt"
 
 #: frontend/components/Account/EditForm.vue:17
 #: frontend/components/Admin/Settings/TestMessageModal.vue:14
@@ -1934,7 +1934,7 @@ msgstr ""
 #: frontend/components/Stations/Streamers.vue:63
 #: frontend/components/Stations/Webhooks.vue:65
 msgid "Edit"
-msgstr ""
+msgstr "Redaktə"
 
 #: frontend/components/Stations/Profile/PublicPagesPanel.vue:87
 msgid "Edit Branding"
@@ -1967,7 +1967,7 @@ msgstr ""
 
 #: frontend/components/Stations/Playlists/EditModal.vue:79
 msgid "Edit Playlist"
-msgstr ""
+msgstr "Pleylisti redaktə et"
 
 #: frontend/components/Stations/Podcasts/PodcastEditModal.vue:117
 msgid "Edit Podcast"
@@ -3137,8 +3137,8 @@ msgid "Limited"
 msgstr ""
 
 #: frontend/components/Stations/Profile/BackendPanel.vue:120
-msgid "LiquidSoap is currently shuffling from %{songs} and %{playlists}."
-msgstr ""
+msgid "LiquidSoap is currently shuffling from ."
+msgstr "LiquidSoap hazırda %{songs} mahnı və %{playlists} pleylistdən istifadə edir ."
 
 #: frontend/components/Admin/Stations/Form/BackendForm.vue:279
 msgid "Liquidsoap Performance Tuning"
@@ -3834,7 +3834,7 @@ msgstr ""
 
 #: frontend/components/Common/Badges/RunningBadge.vue:30
 msgid "Not Running"
-msgstr ""
+msgstr "İşləmir"
 
 #: frontend/components/Stations/Playlists/Form/Schedule.vue:8
 #: frontend/components/Stations/Streamers/Form/Schedule.vue:8
@@ -3936,7 +3936,7 @@ msgstr ""
 #: frontend/components/Stations/Profile/NowPlayingNotStartedPanel.vue:5
 #: frontend/components/Stations/Profile/NowPlayingPanel.vue:13
 msgid "On the Air"
-msgstr ""
+msgstr "Yayımda"
 
 #: frontend/components/Stations/Playlists.vue:77
 msgid "On-Demand"
@@ -4724,7 +4724,7 @@ msgstr ""
 
 #: frontend/components/Common/Badges/RunningBadge.vue:29
 msgid "Running"
-msgstr ""
+msgstr "İşləyir"
 
 #: frontend/components/Public/WebDJ/SettingsPanel.vue:111
 msgid "Sample Rate"
@@ -5435,7 +5435,7 @@ msgstr "Filial adı"
 #: frontend/components/Stations/Branding/BrandingForm.vue:31
 #: frontend/components/Stations/Profile/NowPlayingPanel.vue:79
 msgid "Station Offline"
-msgstr ""
+msgstr "Yayım dayanıb (offline)"
 
 #: frontend/components/Stations/Branding/BrandingForm.vue:30
 msgid "Station Offline Display Text"
@@ -5596,7 +5596,7 @@ msgstr ""
 #: frontend/components/Stations/Reports/Listeners.vue:299
 #: frontend/components/Stations/Reports/Overview/StreamsTab.vue:6
 msgid "Stream"
-msgstr ""
+msgstr "Axın (Stream)"
 
 #: frontend/components/Stations/Streamers/BroadcastsModal.vue:7
 msgid "Streamer Broadcasts"
@@ -5633,7 +5633,7 @@ msgstr ""
 #: frontend/components/Stations/Profile/StreamsPanel.vue:4
 #: frontend/components/Stations/Reports/Overview.vue:44
 msgid "Streams"
-msgstr ""
+msgstr "Axınlar (stream-lər)"
 
 #: frontend/components/Account/TwoFactorModal.vue:63
 msgid "Submit Code"
