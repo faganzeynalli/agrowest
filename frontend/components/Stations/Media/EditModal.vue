@@ -18,6 +18,7 @@
                     :playlists="playlists"
                 />
             </tab>
+            <!-- fagan edit
             <tab :label="$gettext('Album Art')">
                 <media-form-album-art :album-art-url="record.links.art" />
             </tab>
@@ -45,6 +46,7 @@
                     :song-length="record.length_text"
                 />
             </tab>
+        -->
         </tabs>
     </modal-form>
 </template>

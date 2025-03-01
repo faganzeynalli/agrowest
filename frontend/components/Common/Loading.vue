@@ -9,7 +9,7 @@
             role="status"
             aria-hidden="true"
         />
-        <strong>Loading...</strong>
+        <strong>Yüklənilir...</strong>
     </div>
     <div
         v-if="!lazy || !loading"

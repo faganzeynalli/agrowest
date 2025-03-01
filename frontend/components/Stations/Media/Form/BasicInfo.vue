@@ -35,7 +35,7 @@
             :field="form.album"
             :label="$gettext('Song Album')"
         />
-
+        <!--
         <form-group-field
             id="edit_form_lyrics"
             class="col-md-6"
@@ -51,6 +51,7 @@
             :label="$gettext('ISRC')"
             :description="$gettext('International Standard Recording Code, used for licensing reports.')"
         />
+    -->
     </div>
 </template>
 

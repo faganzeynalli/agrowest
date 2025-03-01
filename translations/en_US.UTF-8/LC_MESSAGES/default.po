@@ -526,7 +526,7 @@ msgstr ""
 #: frontend/components/Stations/Profile/UpdateMetadataModal.vue:30
 #: /var/azuracast/www/backend/src/Media/Enums/MetadataTags.php:84
 msgid "Artist"
-msgstr ""
+msgstr "İfaçı"
 
 #: frontend/components/Stations/Podcasts/Common/Artwork.vue:2
 #: frontend/components/Stations/Podcasts/Common/Artwork.vue:29
@@ -799,13 +799,13 @@ msgstr ""
 #: frontend/components/Stations/Streamers/Form/BasicInfo.vue:3
 #: frontend/components/Stations/Webhooks/Form/BasicInfo.vue:3
 msgid "Basic Info"
-msgstr ""
+msgstr "Əsas məlumat"
 
 #: frontend/components/Stations/Media/EditModal.vue:12
 #: frontend/components/Stations/Podcasts/EpisodeForm/BasicInfo.vue:3
 #: frontend/components/Stations/Podcasts/PodcastForm/BasicInfo.vue:3
 msgid "Basic Information"
-msgstr ""
+msgstr "Əsas məlumat"
 
 #: frontend/components/Admin/Stations/Form/BackendForm.vue:468
 msgid "Basic Normalization and Compression"
@@ -1642,7 +1642,7 @@ msgstr ""
 
 #: frontend/components/Stations/Playlists.vue:429
 msgid "Delete Playlist?"
-msgstr ""
+msgstr "Playlist silinsin?"
 
 #: frontend/components/Stations/Podcasts.vue:163
 msgid "Delete Podcast?"
@@ -1792,7 +1792,7 @@ msgstr ""
 
 #: frontend/components/Common/DataTable.vue:104
 msgid "Display fields"
-msgstr ""
+msgstr "Ekran sahələri"
 
 #: frontend/components/Admin/Users/Form.vue:30
 #: frontend/components/Stations/Mounts/Form/BasicInfo.vue:19
@@ -1959,7 +1959,7 @@ msgstr ""
 
 #: frontend/components/Stations/Media/EditModal.vue:5
 msgid "Edit Media"
-msgstr ""
+msgstr "Medianı redaktə edin"
 
 #: frontend/components/Stations/Mounts/EditModal.vue:118
 msgid "Edit Mount Point"
@@ -2033,7 +2033,7 @@ msgstr ""
 
 #: frontend/components/Stations/Playlists.vue:203
 msgid "Empty"
-msgstr ""
+msgstr "Boşalt"
 
 #: frontend/components/Admin/Stations.vue:50
 #: frontend/components/Stations/Playlists.vue:195
@@ -2043,7 +2043,7 @@ msgstr ""
 #: frontend/components/Stations/Profile/StreamersPanel.vue:48
 #: frontend/components/Stations/Webhooks.vue:143
 msgid "Enable"
-msgstr ""
+msgstr "Aktiv"
 
 #: frontend/components/Admin/Settings/GeneralTab.vue:69
 msgid "Enable Advanced Features"
@@ -2339,12 +2339,12 @@ msgstr ""
 
 #: frontend/components/Stations/Playlists.vue:252
 msgid "Export %{format}"
-msgstr ""
+msgstr "İxrac %{format}"
 
 #: frontend/components/Stations/BulkMedia.vue:14
 #: frontend/components/Stations/BulkMedia.vue:35
 msgid "Export Media to CSV"
-msgstr ""
+msgstr "CSV-ə ixrac et"
 
 #: frontend/components/Common/SidebarMenu.vue:35
 #: frontend/components/Common/SidebarMenu.vue:72
@@ -2370,7 +2370,7 @@ msgstr ""
 #: frontend/components/Stations/Media/Form/BasicInfo.vue:7
 #: frontend/components/Stations/PodcastEpisodes.vue:206
 msgid "File Name"
-msgstr ""
+msgstr "Faylın adı"
 
 #: frontend/components/Stations/Media/MediaToolbar.vue:324
 msgid "Files marked for reprocessing:"
@@ -2507,7 +2507,7 @@ msgstr ""
 #: frontend/components/Stations/Media.vue:332
 #: /var/azuracast/www/backend/src/Media/Enums/MetadataTags.php:100
 msgid "Genre"
-msgstr ""
+msgstr "Janr"
 
 #: frontend/components/Admin/GeoLite.vue:66
 msgid "GeoLite is not currently installed on this installation."
@@ -2675,7 +2675,7 @@ msgstr ""
 msgid ""
 "If disabled, the playlist will not be included in radio playback, but can "
 "still be managed."
-msgstr ""
+msgstr "Deaktiv edilərsə, pleylist radioda yayınlanmayacaq, lakin yenə də idarə oluna bilər."
 
 #: frontend/components/Stations/Podcasts/PodcastForm/BasicInfo.vue:72
 msgid ""
@@ -4184,7 +4184,7 @@ msgstr "Pleylist adı"
 
 #: frontend/components/Stations/Playlists/ReorderModal.vue:145
 msgid "Playlist order set."
-msgstr ""
+msgstr "Sıralama yeniləndi."
 
 #: frontend/components/Stations/Playlists/QueueModal.vue:99
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/Playlists/DeleteQueueAction.php:38
@@ -4589,7 +4589,7 @@ msgstr "SIRALA"
 
 #: frontend/components/Stations/Playlists/ReorderModal.vue:6
 msgid "Reorder Playlist"
-msgstr "Pleylistini sıralayın"
+msgstr "Pleylisti sıralayın"
 
 #: frontend/components/Public/WebDJ/PlaylistPanel.vue:145
 msgid "Repeat"
@@ -4993,7 +4993,7 @@ msgstr ""
 #: frontend/components/Stations/Playlists.vue:71
 #: frontend/components/Stations/Playlists/Form/BasicInfo.vue:347
 msgid "Sequential"
-msgstr ""
+msgstr "Ardıcıl"
 
 #: frontend/components/Admin/Index.vue:43
 msgid "Server Status"
@@ -5210,7 +5210,7 @@ msgstr ""
 #: frontend/components/Stations/Media.vue:348
 #: frontend/components/Stations/Streamers/BroadcastsModal.vue:120
 msgid "Size"
-msgstr ""
+msgstr "Həcmi"
 
 #: frontend/components/Stations/Profile/NowPlayingPanel.vue:211
 msgid "Skip Song"
@@ -5264,11 +5264,11 @@ msgstr ""
 
 #: frontend/components/Stations/Media/Form/BasicInfo.vue:36
 msgid "Song Album"
-msgstr ""
+msgstr "Musiqi Albomu"
 
 #: frontend/components/Stations/Media/Form/BasicInfo.vue:22
 msgid "Song Artist"
-msgstr ""
+msgstr "İfaçı"
 
 #: frontend/entities/Webhooks.ts:39
 msgid "Song Change"
@@ -5280,7 +5280,7 @@ msgstr ""
 
 #: frontend/components/Stations/Media/Form/BasicInfo.vue:29
 msgid "Song Genre"
-msgstr ""
+msgstr "Musiqi Janrı"
 
 #: frontend/components/Public/FullPlayer.vue:23
 #: frontend/components/Public/FullPlayer/SongHistoryModal.vue:6
@@ -5289,7 +5289,7 @@ msgstr ""
 
 #: frontend/components/Stations/Media/Form/AdvancedSettings.vue:5
 msgid "Song Length"
-msgstr ""
+msgstr "Uzunluq"
 
 #: frontend/components/Stations/Media/Form/BasicInfo.vue:44
 msgid "Song Lyrics"
@@ -5317,15 +5317,15 @@ msgstr ""
 #: frontend/components/Stations/Reports/Requests.vue:122
 #: frontend/components/Stations/Reports/Timeline.vue:159
 msgid "Song Title"
-msgstr ""
+msgstr "Müsiqinin adı"
 
 #: frontend/components/Stations/Playlists.vue:55
 msgid "Song-based"
-msgstr ""
+msgstr "Musiqi əsaslı"
 
 #: frontend/components/Stations/Playlists/Form/BasicInfo.vue:296
 msgid "Song-Based"
-msgstr ""
+msgstr "Musiqi əsaslı"
 
 #: frontend/components/Stations/Playlists/Form/BasicInfo.vue:40
 msgid "Song-Based Playlist"
@@ -5857,7 +5857,7 @@ msgstr ""
 
 #: frontend/components/Stations/Media/Form/BasicInfo.vue:8
 msgid "The relative path of the file in the station's media directory."
-msgstr ""
+msgstr "Stansiyanın media kataloqunda faylın yolu (path)."
 
 #: frontend/components/Stations/Webhooks/Form/Tunein.vue:12
 msgid "The station ID will be a numeric string that starts with the letter S."
@@ -6179,7 +6179,7 @@ msgstr ""
 
 #: frontend/components/Stations/Common/TimeZone.vue:3
 msgid "This station's time zone is currently %{tz}."
-msgstr "Stansiyanın istifadə etdiyi saat qurşağı: %{tz}"
+msgstr "Stansiyanın saat qurşağı: %{tz}"
 
 #: frontend/components/Stations/Streamers/Form/Schedule.vue:11
 msgid "This streamer is not scheduled to play at any times."
@@ -6276,7 +6276,7 @@ msgstr ""
 #: frontend/components/Stations/Webhooks/Form/Discord.vue:32
 #: /var/azuracast/www/backend/src/Media/Enums/MetadataTags.php:133
 msgid "Title"
-msgstr ""
+msgstr "Mahnı Adı"
 
 #: frontend/components/Admin/Index/CpuStatsHelpModal.vue:24
 msgid ""
@@ -6581,7 +6581,7 @@ msgstr ""
 
 #: frontend/components/Stations/Media.vue:359
 msgid "Uploaded Time"
-msgstr ""
+msgstr "Yükləmə vaxtı"
 
 #: frontend/components/Stations/Webhooks/Form/Discord.vue:48
 msgid "URL"

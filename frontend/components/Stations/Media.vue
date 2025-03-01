@@ -22,7 +22,7 @@
                 </div>
             </div>
         </div>
-
+        <!-- fagan edit
         <info-card v-if="showSftp">
             <p class="mb-0">
                 {{ $gettext('You can also upload files in bulk via SFTP.') }}
@@ -37,6 +37,7 @@
                 </router-link>
             </template>
         </info-card>
+    -->
 
         <div class="card-body">
             <breadcrumb
@@ -322,18 +323,14 @@ const {formatTimestampAsDateTime} = useStationDateTimeFormatter();
 const fields = computed<DataTableField<ApiFileList>[]>(() => {
     const fields: DataTableField<ApiFileList>[] = [
         {key: 'path', isRowHeader: true, label: $gettext('Name'), sortable: true},
-        {key: 'media.title', label: $gettext('Title'), sortable: true, selectable: true, visible: false},
-        {
-            key: 'media.artist',
-            label: $gettext('Artist'),
-            sortable: true,
-            selectable: true,
-            visible: false
-        },
+        {key: 'media.title', label: $gettext('Title'), sortable: true, selectable: true, visible: true},
+        {key: 'media.artist', label: $gettext('Artist'), sortable: true, selectable: true, visible: false},
         {key: 'media.album', label: $gettext('Album'), sortable: true, selectable: true, visible: false},
         {key: 'media.genre', label: $gettext('Genre'), sortable: true, selectable: true, visible: false},
+        /* fagan edit
         {key: 'media.isrc', label: $gettext('ISRC'), sortable: true, selectable: true, visible: false},
         {key: 'media.length', label: $gettext('Length'), sortable: true, selectable: true, visible: true}
+        */
     ];
 
     forEach({...props.customFields}, (field: CustomField) => {
@@ -364,6 +361,7 @@ const fields = computed<DataTableField<ApiFileList>[]>(() => {
             selectable: true,
             visible: false
         },
+        /*
         {
             key: 'media.mtime',
             label: $gettext('Last Processed Time'),
@@ -372,6 +370,7 @@ const fields = computed<DataTableField<ApiFileList>[]>(() => {
             selectable: true,
             visible: false
         },
+        */
         {
             key: 'playlists',
             label: $gettext('Playlists'),

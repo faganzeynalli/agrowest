@@ -263,11 +263,13 @@
                         </data-table>
                     </div>
                 </tab>
+                <!-- fagan edit
                 <schedule-view-tab
                     ref="$scheduleTab"
                     :schedule-url="scheduleUrl"
                     @click="doCalendarClick"
                 />
+            -->
             </tabs>
         </div>
     </section>

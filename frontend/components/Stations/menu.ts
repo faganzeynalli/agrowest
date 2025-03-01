@@ -124,6 +124,7 @@ export function useStationsMenu(): ReactiveMenu {
                         external: true,
                         visible: stationProps.enableOnDemand,
                     },
+                    /* fagan edit
                     {
                         key: 'sftp_users',
                         label: computed(() => $gettext('SFTP Users')),
@@ -140,6 +141,7 @@ export function useStationsMenu(): ReactiveMenu {
                         },
                         visible: userCanManageMedia
                     }
+                    */
                 ]
             };
 
