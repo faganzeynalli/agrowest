@@ -18,7 +18,7 @@
                 :label="$gettext('Enable')"
                 :description="$gettext('If disabled, the playlist will not be included in radio playback, but can still be managed.')"
             />
-            <!-- fagan edit
+            <!--
             <form-group-multi-check
                 id="edit_form_source"
                 class="col-md-12"
@@ -30,12 +30,12 @@
             />
         -->
         </div>
+
         <section
             v-show="form.source === 'songs'"
             class="card mb-3"
             role="region"
         >
-
             <div class="card-header text-bg-primary">
                 <h2 class="card-title">
                     {{ $gettext('Song-Based Playlist') }}
@@ -88,7 +88,6 @@
                         radio
                         :label="$gettext('Playlist Type')"
                     >
-                    <!-- fagan edit
                         <template #description>
                             <a
                                 href="/docs/user-guide/playlists/#advanced-playlists"
@@ -97,7 +96,6 @@
                                 {{ $gettext('Learn about Advanced Playlists') }}
                             </a>
                         </template>
-                    -->
                     </form-group-multi-check>
 
                     <form-group-multi-check
@@ -181,9 +179,10 @@
                         />
                     </div>
                 </form-fieldset>
+            -->
+
             </div>
         </section>
-    -->
 
         <!-- fagan edit
         <section
@@ -308,7 +307,7 @@ const typeOptions = [
         value: 'default',
         text: $gettext('General Rotation'),
         description: $gettext('Standard playlist, shuffles with other standard playlists based on weight.')
-    }
+    },
     {
         value: 'once_per_x_songs',
         text: $gettext('Once per x Songs'),
