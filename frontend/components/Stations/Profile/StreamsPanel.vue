@@ -5,9 +5,11 @@
     >
         <table class="table table-striped table-responsive mb-0">
             <colgroup>
-                <col style="width: 2%;">
-                <col style="width: 78%;">
+                <col style="width: 15%;">
+                <col style="width: 90%;">
+                <!-- fagan edit
                 <col style="width: 20%;">
+            -->
             </colgroup>
             <template v-if="station.mounts.length > 0">
                 <!-- fagan edit

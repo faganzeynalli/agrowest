@@ -68,8 +68,8 @@ msgstr[1] ""
 #: frontend/components/Stations/Profile/BackendPanel.vue:106
 msgid "%{numSongs} uploaded song"
 msgid_plural "%{numSongs} uploaded songs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%{numSongs} mahnı"
+msgstr[1] "%{numSongs} mahnı"
 
 #: frontend/components/Stations/Common/Quota.vue:76
 msgid "%{spaceUsed} of %{spaceTotal} Used"
@@ -353,7 +353,7 @@ msgstr ""
 
 #: frontend/components/Stations/Playlists.vue:30
 msgid "All Playlists"
-msgstr "Bütün Pleylist"
+msgstr "Bütün Pleylistlər"
 
 #: frontend/components/Stations/PodcastEpisodes.vue:44
 msgid "All Podcasts"
@@ -1243,11 +1243,11 @@ msgstr ""
 
 #: frontend/components/Stations/Playlists/CloneModal.vue:67
 msgid "Copy associated media and folders."
-msgstr ""
+msgstr "Əlaqədar media və qovluqları nüsxələyin."
 
 #: frontend/components/Stations/Playlists/CloneModal.vue:71
 msgid "Copy scheduled playback times."
-msgstr ""
+msgstr "Planlaşdırılmış oxutma vaxtlarını kopyalayın."
 
 #: frontend/components/Common/CopyToClipboardButton.vue:37
 #: frontend/components/Common/CopyToClipboardButton.vue:6
@@ -1467,7 +1467,7 @@ msgstr ""
 
 #: frontend/components/Stations/Playlists/CloneModal.vue:24
 msgid "Customize Copy"
-msgstr ""
+msgstr "Nüsxəni fərdiləşdirin"
 
 #: frontend/components/Admin/Stations/Form/StreamersForm.vue:109
 msgid "Customize DJ/Streamer Mount Point"
@@ -3138,7 +3138,7 @@ msgstr ""
 
 #: frontend/components/Stations/Profile/BackendPanel.vue:120
 msgid "LiquidSoap is currently shuffling from %{songs} and %{playlists}."
-msgstr "Ağıılı Pleylist hazırda %{songs} mahnı və %{playlists} pleylistdən istifadə edir ."
+msgstr "Ağıılı Pleylist hazırda %{songs} və %{playlists} istifadə edir ."
 
 #: frontend/components/Admin/Stations/Form/BackendForm.vue:279
 msgid "Liquidsoap Performance Tuning"
@@ -6789,7 +6789,7 @@ msgstr ""
 #: frontend/components/InlinePlayer.vue:60
 #: frontend/components/Public/Player.vue:128
 msgid "Volume"
-msgstr ""
+msgstr "Səs"
 
 #: frontend/components/Admin/Index/CpuStatsPanel.vue:55
 msgid "Wait"
@@ -7577,12 +7577,12 @@ msgstr ""
 
 #: /var/azuracast/www/backend/src/Entity/Api/Status.php:48
 msgid "Record deleted successfully."
-msgstr ""
+msgstr "Uğurla silindi."
 
 #: /var/azuracast/www/backend/src/Entity/ApiGenerator/ScheduleApiGenerator.php:59
 #, php-format
 msgid "Playlist: %s"
-msgstr ""
+msgstr "Pleylist: %s"
 
 #: /var/azuracast/www/backend/src/Entity/ApiGenerator/ScheduleApiGenerator.php:64
 #, php-format
