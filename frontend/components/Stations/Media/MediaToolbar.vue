@@ -119,7 +119,7 @@
                     {{ $gettext('Move') }}
                 </span>
             </button>
-
+            <!-- fagan edit indi bashlat, novbeti mahni
             <div class="btn-group btn-group-sm dropdown allow-focus">
                 <div class="dropdown">
                     <button
@@ -180,6 +180,7 @@
                     </ul>
                 </div>
             </div>
+        -->
 
             <button
                 type="button"

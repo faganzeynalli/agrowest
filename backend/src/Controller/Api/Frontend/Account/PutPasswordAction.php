@@ -28,16 +28,16 @@ final class PutPasswordAction implements SingleActionInterface
 
         try {
             if (empty($body['current_password'])) {
-                throw new InvalidArgumentException('Current password not provided (current_password).');
+                throw new InvalidArgumentException('Cari parol təmin edilməyib (current_password).');
             }
 
             $currentPassword = $body['current_password'];
             if (!$user->verifyPassword($currentPassword)) {
-                throw new InvalidArgumentException('Invalid current password.');
+                throw new InvalidArgumentException('Cari parol səhvdir.');
             }
 
             if (empty($body['new_password'])) {
-                throw new InvalidArgumentException('New password not provided (new_password).');
+                throw new InvalidArgumentException('Yeni parol təmin edilməyib (new_password).');
             }
 
             $user = $this->em->refetch($user);

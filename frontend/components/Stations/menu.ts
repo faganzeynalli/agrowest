@@ -33,6 +33,7 @@ export function useStationsMenu(): ReactiveMenu {
                 label: computed(() => $gettext('Profile')),
                 icon: IconImage,
                 items: [
+                    /* fagan edit
                     {
                         key: 'view_profile',
                         label: computed(() => $gettext('View Profile')),
@@ -56,6 +57,7 @@ export function useStationsMenu(): ReactiveMenu {
                         },
                         visible: userAllowedForStation(StationPermissions.Profile)
                     }
+                    */
                 ]
             };
 

@@ -63,10 +63,10 @@
                         {{ $gettext('Dashboard') }}
                     </a>
                 </li>
-            -->
-                <li class="dropdown-divider">
+                            <li class="dropdown-divider">
 &nbsp;
                 </li>
+            -->
                 <li v-if="showAdmin">
                     <a
                         class="dropdown-item"

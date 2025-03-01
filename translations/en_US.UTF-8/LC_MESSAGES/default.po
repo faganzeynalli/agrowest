@@ -399,10 +399,10 @@ msgstr ""
 
 #: frontend/functions/useNotify.ts:49 frontend/vendor/axios.ts:37
 msgid "An error occurred and your request could not be completed."
-msgstr ""
+msgstr "Xəta baş verdi və sorğunuz tamamlana bilmədi."
 
 #: frontend/components/Stations/ProfileEdit.vue:18
-msgid "An error occurred while loading the station profile:"
+msgid "Stansiya profilini yükləyərkən xəta baş verdi:"
 msgstr ""
 
 #: frontend/components/Public/WebDJ/useWebcaster.ts:77
@@ -781,7 +781,7 @@ msgstr ""
 #: frontend/components/Stations/Media/MoveFilesModal.vue:31
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/Playlists/GetApplyToAction.php:44
 msgid "Base Directory"
-msgstr ""
+msgstr "Ana qovluq"
 
 #: frontend/components/Admin/Stations/Form/AdminForm.vue:21
 msgid "Base Station Directory"
@@ -3640,31 +3640,31 @@ msgstr ""
 
 #: frontend/components/Stations/Media/MediaToolbar.vue:119
 msgid "Move"
-msgstr ""
+msgstr "Köçür"
 
 #: frontend/components/Stations/Media/MoveFilesModal.vue:129
 msgid "Move %{ num } File(s) to"
-msgstr ""
+msgstr "Köçürüləcək faylların sayı: %{ num }"
 
 #: frontend/components/Stations/Playlists/ReorderModal.vue:66
 msgid "Move Down"
-msgstr ""
+msgstr "Aşağı"
 
 #: frontend/components/Stations/Playlists/ReorderModal.vue:57
 msgid "Move to Bottom"
-msgstr ""
+msgstr "Ən aşağı"
 
 #: frontend/components/Stations/Media/MoveFilesModal.vue:79
 msgid "Move to Directory"
-msgstr ""
+msgstr "Bura köçür"
 
 #: frontend/components/Stations/Playlists/ReorderModal.vue:84
 msgid "Move to Top"
-msgstr ""
+msgstr "Ən yuxarı"
 
 #: frontend/components/Stations/Playlists/ReorderModal.vue:75
 msgid "Move Up"
-msgstr ""
+msgstr "Yuxarı"
 
 #: frontend/components/Stations/Media.vue:14
 #: frontend/components/Stations/menu.ts:75
@@ -3689,7 +3689,7 @@ msgstr "Səssiz"
 #: frontend/components/PanelLayout.vue:83
 #: /var/azuracast/www/backend/src/Controller/Frontend/Profile/IndexAction.php:29
 msgid "My Account"
-msgstr ""
+msgstr "Hesabım"
 
 #: frontend/components/Admin/AuditLog.vue:65
 msgid "N/A"
@@ -3729,7 +3729,7 @@ msgstr ""
 
 #: frontend/components/Stations/Media/NewDirectoryModal.vue:6
 msgid "New Directory"
-msgstr "Yeni Qovluq"
+msgstr "YENİ QOVLUQ"
 
 #: frontend/components/Stations/Media/NewDirectoryModal.vue:99
 msgid "New directory created."
@@ -4949,7 +4949,7 @@ msgstr ""
 
 #: frontend/components/Stations/Media/MoveFilesModal.vue:26
 msgid "Selected directory:"
-msgstr ""
+msgstr "Seçilmiş qovluq:"
 
 #: frontend/entities/Webhooks.ts:97
 msgid "Send an e-mail to specified address(es)."
@@ -5977,7 +5977,7 @@ msgstr ""
 
 #: frontend/components/Form/VuelidateError.vue:27
 msgid "This field is required."
-msgstr ""
+msgstr "Doldurulması vacibdir."
 
 #: frontend/components/Form/VuelidateError.vue:60
 msgid "This field must be a valid decimal number."
@@ -5985,7 +5985,7 @@ msgstr ""
 
 #: frontend/components/Form/VuelidateError.vue:63
 msgid "This field must be a valid e-mail address."
-msgstr ""
+msgstr "Bu sahədə e-poçt ünvanı olmalıdır."
 
 #: frontend/components/Form/VuelidateError.vue:57
 msgid "This field must be a valid integer."
@@ -6927,7 +6927,7 @@ msgstr ""
 #: frontend/components/Stations/Podcasts/EpisodesToolbar.vue:4
 #: frontend/components/Stations/Streamers/BroadcastsModalToolbar.vue:4
 msgid "With selected:"
-msgstr ""
+msgstr "Seçilmişləri:"
 
 #: frontend/components/Stations/Reports/Overview/BestAndWorstTab.vue:50
 msgid "Worst Performing Songs"
@@ -7458,7 +7458,7 @@ msgstr "Səhifəyə keçid üçün hesaba daxil olmalısınız."
 
 #: /var/azuracast/www/backend/src/Exception/Http/PermissionDeniedException.php:26
 msgid "You do not have permission to access this portion of the site."
-msgstr ""
+msgstr "Saytın bu hissəsinə daxil olmaq üçün icazəniz yoxdur."
 
 #: /var/azuracast/www/backend/src/Exception/StationUnsupportedException.php:25
 msgid "This station does not currently support this functionality."
