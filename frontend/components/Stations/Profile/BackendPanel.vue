@@ -11,7 +11,9 @@
                 {{ $gettext('AutoDJ Service') }}
                 <running-badge :running="backendRunning" />
                 <br>
+                <!-- fagan edit
                 <small>{{ backendName }}</small>
+            -->
             </h3>
         </template>
 

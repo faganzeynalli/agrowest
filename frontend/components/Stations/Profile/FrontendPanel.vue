@@ -13,7 +13,9 @@
 
                 <running-badge :running="frontendRunning" />
                 <br>
+                <!-- fagan edit
                 <small>{{ frontendName }}</small>
+            -->
             </h3>
         </template>
 

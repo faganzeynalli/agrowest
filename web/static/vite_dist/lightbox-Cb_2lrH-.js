@@ -1,1 +1,0 @@
-import{Q as r,S as s}from"./vue-DTJ-1uEH.js";const i=Symbol();function c(t){s(i,t)}function f(){const t=r(i);return{vLightbox:e=>{e.addEventListener("click",n=>{var o;typeof t<"u"&&(n.preventDefault(),(o=t.value)==null||o.show(e.getAttribute("href")))})}}}export{f as a,c as u};

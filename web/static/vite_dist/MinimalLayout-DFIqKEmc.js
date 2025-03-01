@@ -1,0 +1,1 @@
+import{a as n}from"./usePlayerStore-huOh7wzU.js";import{_ as e}from"./MinimalLayout-mrN9WRKW.js";import{d as s,l as o}from"./vue-iE2ul1Tq.js";function p(r){return s({setup(){const{componentProps:t}=n();return{componentProps:t}},render(){return o(e,{},{default:()=>o(r,this.componentProps)})}})}export{p as u};

@@ -157,13 +157,12 @@
             <a
                 href=""
                 target="_blank"
-            >Aplus</a>
+            >Agrowest</a>
             &bull;
             <!-- fagan edit
             <span v-html="version" />
-            &bull; -->
-            <span v-html="platform" /><br>
-            <!-- fagan edit
+            &bull;
+            <span v-html="platform" /><br>            
             {{ $gettext('Like our software?') }}
             <a
                 href=""

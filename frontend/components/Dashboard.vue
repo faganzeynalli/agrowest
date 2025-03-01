@@ -196,11 +196,12 @@
                 </template>
                 <template #cell(now_playing)="{ item }">
                     <div class="d-flex align-items-center">
+                        <!-- fagan edit
                         <album-art
                             v-if="showAlbumArt"
                             :src="item.now_playing.song.art"
                             class="flex-shrink-0 pe-3"
-                        />
+                        /> -->
 
                         <div
                             v-if="!item.is_online"

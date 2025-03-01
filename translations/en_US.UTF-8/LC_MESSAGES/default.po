@@ -73,11 +73,11 @@ msgstr[1] ""
 
 #: frontend/components/Stations/Common/Quota.vue:76
 msgid "%{spaceUsed} of %{spaceTotal} Used"
-msgstr ""
+msgstr "%{spaceTotal}-dan %{spaceUsed}-ı istifadə edilib"
 
 #: frontend/components/Stations/Common/Quota.vue:84
 msgid "%{spaceUsed} Used"
-msgstr ""
+msgstr "%{spaceUsed} istifadə edilib"
 
 #: frontend/components/Admin/Stations/CloneModal.vue:54
 msgid "%{station} - Copy"
@@ -209,7 +209,7 @@ msgstr ""
 
 #: frontend/components/Public/WebDJ/PlaylistPanel.vue:113
 msgid "Add Files to Playlist"
-msgstr ""
+msgstr "Playlistə faylları əlavə et"
 
 #: frontend/components/Stations/HlsStreams.vue:12
 #: frontend/components/Stations/HlsStreams/EditModal.vue:68
@@ -265,7 +265,7 @@ msgstr ""
 #: frontend/components/Admin/Stations.vue:5
 #: frontend/components/Admin/Stations/EditModal.vue:79
 msgid "Add Station"
-msgstr ""
+msgstr "FİLİAL ƏLAVƏ ET"
 
 #: frontend/components/Admin/StorageLocations.vue:32
 #: frontend/components/Admin/StorageLocations/EditModal.vue:109
@@ -605,7 +605,7 @@ msgstr ""
 
 #: frontend/components/Stations/Profile/BackendNonePanel.vue:5
 msgid "AutoDJ Disabled"
-msgstr ""
+msgstr "Avto Playlist söndürülüb"
 
 #: frontend/components/Stations/Mounts/Form/AutoDj.vue:27
 #: frontend/components/Stations/Remotes/Form/AutoDj.vue:27
@@ -740,7 +740,7 @@ msgstr ""
 
 #: frontend/components/Stations/Media/MoveFilesModal.vue:20
 msgid "Back"
-msgstr ""
+msgstr "Geri"
 
 #: frontend/components/Admin/Updates.vue:85
 msgid "Backing up your installation is strongly recommended before any update."
@@ -1133,11 +1133,11 @@ msgstr ""
 
 #: frontend/components/Admin/Stations.vue:42
 msgid "Clone"
-msgstr ""
+msgstr "NÜSXƏ"
 
 #: frontend/components/Admin/Stations/CloneModal.vue:5
 msgid "Clone Station"
-msgstr ""
+msgstr "FİLİALIN NÜSXƏSİ"
 
 #: frontend/components/Account/ApiKeyModal.vue:51
 #: frontend/components/Account/PasskeyModal.vue:83
@@ -1727,7 +1727,7 @@ msgstr ""
 #: frontend/components/Stations/Profile/StreamersPanel.vue:35
 #: frontend/components/Stations/Webhooks.vue:142
 msgid "Disable"
-msgstr ""
+msgstr "Dayandır"
 
 #: frontend/components/Admin/Stations/Form/BackendForm.vue:455
 msgid "Disable Crossfading"
@@ -1739,7 +1739,7 @@ msgstr ""
 
 #: frontend/components/Admin/Stations.vue:169
 msgid "Disable station?"
-msgstr ""
+msgstr "Stansiyanı dayandır"
 
 #: frontend/components/Account/SecurityPanel.vue:50
 msgid "Disable Two-Factor"
@@ -1751,7 +1751,7 @@ msgstr ""
 
 #: frontend/components/Stations/Profile/useToggleFeature.ts:21
 msgid "Disable?"
-msgstr ""
+msgstr "Söndürülsün?"
 
 #: frontend/components/Admin/Settings/ServicesTab.vue:357
 #: frontend/components/Admin/Stations.vue:24
@@ -1765,7 +1765,7 @@ msgstr ""
 #: frontend/components/Stations/Streamers.vue:52
 #: frontend/components/Stations/Webhooks.vue:34
 msgid "Disabled"
-msgstr ""
+msgstr "Söndürülüb"
 
 #: frontend/components/Stations/Profile/NowPlayingPanel.vue:223
 msgid "Disconnect Streamer"
@@ -1886,7 +1886,7 @@ msgstr ""
 
 #: frontend/components/Stations/menu.ts:83
 msgid "Duplicate Songs"
-msgstr ""
+msgstr "Dublikat Mahnılar"
 
 #: frontend/components/Stations/Podcasts/PodcastForm/BasicInfo.vue:53
 msgid "E-Mail"
@@ -2378,7 +2378,7 @@ msgstr ""
 
 #: frontend/components/Stations/Media/MoveFilesModal.vue:166
 msgid "Files moved:"
-msgstr ""
+msgstr "Fayllar köçürüldü:"
 
 #: frontend/components/Stations/Media/MediaToolbar.vue:308
 msgid "Files played immediately:"
@@ -3138,7 +3138,7 @@ msgstr ""
 
 #: frontend/components/Stations/Profile/BackendPanel.vue:120
 msgid "LiquidSoap is currently shuffling from ."
-msgstr "LiquidSoap hazırda %{songs} mahnı və %{playlists} pleylistdən istifadə edir ."
+msgstr "Avto Playlist hazırda %{songs} mahnı və %{playlists} pleylistdən istifadə edir ."
 
 #: frontend/components/Admin/Stations/Form/BackendForm.vue:279
 msgid "Liquidsoap Performance Tuning"
@@ -3367,7 +3367,7 @@ msgstr "SFTP Hesablarını idarə et"
 
 #: frontend/components/Dashboard.vue:139
 msgid "Manage Stations"
-msgstr "Filialları idarə edin"
+msgstr "FİLİALLARI İDARƏ EDİN"
 
 #: frontend/components/Admin/Stations/Form/BackendForm.vue:224
 msgid "Manual AutoDJ Mode"
@@ -3783,7 +3783,7 @@ msgstr ""
 
 #: frontend/components/Stations/Media/MediaToolbar.vue:286
 msgid "No files selected."
-msgstr ""
+msgstr "Fayl seçilməyib"
 
 #: frontend/components/Stations/Webhooks/Form/Common/RateLimitFields.vue:49
 msgid "No Limit"
@@ -4153,7 +4153,7 @@ msgstr ""
 
 #: frontend/components/Stations/Profile/NowPlayingPanel.vue:129
 msgid "Playing Next"
-msgstr ""
+msgstr "Növbəti mahnı"
 
 #: frontend/components/Public/FullPlayer.vue:42
 #: frontend/components/Stations/Playlists.vue:345
@@ -4453,7 +4453,7 @@ msgstr ""
 
 #: frontend/components/Stations/ProfileEdit.vue:36
 msgid "Reload"
-msgstr ""
+msgstr "Yenilə"
 
 #: frontend/components/Stations/Restart.vue:18
 #: frontend/components/Stations/Restart.vue:48
@@ -4462,7 +4462,7 @@ msgstr ""
 
 #: frontend/components/Stations/Sidebar.vue:50
 msgid "Reload to Apply Changes"
-msgstr ""
+msgstr "Dəyişiklikləri Tətbiq et"
 
 #: frontend/components/Stations/Restart.vue:30
 msgid "Reloading broadcasting will not disconnect your listeners."
@@ -5108,7 +5108,7 @@ msgstr ""
 #: frontend/components/Stations/menu.ts:123
 #: frontend/components/Stations/SftpUsers.vue:6
 msgid "SFTP Users"
-msgstr ""
+msgstr "SFTP İstifadəçiləri"
 
 #: frontend/components/Admin/Stations/CloneModalForm.vue:47
 msgid "Share Media Storage Location"
@@ -5412,7 +5412,7 @@ msgstr ""
 
 #: frontend/components/Stations/Profile/StationDisabledPanel.vue:27
 msgid "Station Disabled"
-msgstr ""
+msgstr "Stansiya dayandırılıb"
 
 #: frontend/entities/Webhooks.ts:63
 msgid "Station Goes Offline"
@@ -6179,7 +6179,7 @@ msgstr ""
 
 #: frontend/components/Stations/Common/TimeZone.vue:3
 msgid "This station's time zone is currently %{tz}."
-msgstr ""
+msgstr "Stansiyanın istifadə etdiyi saat qurşağı: "
 
 #: frontend/components/Stations/Streamers/Form/Schedule.vue:11
 msgid "This streamer is not scheduled to play at any times."
@@ -6435,11 +6435,11 @@ msgstr ""
 
 #: frontend/components/Stations/menu.ts:105
 msgid "Unassigned Files"
-msgstr ""
+msgstr "Unassigned fayllar"
 
 #: frontend/components/Admin/StereoTool.vue:126
 msgid "Uninstall"
-msgstr ""
+msgstr "Sil"
 
 #: frontend/components/Stations/Profile/NowPlayingPanel.vue:30
 #: frontend/components/Stations/Profile/StreamsPanel.vue:101
@@ -6483,12 +6483,12 @@ msgstr ""
 
 #: frontend/components/Stations/menu.ts:94
 msgid "Unprocessable Files"
-msgstr ""
+msgstr "Emal olunmayan"
 
 #: frontend/components/Stations/PodcastEpisodes.vue:90
 #: frontend/components/Stations/Podcasts.vue:60
 msgid "Unpublished"
-msgstr ""
+msgstr "Dərc olunmayıb"
 
 #: frontend/components/Common/DataTable.vue:154
 msgid "Unselect All Rows"
@@ -7261,7 +7261,7 @@ msgstr ""
 
 #: /var/azuracast/www/backend/src/Media/Enums/MetadataTags.php:93
 msgid "Copyright"
-msgstr ""
+msgstr "Copyright"
 
 #: /var/azuracast/www/backend/src/Media/Enums/MetadataTags.php:94
 msgid "Copyright Message"
@@ -7954,7 +7954,7 @@ msgstr ""
 
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/Playlists/ToggleAction.php:40
 msgid "Playlist disabled."
-msgstr ""
+msgstr "Pletlist söndürülüb"
 
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/Playlists/EmptyAction.php:36
 msgid "This playlist is not song-based."

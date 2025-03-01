@@ -1,0 +1,1 @@
+import{c as t}from"./index-ewPk_2zx.js";import{g as s}from"./lodash-BwctMegf.js";import{r as a}from"./zxcvbn-C681xa0x.js";var m=a();const e=s(m);function p(r){const o=e(r);return!t.req(r)||o.score>2}export{p as v};

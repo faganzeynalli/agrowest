@@ -10,6 +10,7 @@
                 <col style="width: 20%;">
             </colgroup>
             <template v-if="station.mounts.length > 0">
+                <!-- fagan edit
                 <thead>
                     <tr>
                         <th colspan="2">
@@ -20,6 +21,7 @@
                         </th>
                     </tr>
                 </thead>
+            -->
                 <tbody>
                     <tr
                         v-for="mount in station.mounts"
@@ -42,6 +44,7 @@
                                 target="_blank"
                             >{{ mount.url }}</a>
                         </td>
+                        <!-- fagan edit
                         <td class="ps-1 text-end">
                             <icon
                                 class="sm align-middle"
@@ -53,6 +56,7 @@
                                 {{ $gettext('Unique') }}
                             </small>
                         </td>
+                    -->
                     </tr>
                 </tbody>
             </template>
