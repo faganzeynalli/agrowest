@@ -161,19 +161,8 @@
             <a
                 href=""
                 target="_blank"
-            >Agrowest</a>
+            >Aplus</a>
             <!-- fagan edit
-            &bull;
-            <span v-html="version" />
-            &bull;
-            <span v-html="platform" /><br>            
-            {{ $gettext('Like our software?') }}
-            <a
-                href=""
-                target="_blank"
-            >
-                {{ $gettext('Donate to support Aplus!') }}
-            </a>
             -->
         </footer>
     </div>

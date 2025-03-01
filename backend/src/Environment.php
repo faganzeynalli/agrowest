@@ -175,7 +175,7 @@ final class Environment
     {
         return Types::string(
             $this->data[self::APP_NAME] ?? null,
-            'Aplus - Agrowest',
+            'Aplus',
             true
         );
     }

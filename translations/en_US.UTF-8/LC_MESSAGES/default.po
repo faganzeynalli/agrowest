@@ -33,11 +33,11 @@ msgstr "%{ seconds } saniyə"
 
 #: frontend/components/Stations/Webhooks/Form/Common/SocialPostFields.vue:135
 msgid "%{ station } is back online! Tune in now: %{ url }"
-msgstr ""
+msgstr "%{ station } onlayndır!"
 
 #: frontend/components/Stations/Webhooks/Form/Common/SocialPostFields.vue:129
 msgid "%{ station } is going offline for now."
-msgstr ""
+msgstr "%{ station } oflayndır."
 
 #: frontend/components/Stations/Common/Quota.vue:93
 msgid "%{filesCount} File"
@@ -81,7 +81,7 @@ msgstr "%{spaceUsed} istifadə edilib"
 
 #: frontend/components/Admin/Stations/CloneModal.vue:54
 msgid "%{station} - Copy"
-msgstr ""
+msgstr "%{station} - Nüsxə"
 
 #: frontend/components/Account/EditForm.vue:81
 msgid "12 Hour"
@@ -234,7 +234,7 @@ msgstr ""
 #: frontend/components/Stations/Playlists.vue:35
 #: frontend/components/Stations/Playlists/EditModal.vue:80
 msgid "Add Playlist"
-msgstr ""
+msgstr "PLEYLİST ƏLAVƏ ET"
 
 #: frontend/components/Stations/Podcasts.vue:20
 #: frontend/components/Stations/Podcasts/PodcastEditModal.vue:118
@@ -335,7 +335,7 @@ msgstr "Albom"
 #: frontend/components/Admin/Settings/ServicesTab.vue:208
 #: frontend/components/Stations/Media/EditModal.vue:21
 msgid "Album Art"
-msgstr ""
+msgstr "Albom şəkli"
 
 #: frontend/components/Admin/Debug/TaskOutput.vue:96
 msgid "Alert"
@@ -1073,15 +1073,15 @@ msgstr ""
 #: frontend/components/Admin/Debug.vue:199
 #: frontend/components/Stations/Playlists/QueueModal.vue:54
 msgid "Clear Queue"
-msgstr ""
+msgstr "Növbəni təmizlə"
 
 #: frontend/components/Stations/Queue.vue:11
 msgid "Clear Upcoming Song Queue"
-msgstr ""
+msgstr "Qarşıdan gələn mahnı növbəsini silin"
 
 #: frontend/components/Stations/Queue.vue:131
 msgid "Clear Upcoming Song Queue?"
-msgstr ""
+msgstr "Qarşıdan gələn mahnı növbəsini silinsin?"
 
 #: frontend/components/Admin/Debug.vue:14
 msgid "Clearing the application cache may log you out of your session."
@@ -3138,7 +3138,7 @@ msgstr ""
 
 #: frontend/components/Stations/Profile/BackendPanel.vue:120
 msgid "LiquidSoap is currently shuffling from %{songs} and %{playlists}."
-msgstr "Ağıılı Pleylist hazırda %{songs} və %{playlists} istifadə edir ."
+msgstr "Ağıılı Pleylist hazırda %{songs} və %{playlists} istifadə edir."
 
 #: frontend/components/Admin/Stations/Form/BackendForm.vue:279
 msgid "Liquidsoap Performance Tuning"
@@ -3241,7 +3241,7 @@ msgstr ""
 #: frontend/components/Stations/Profile/NowPlayingPanel.vue:183
 #: frontend/components/Stations/Streamers/BroadcastsModal.vue:114
 msgid "Live"
-msgstr ""
+msgstr "Canlı"
 
 #: frontend/components/Admin/Stations/Form/StreamersForm.vue:50
 msgid "Live Broadcast Recording Bitrate (kbps)"
@@ -3273,7 +3273,7 @@ msgstr ""
 
 #: frontend/components/Stations/menu.ts:159
 msgid "Live Streaming"
-msgstr ""
+msgstr "Canlı Yayım"
 
 #: frontend/components/Admin/Index/CpuStatsPanel.vue:115
 msgid "Load Average"
@@ -3363,7 +3363,7 @@ msgstr ""
 
 #: frontend/components/Stations/Media.vue:36
 msgid "Manage SFTP Accounts"
-msgstr "SFTP Hesablarını idarə et"
+msgstr "SFTP HESABLARINI İDARƏ ET"
 
 #: frontend/components/Dashboard.vue:139
 msgid "Manage Stations"
@@ -3678,7 +3678,7 @@ msgstr ""
 
 #: frontend/components/Account/ChangePasswordModal.vue:67
 msgid "Must match new password."
-msgstr ""
+msgstr "Yeni şifrə ilə eyni olmalıdır."
 
 #: frontend/components/Common/MuteButton.vue:48
 #: frontend/components/Common/Waveform.vue:37
@@ -4189,7 +4189,7 @@ msgstr ""
 #: frontend/components/Stations/Playlists/QueueModal.vue:99
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/Playlists/DeleteQueueAction.php:38
 msgid "Playlist queue cleared."
-msgstr ""
+msgstr "Pleylist növbəsi təmizləndi."
 
 #: frontend/components/Stations/Playlists/ApplyToModal.vue:147
 msgid "Playlist successfully applied to folders."
@@ -4231,7 +4231,7 @@ msgstr "Pleylist:"
 #: frontend/components/Stations/Playlists.vue:14
 #: frontend/components/Stations/Profile/BackendPanel.vue:37
 msgid "Playlists"
-msgstr "Playlistlər"
+msgstr "PLEYLİSTLƏR"
 
 #: frontend/components/Stations/Media/MediaToolbar.vue:379
 msgid "Playlists cleared for selected files:"
@@ -4293,7 +4293,7 @@ msgstr "Copyright"
 
 #: frontend/components/Stations/Webhooks/Form/Discord.vue:128
 msgid "Powered by Aplus"
-msgstr "Agrowest tərəfindən hazırlanmışdır"
+msgstr "Aplus tərəfindən hazırlanmışdır"
 
 #: frontend/components/Admin/Settings/GeneralTab.vue:29
 msgid "Prefer Browser URL (If Available)"
@@ -4458,7 +4458,7 @@ msgstr "Yenilə"
 #: frontend/components/Stations/Restart.vue:18
 #: frontend/components/Stations/Restart.vue:48
 msgid "Reload Configuration"
-msgstr ""
+msgstr "Konfiqurasiyanı yenidən başladın"
 
 #: frontend/components/Stations/Sidebar.vue:50
 msgid "Reload to Apply Changes"
@@ -4466,7 +4466,7 @@ msgstr "Dəyişiklikləri Tətbiq et"
 
 #: frontend/components/Stations/Restart.vue:30
 msgid "Reloading broadcasting will not disconnect your listeners."
-msgstr ""
+msgstr "Yayımın yenidən yüklənməsi dinləyicilərinizin əlaqəsini kəsməyəcək."
 
 #: frontend/components/Login.vue:87
 msgid "Remember me"
@@ -4562,7 +4562,7 @@ msgstr ""
 #: frontend/components/Stations/Playlists/Form/ScheduleRow.vue:17
 #: frontend/components/Stations/Streamers/Form/ScheduleRow.vue:17
 msgid "Remove"
-msgstr ""
+msgstr "Sil"
 
 #: frontend/components/Stations/Media/MediaToolbar.vue:174
 msgid ""
@@ -4577,7 +4577,7 @@ msgstr ""
 #: frontend/components/Stations/Media.vue:220
 #: frontend/components/Stations/Media/RenameModal.vue:34
 msgid "Rename"
-msgstr "Yenidən adlandır"
+msgstr "Redaktə"
 
 #: frontend/components/Stations/Media/RenameModal.vue:6
 msgid "Rename File/Directory"
@@ -4585,7 +4585,7 @@ msgstr "Fayl/Qovluq adını dəyiş"
 
 #: frontend/components/Stations/Playlists.vue:187
 msgid "Reorder"
-msgstr ""
+msgstr "SIRALA"
 
 #: frontend/components/Stations/Playlists/ReorderModal.vue:6
 msgid "Reorder Playlist"
@@ -4696,7 +4696,7 @@ msgstr ""
 #: frontend/components/Admin/Settings/ServicesTab.vue:342
 #: frontend/components/Admin/Updates.vue:191
 msgid "Rolling Release"
-msgstr "*Agrowest*"
+msgstr "*Aplus*"
 
 #: frontend/components/Public/Podcasts/Podcast.vue:32
 #: frontend/components/Public/Podcasts/PodcastList.vue:62
@@ -5373,7 +5373,7 @@ msgstr ""
 #: frontend/components/Admin/Settings/ServicesTab.vue:341
 #: frontend/components/Admin/Updates.vue:190
 msgid "Stable"
-msgstr ""
+msgstr "Stabil"
 
 #: frontend/components/Stations/Playlists/Form/BasicInfo.vue:310
 msgid ""
@@ -5383,7 +5383,7 @@ msgstr ""
 #: frontend/components/Stations/Profile/BackendPanel.vue:64
 #: frontend/components/Stations/Profile/FrontendPanel.vue:151
 msgid "Start"
-msgstr ""
+msgstr "Başlat"
 
 #: frontend/components/Stations/Playlists/Form/ScheduleRow.vue:69
 #: frontend/components/Stations/Reports/SoundExchange.vue:65
@@ -5435,7 +5435,7 @@ msgstr "Filial adı"
 #: frontend/components/Stations/Branding/BrandingForm.vue:31
 #: frontend/components/Stations/Profile/NowPlayingPanel.vue:79
 msgid "Station Offline"
-msgstr "Yayım dayanıb (offline)"
+msgstr "Yayım dayanıb (oflayn)"
 
 #: frontend/components/Stations/Branding/BrandingForm.vue:30
 msgid "Station Offline Display Text"
@@ -6435,7 +6435,7 @@ msgstr ""
 
 #: frontend/components/Stations/menu.ts:105
 msgid "Unassigned Files"
-msgstr "Unassigned fayllar"
+msgstr "Təyinatsız fayllar"
 
 #: frontend/components/Admin/StereoTool.vue:126
 msgid "Uninstall"
@@ -7018,7 +7018,7 @@ msgstr ""
 
 #: frontend/components/Stations/Sidebar.vue:52
 msgid "Your station has changes that require a reload to apply."
-msgstr ""
+msgstr "Dəyişiklikləri tətbiq etmək üçün yenidən başlatma tələb olunur"
 
 #: frontend/components/Stations/Profile/StationDisabledPanel.vue:31
 msgid ""
@@ -7936,7 +7936,7 @@ msgstr ""
 
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/Playlists/ReshuffleAction.php:38
 msgid "Playlist reshuffled."
-msgstr ""
+msgstr "Pleylist qarışdırıldı."
 
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/Playlists/PutApplyToAction.php:62
 msgid "Playlist applied to folders."
@@ -7999,35 +7999,35 @@ msgstr ""
 
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/ServicesController.php:143
 msgid "Station reloaded."
-msgstr ""
+msgstr "Stansiya yenidən yükləndi."
 
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/ServicesController.php:152
 msgid "Station restarted."
-msgstr ""
+msgstr "Stansiya yenidən başladıldı."
 
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/ServicesController.php:187
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/ServicesController.php:239
 msgid "Service stopped."
-msgstr ""
+msgstr "Xidmət dayandırıldı."
 
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/ServicesController.php:192
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/ServicesController.php:244
 msgid "Service started."
-msgstr ""
+msgstr "Xidmət başladıldı."
 
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/ServicesController.php:198
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/ServicesController.php:250
 msgid "Service reloaded."
-msgstr ""
+msgstr "Xidmət yenidən yükləndi."
 
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/ServicesController.php:210
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/ServicesController.php:262
 msgid "Service restarted."
-msgstr ""
+msgstr "Xidmət yenidən başladıldı."
 
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/ServicesController.php:229
 msgid "Song skipped."
-msgstr ""
+msgstr "Mahnı atlandı"
 
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/ServicesController.php:234
 msgid "Streamer disconnected."
