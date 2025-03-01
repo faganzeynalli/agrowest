@@ -158,8 +158,8 @@
                 href=""
                 target="_blank"
             >Agrowest</a>
-            &bull;
             <!-- fagan edit
+            &bull;
             <span v-html="version" />
             &bull;
             <span v-html="platform" /><br>            

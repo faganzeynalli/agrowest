@@ -94,6 +94,7 @@
                                 target="_blank"
                             >{{ remote.url }}</a>
                         </td>
+                        <!-- fagan edit
                         <td class="ps-1 text-end">
                             <icon
                                 class="sm align-middle"
@@ -105,6 +106,7 @@
                                 {{ $gettext('Unique') }}
                             </small>
                         </td>
+                    -->
                     </tr>
                 </tbody>
             </template>

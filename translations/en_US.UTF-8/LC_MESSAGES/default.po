@@ -42,8 +42,8 @@ msgstr ""
 #: frontend/components/Stations/Common/Quota.vue:93
 msgid "%{filesCount} File"
 msgid_plural "%{filesCount} Files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%{filesCount} fayl"
+msgstr[1] "%{filesCount} fayl"
 
 #: frontend/components/Stations/Profile/NowPlayingPanel.vue:285
 msgid "%{listeners} Listener"
@@ -85,11 +85,11 @@ msgstr ""
 
 #: frontend/components/Account/EditForm.vue:81
 msgid "12 Hour"
-msgstr ""
+msgstr "12 saat"
 
 #: frontend/components/Account/EditForm.vue:85
 msgid "24 Hour"
-msgstr ""
+msgstr "24 saat"
 
 #: frontend/components/Stations/Playlists/Form/BasicInfo.vue:343
 msgid ""
@@ -186,7 +186,7 @@ msgstr ""
 #: frontend/components/Stations/Streamers/BroadcastsModal.vue:132
 #: frontend/components/Stations/Webhooks.vue:134
 msgid "Actions"
-msgstr ""
+msgstr "Fəaliyyət"
 
 #: frontend/components/Admin/StorageLocations.vue:128
 msgid "Adapter"
@@ -605,7 +605,7 @@ msgstr ""
 
 #: frontend/components/Stations/Profile/BackendNonePanel.vue:5
 msgid "AutoDJ Disabled"
-msgstr "Avto Playlist söndürülüb"
+msgstr "Ağıllı Pleylist söndürülüb"
 
 #: frontend/components/Stations/Mounts/Form/AutoDj.vue:27
 #: frontend/components/Stations/Remotes/Form/AutoDj.vue:27
@@ -620,7 +620,7 @@ msgstr ""
 
 #: frontend/components/Admin/Debug.vue:191
 msgid "AutoDJ Queue"
-msgstr ""
+msgstr "Ağıllı Pleylist növbəsi"
 
 #: frontend/components/Admin/Stations/Form/BackendForm.vue:257
 msgid "AutoDJ Queue Length"
@@ -629,7 +629,7 @@ msgstr ""
 #: frontend/components/Admin/Stations/Form/BackendForm.vue:14
 #: frontend/components/Stations/Profile/BackendPanel.vue:11
 msgid "AutoDJ Service"
-msgstr "Avto Playlist"
+msgstr "Ağıllı Pleylist"
 
 #: frontend/components/Admin/Backups.vue:14
 msgid "Automatic Backups"
@@ -930,7 +930,7 @@ msgstr ""
 #: frontend/components/Common/DateRangeDropdown.vue:12
 #: frontend/vendor/sweetalert.ts:10
 msgid "Cancel"
-msgstr ""
+msgstr "İMTİNA"
 
 #: frontend/components/Stations/Podcasts/PodcastForm/BasicInfo.vue:63
 msgid "Categories"
@@ -1010,11 +1010,11 @@ msgstr ""
 #: frontend/components/Stations/Queue.vue:132
 #: frontend/components/Stations/Reports/Requests.vue:171
 msgid "Clear"
-msgstr ""
+msgstr "Təmizlə"
 
 #: frontend/components/Stations/Playlists.vue:437
 msgid "Clear all media from playlist?"
-msgstr ""
+msgstr "Bütün media pleylistdən silinsin?"
 
 #: frontend/components/Admin/Debug.vue:32
 #: frontend/components/Admin/Debug.vue:46
@@ -1163,7 +1163,7 @@ msgstr "FİLİALIN NÜSXƏSİ"
 #: frontend/components/Stations/Queue/LogsModal.vue:20
 #: frontend/components/Stations/Streamers/BroadcastsModal.vue:61
 msgid "Close"
-msgstr ""
+msgstr "Bağla"
 
 #: frontend/components/Admin/Settings/SecurityPrivacyTab.vue:149
 msgid "CloudFlare (CF-Connecting-IP)"
@@ -1314,7 +1314,7 @@ msgstr ""
 
 #: frontend/components/Stations/Media/NewDirectoryModal.vue:34
 msgid "Create Directory"
-msgstr ""
+msgstr "Qovluq yarat"
 
 #: frontend/components/Account/ApiKeyModal.vue:60
 msgid "Create New Key"
@@ -1589,7 +1589,7 @@ msgstr ""
 #: frontend/components/Stations/Webhooks.vue:88
 #: frontend/vendor/sweetalert.ts:16
 msgid "Delete"
-msgstr ""
+msgstr "SİL"
 
 #: frontend/components/Stations/Streamers/BroadcastsModalToolbar.vue:107
 msgid "Delete %{ num } broadcasts?"
@@ -1713,11 +1713,11 @@ msgstr ""
 #: frontend/components/Stations/Playlists/ApplyToModal.vue:88
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/Files/ListAction.php:249
 msgid "Directory"
-msgstr ""
+msgstr "Qovluq"
 
 #: frontend/components/Stations/Media/NewDirectoryModal.vue:15
 msgid "Directory Name"
-msgstr ""
+msgstr "Qovluq Adı"
 
 #: frontend/components/Admin/CustomFields/Form.vue:58
 #: frontend/components/Admin/Stations.vue:50
@@ -1727,7 +1727,7 @@ msgstr ""
 #: frontend/components/Stations/Profile/StreamersPanel.vue:35
 #: frontend/components/Stations/Webhooks.vue:142
 msgid "Disable"
-msgstr "Dayandır"
+msgstr "Deaktiv et"
 
 #: frontend/components/Admin/Stations/Form/BackendForm.vue:455
 msgid "Disable Crossfading"
@@ -1739,7 +1739,7 @@ msgstr ""
 
 #: frontend/components/Admin/Stations.vue:169
 msgid "Disable station?"
-msgstr "Stansiyanı dayandır"
+msgstr "Stansiyanı deaktiv edilsin?"
 
 #: frontend/components/Account/SecurityPanel.vue:50
 msgid "Disable Two-Factor"
@@ -1751,7 +1751,7 @@ msgstr ""
 
 #: frontend/components/Stations/Profile/useToggleFeature.ts:21
 msgid "Disable?"
-msgstr "Söndürülsün?"
+msgstr "Deaktiv edilsin?"
 
 #: frontend/components/Admin/Settings/ServicesTab.vue:357
 #: frontend/components/Admin/Stations.vue:24
@@ -1765,7 +1765,7 @@ msgstr "Söndürülsün?"
 #: frontend/components/Stations/Streamers.vue:52
 #: frontend/components/Stations/Webhooks.vue:34
 msgid "Disabled"
-msgstr "Söndürülüb"
+msgstr "Deaktiv edilib"
 
 #: frontend/components/Stations/Profile/NowPlayingPanel.vue:223
 msgid "Disconnect Streamer"
@@ -1874,11 +1874,11 @@ msgstr ""
 
 #: frontend/components/Stations/Playlists.vue:242
 msgid "Duplicate"
-msgstr ""
+msgstr "Nüxsə"
 
 #: frontend/components/Stations/Playlists/CloneModal.vue:5
 msgid "Duplicate Playlist"
-msgstr ""
+msgstr "Playlisti nüxsələ"
 
 #: frontend/components/Admin/Stations/Form/BackendForm.vue:289
 msgid "Duplicate Prevention Time Range (Minutes)"
@@ -2615,7 +2615,7 @@ msgstr ""
 
 #: frontend/components/Common/Charts/HourChart.vue:42
 msgid "Hour"
-msgstr ""
+msgstr "Saat "
 
 #: frontend/components/Stations/Webhooks/Form/Telegram.vue:138
 msgid "HTML"
@@ -3018,7 +3018,7 @@ msgstr ""
 
 #: frontend/components/Common/DateRangeDropdown.vue:104
 msgid "Last 24 Hours"
-msgstr ""
+msgstr "Son 24 saat"
 
 #: frontend/components/Admin/Settings/GeneralTab.vue:131
 #: frontend/components/Common/DateRangeDropdown.vue:139
@@ -3137,8 +3137,8 @@ msgid "Limited"
 msgstr ""
 
 #: frontend/components/Stations/Profile/BackendPanel.vue:120
-msgid "LiquidSoap is currently shuffling from ."
-msgstr "Avto Playlist hazırda %{songs} mahnı və %{playlists} pleylistdən istifadə edir ."
+msgid "LiquidSoap is currently shuffling from %{songs} and %{playlists}."
+msgstr "Ağıılı Pleylist hazırda %{songs} mahnı və %{playlists} pleylistdən istifadə edir ."
 
 #: frontend/components/Admin/Stations/Form/BackendForm.vue:279
 msgid "Liquidsoap Performance Tuning"
@@ -3597,7 +3597,7 @@ msgstr ""
 #: frontend/components/Stations/Media/MediaToolbar.vue:134
 #: frontend/components/Stations/Playlists.vue:172
 msgid "More"
-msgstr ""
+msgstr "Daha çox"
 
 #: frontend/components/Admin/Index/CpuStatsHelpModal.vue:19
 msgid ""
@@ -3704,7 +3704,7 @@ msgstr ""
 #: frontend/components/Stations/Mounts.vue:101
 #: frontend/components/Stations/Remotes.vue:93
 msgid "Name"
-msgstr ""
+msgstr "Ad"
 
 #: frontend/components/Login.vue:49
 #: /var/azuracast/www/backend/templates/frontend/account/forgot.phtml:23
@@ -3729,19 +3729,19 @@ msgstr ""
 
 #: frontend/components/Stations/Media/NewDirectoryModal.vue:6
 msgid "New Directory"
-msgstr ""
+msgstr "Yeni Qovluq"
 
 #: frontend/components/Stations/Media/NewDirectoryModal.vue:99
 msgid "New directory created."
-msgstr ""
+msgstr "Yeni qovluq yaradıldı"
 
 #: frontend/components/Stations/Media/RenameModal.vue:15
 msgid "New File Name"
-msgstr ""
+msgstr "Yeni ad"
 
 #: frontend/components/Stations/Media/MediaToolbar.vue:204
 msgid "New Folder"
-msgstr ""
+msgstr "Yeni Qovluq"
 
 #: frontend/components/Account/ApiKeyNewKey.vue:3
 msgid "New Key Generated"
@@ -3754,11 +3754,11 @@ msgstr ""
 
 #: frontend/components/Stations/Media/MediaToolbar.vue:86
 msgid "New Playlist"
-msgstr ""
+msgstr "Yeni Pleylist"
 
 #: frontend/components/Stations/Playlists/CloneModal.vue:15
 msgid "New Playlist Name"
-msgstr ""
+msgstr "Yeni Pleylist adı"
 
 #: frontend/components/Admin/Stations/CloneModalForm.vue:15
 msgid "New Station Description"
@@ -3806,19 +3806,19 @@ msgstr ""
 
 #: frontend/components/Public/FullPlayer/SongHistory.vue:4
 msgid "No records to display."
-msgstr ""
+msgstr "Göstəriləcək qeyd yoxdur."
 
 #: frontend/components/Common/DataTable.vue:206
 #: frontend/components/Common/GridLayout.vue:28
 msgid "No records."
-msgstr ""
+msgstr "Qeydlər yoxdur."
 
 #: frontend/components/Admin/CustomFields.vue:92
 #: frontend/components/Admin/Settings/SecurityPrivacyTab.vue:135
 #: frontend/components/Stations/Playlists.vue:355
 #: /var/azuracast/www/backend/src/Entity/Repository/StorageLocationRepository.php:74
 msgid "None"
-msgstr ""
+msgstr "Boş"
 
 #: frontend/components/Admin/Stations/Form/BackendForm.vue:451
 msgid "Normal Mode"
@@ -4162,7 +4162,7 @@ msgstr "Növbəti mahnı"
 #: frontend/components/Stations/Profile/SchedulePanel.vue:19
 #: frontend/components/Stations/Queue.vue:64
 msgid "Playlist"
-msgstr "Pleylistlər"
+msgstr "Pleylist"
 
 #: frontend/components/Stations/Playlists/Form/BasicInfo.vue:359
 msgid "Playlist (M3U/PLS) URL"
@@ -4577,11 +4577,11 @@ msgstr ""
 #: frontend/components/Stations/Media.vue:220
 #: frontend/components/Stations/Media/RenameModal.vue:34
 msgid "Rename"
-msgstr ""
+msgstr "Yenidən adlandır"
 
 #: frontend/components/Stations/Media/RenameModal.vue:6
 msgid "Rename File/Directory"
-msgstr ""
+msgstr "Fayl/Qovluq adını dəyiş"
 
 #: frontend/components/Stations/Playlists.vue:187
 msgid "Reorder"
@@ -4589,7 +4589,7 @@ msgstr ""
 
 #: frontend/components/Stations/Playlists/ReorderModal.vue:6
 msgid "Reorder Playlist"
-msgstr ""
+msgstr "Pleylistini sıralayın"
 
 #: frontend/components/Public/WebDJ/PlaylistPanel.vue:145
 msgid "Repeat"
@@ -4739,11 +4739,11 @@ msgstr ""
 
 #: frontend/components/Stations/Media/MediaToolbar.vue:96
 msgid "Save"
-msgstr ""
+msgstr "Yadda saxla"
 
 #: frontend/components/Setup/Settings.vue:20
 msgid "Save and Continue"
-msgstr ""
+msgstr "Yadda saxla və davam et"
 
 #: frontend/components/Admin/Branding/BrandingForm.vue:123
 #: frontend/components/Admin/GeoLite.vue:87
@@ -4755,12 +4755,12 @@ msgstr ""
 #: frontend/components/Stations/LiquidsoapConfig.vue:71
 #: frontend/components/Stations/Podcasts/BatchEditModal.vue:58
 msgid "Save Changes"
-msgstr ""
+msgstr "Dəyişiklikləri yadda saxla"
 
 #: frontend/components/Admin/Settings/ServicesTab.vue:173
 #: frontend/components/Admin/Settings/ServicesTab.vue:80
 msgid "Save Changes first"
-msgstr ""
+msgstr "Dəyişiklikləri yadda saxla"
 
 #: frontend/components/Public/Schedule.vue:8
 #: frontend/components/Stations/Playlists/Form/Schedule.vue:2
@@ -4803,7 +4803,7 @@ msgstr ""
 
 #: frontend/components/Stations/Playlists.vue:346
 msgid "Scheduling"
-msgstr ""
+msgstr "Planlaşdırma"
 
 #: frontend/components/Common/DataTable.vue:40
 msgid "Search"
@@ -5412,7 +5412,7 @@ msgstr ""
 
 #: frontend/components/Stations/Profile/StationDisabledPanel.vue:27
 msgid "Station Disabled"
-msgstr "Stansiya dayandırılıb"
+msgstr "Stansiya Deaktiv edilib"
 
 #: frontend/entities/Webhooks.ts:63
 msgid "Station Goes Offline"
@@ -6179,7 +6179,7 @@ msgstr ""
 
 #: frontend/components/Stations/Common/TimeZone.vue:3
 msgid "This station's time zone is currently %{tz}."
-msgstr "Stansiyanın istifadə etdiyi saat qurşağı: "
+msgstr "Stansiyanın istifadə etdiyi saat qurşağı: %{tz}"
 
 #: frontend/components/Stations/Streamers/Form/Schedule.vue:11
 msgid "This streamer is not scheduled to play at any times."
@@ -7950,11 +7950,11 @@ msgstr ""
 
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/Playlists/ToggleAction.php:39
 msgid "Playlist enabled."
-msgstr ""
+msgstr "Pleylist aktivləşdirildi."
 
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/Playlists/ToggleAction.php:40
 msgid "Playlist disabled."
-msgstr "Pletlist söndürülüb"
+msgstr "Pleylist deaktiv edildi"
 
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/Playlists/EmptyAction.php:36
 msgid "This playlist is not song-based."
@@ -7962,7 +7962,7 @@ msgstr ""
 
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/Playlists/EmptyAction.php:44
 msgid "Playlist emptied."
-msgstr ""
+msgstr "Playlist boşaldıldı."
 
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/FilesController.php:297
 msgid "This station is out of available storage space."
