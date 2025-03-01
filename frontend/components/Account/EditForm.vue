@@ -8,7 +8,7 @@
                 :field="form.name"
                 :label="$gettext('Name')"
             />
-
+            <!-- fagan add -->
             <form-group-field
                 id="form_email"
                 class="mb-3"
@@ -16,7 +16,8 @@
                 :field="form.email"
                 :label="$gettext('E-mail Address')"
             />
-
+        </div>    
+        <div class="col-md-6">
             <time-radios
                 id="edit_form_show_24_hour_time"
                 class="mb-3"
@@ -24,6 +25,7 @@
                 :field="form.show_24_hour_time"
             />
         </div>
+        <!-- fagan edit
         <div class="col-md-6">
             <form-group-multi-check
                 id="edit_form_locale"
@@ -35,6 +37,7 @@
                 :label="$gettext('Language')"
             />
         </div>
+    -->
     </div>
 </template>
 

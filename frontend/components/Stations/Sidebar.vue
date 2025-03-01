@@ -14,7 +14,7 @@
                     {{ clock }}
                 </div>
             </router-link>
-
+            <!-- fagan edit
             <router-link
                 v-if="userAllowedForStation(StationPermissions.Profile)"
                 :to="{ name: 'stations:profile:edit' }"
@@ -23,6 +23,7 @@
                 <icon :icon="IconEdit" />
                 <span class="visually-hidden">{{ $gettext('Edit Profile') }}</span>
             </router-link>
+        -->
         </div>
     </div>
 

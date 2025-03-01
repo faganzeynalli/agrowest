@@ -29,7 +29,7 @@ final class TwoFactorAction implements SingleActionInterface
                 $user = $auth->getUser();
 
                 $flash->success(
-                    '<b>' . __('Logged in successfully.') . '</b><br>' . $user->getEmail(),
+                    '<b>' . __('Uğurla daxil oldunuz.') . '</b><br>' . $user->getEmail(),
                 );
 
                 $referrer = Types::stringOrNull($request->getSession()->get('login_referrer'), true);
@@ -39,7 +39,7 @@ final class TwoFactorAction implements SingleActionInterface
             }
 
             $flash->error(
-                '<b>' . __('Login unsuccessful') . '</b><br>' . __('Your credentials could not be verified.'),
+                '<b>' . __('Uğursuz giriş') . '</b><br>' . __('Məlumatları düzgün daxil edin.'),
             );
 
             return $response->withRedirect((string)$request->getUri());

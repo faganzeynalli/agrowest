@@ -498,7 +498,7 @@ const visibleFields = computed<DataTableField<Row>[]>(() => {
 });
 
 const getPerPageLabel = (num: number): string => {
-    return (num === 0) ? 'All' : num.toString();
+    return (num === 0) ? 'Hamısı' : num.toString();
 };
 
 const perPageLabel = computed<string>(() => {

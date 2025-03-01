@@ -23,7 +23,7 @@ final class NotLoggedInException extends HttpException
     {
         return new self(
             $request,
-            __('You must be logged in to access this page.')
+            __('Səhifəyə keçid üçün hesaba daxil olmalısınız.')
         );
     }
 }

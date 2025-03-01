@@ -102,7 +102,7 @@ final class LoginAction implements SingleActionInterface
                     $flash->success(
                         sprintf(
                             '<b>%s</b><br>%s',
-                            __('Logged in successfully.'),
+                            __('Uğurla daxil oldunuz.'),
                             __('Complete the setup process to get started.')
                         ),
                     );
@@ -110,7 +110,7 @@ final class LoginAction implements SingleActionInterface
                 }
 
                 $flash->success(
-                    '<b>' . __('Logged in successfully.') . '</b><br>' . $user->getEmail(),
+                    '<b>' . __('Uğurla daxil oldunuz.') . '</b><br>' . $user->getEmail(),
                 );
 
                 $referrer = Types::stringOrNull($session->get('login_referrer'), true);
@@ -120,7 +120,7 @@ final class LoginAction implements SingleActionInterface
             }
 
             $flash->error(
-                '<b>' . __('Login unsuccessful') . '</b><br>' . __('Your credentials could not be verified.'),
+                '<b>' . __('Uğursuz giriş') . '</b><br>' . __('Məlumatları düzgün daxil edin.'),
             );
 
             return $response->withRedirect((string)$request->getUri());
