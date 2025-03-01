@@ -3093,7 +3093,7 @@ msgstr "Avtomatik olaraq yeni parol yaratmaq üçün boş buraxın."
 #: frontend/components/Stations/Playlists/Form/ScheduleRow.vue:94
 #: frontend/components/Stations/Streamers/Form/ScheduleRow.vue:98
 msgid "Leave blank to play on every day of the week."
-msgstr ""
+msgstr "Həftənin hər günü səsləndirmək üçün boş buraxın."
 
 #: frontend/components/Admin/Users/Form.vue:22
 #: frontend/components/Stations/SftpUsers/Form.vue:36
@@ -3107,7 +3107,7 @@ msgstr ""
 #: frontend/components/Stations/Media.vue:334
 #: /var/azuracast/www/backend/src/Media/Enums/MetadataTags.php:107
 msgid "Length"
-msgstr ""
+msgstr "Uzunluq"
 
 #: frontend/components/Setup/Register.vue:28
 msgid "Let's get started by creating your Super Administrator account."
@@ -6879,7 +6879,7 @@ msgstr ""
 
 #: frontend/components/Stations/Playlists.vue:99
 msgid "Weight"
-msgstr ""
+msgstr "Çəki"
 
 #: frontend/components/Login.vue:17 frontend/components/Setup/Register.vue:19
 msgid "Welcome to Aplus!"
