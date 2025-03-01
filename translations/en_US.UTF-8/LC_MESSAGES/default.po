@@ -20,15 +20,15 @@ msgid "%{ dj } is now live on %{ station }! Tune in now: %{ url }"
 msgstr ""
 
 #: frontend/components/Stations/Webhooks/Form/Common/RateLimitFields.vue:45
-msgid "%{hours} hours"
+msgid "%{hours} saat"
 msgstr "%{hours} saat"
 
 #: frontend/components/Stations/Webhooks/Form/Common/RateLimitFields.vue:44
-msgid "%{minutes} minutes"
+msgid "%{minutes} dəqiqə"
 msgstr "%{minutes} dəqiqə"
 
 #: frontend/components/Stations/Webhooks/Form/Common/RateLimitFields.vue:43
-msgid "%{seconds} seconds"
+msgid "%{seconds} saniyə"
 msgstr "%{seconds} saniyə"
 
 #: frontend/components/Stations/Webhooks/Form/Common/SocialPostFields.vue:135
@@ -95,7 +95,7 @@ msgstr "24 saat"
 msgid ""
 "A completely random track is picked for playback every time the queue is "
 "populated."
-msgstr "Hər dəfə pleylistdən tamamilə təsadüfi bir mahnı seçilir və çalınır"
+msgstr "Hər dəfə pleylistdən tamamilə təsadüfi bir mahnı seçilir və səsləndirilir"
 
 #: frontend/components/Stations/HlsStreams/Form/BasicInfo.vue:15
 msgid ""
@@ -1600,8 +1600,8 @@ msgid "Delete %{ num } episodes?"
 msgstr ""
 
 #: frontend/components/Stations/Media/MediaToolbar.vue:341
-msgid "Delete %{ num } media files?"
-msgstr "%{ num } fayl silinsin?"
+msgid "Delete %{num} media files?"
+msgstr "%{num} fayl silinsin?"
 
 #: frontend/components/Stations/Media/Form/AlbumArt.vue:16
 msgid "Delete Album Art"
@@ -2588,7 +2588,7 @@ msgstr ""
 msgid ""
 "Higher weight playlists are played more frequently compared to other lower-"
 "weight playlists."
-msgstr "Daha yüksək çəkiyə malik pleylistlər digər aşağı çəkili çalğı siyahıları ilə müqayisədə daha tez-tez səsləndirilir."
+msgstr "Daha yüksək çəkiyə malik pleylistlər digər aşağı çəkili pleylistlər ilə müqayisədə daha tez-tez səsləndirilir."
 
 #: frontend/components/Stations/Profile/EmbedModal.vue:121
 #: /var/azuracast/www/backend/src/Controller/Frontend/PublicPages/HistoryAction.php:45
@@ -3643,8 +3643,8 @@ msgid "Move"
 msgstr "Köçür"
 
 #: frontend/components/Stations/Media/MoveFilesModal.vue:129
-msgid "Move %{ num } File(s) to"
-msgstr "%{ num } faylı köçür "
+msgid "Move %{num} File(s) to"
+msgstr "%{num} faylı köçür"
 
 #: frontend/components/Stations/Playlists/ReorderModal.vue:66
 msgid "Move Down"
@@ -5809,7 +5809,7 @@ msgstr ""
 #: frontend/components/Stations/Playlists/Form/BasicInfo.vue:338
 msgid ""
 "The full playlist is shuffled and then played through in the shuffled order."
-msgstr "Bütün pleylist əvvəlcədən qarışdırılır (shuffle edilir) və həmin qarışıq sıraya uyğun şəkildə oxudulur."
+msgstr "Bütün pleylist əvvəlcədən qarışdırılır (shuffle edilir) və həmin qarışıq sıraya uyğun şəkildə səsləndirilir."
 
 #: frontend/components/Admin/Index/CpuStatsHelpModal.vue:44
 msgid ""
@@ -5847,7 +5847,7 @@ msgstr ""
 #: frontend/components/Stations/Playlists/Form/BasicInfo.vue:348
 msgid ""
 "The order of the playlist is manually specified and followed by the AutoDJ."
-msgstr ""
+msgstr "Pleylistin sırası əl ilə müəyyən edilir."
 
 #: frontend/components/Admin/Stations/Form/AdminForm.vue:22
 msgid ""
@@ -7949,11 +7949,11 @@ msgid ""
 msgstr ""
 
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/Playlists/ToggleAction.php:39
-msgid "Playlist enabled."
+msgid "Pleylist aktivləşdirildi."
 msgstr "Pleylist aktivləşdirildi."
 
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/Playlists/ToggleAction.php:40
-msgid "Playlist disabled."
+msgid "Pleylist deaktiv edildi"
 msgstr "Pleylist deaktiv edildi"
 
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/Playlists/EmptyAction.php:36
@@ -7961,7 +7961,7 @@ msgid "This playlist is not song-based."
 msgstr ""
 
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/Playlists/EmptyAction.php:44
-msgid "Playlist emptied."
+msgid "Playlist boşaldıldı."
 msgstr "Playlist boşaldıldı."
 
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/FilesController.php:297

@@ -88,6 +88,7 @@
                         radio
                         :label="$gettext('Playlist Type')"
                     >
+                    <!-- fagan edit
                         <template #description>
                             <a
                                 href="/docs/user-guide/playlists/#advanced-playlists"
@@ -96,6 +97,7 @@
                                 {{ $gettext('Learn about Advanced Playlists') }}
                             </a>
                         </template>
+                    -->
                     </form-group-multi-check>
 
                     <form-group-multi-check

@@ -116,10 +116,7 @@ const fields: DataTableField[] = [
 ];
 
 const langHeader = computed(() => {
-    return $gettext(
-        'Move %{num} File(s) to',
-        {num: String(props.selectedItems.all.length)}
-    );
+    return $gettext('Move %{num} File(s) to',{num: String(props.selectedItems.all.length)});
 });
 
 const $modal = useTemplateRef('$modal');

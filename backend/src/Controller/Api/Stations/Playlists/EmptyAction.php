@@ -41,7 +41,7 @@ final class EmptyAction implements SingleActionInterface
         return $response->withJson(
             new Status(
                 true,
-                __('Playlist emptied.')
+                __('Playlist boşaldıldı.')
             )
         );
     }

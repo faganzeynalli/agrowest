@@ -36,8 +36,8 @@ final class ToggleAction implements SingleActionInterface
         $em->flush();
 
         $flashMessage = ($newValue)
-            ? __('Playlist enabled.')
-            : __('Playlist disabled.');
+            ? __('Pleylist aktivləşdirildi.')
+            : __('Pleylist deaktiv edildi');
 
         return $response->withJson(new Status(true, $flashMessage));
     }
