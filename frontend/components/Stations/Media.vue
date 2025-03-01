@@ -351,7 +351,7 @@ const fields = computed<DataTableField<ApiFileList>[]>(() => {
             sortable: true,
             formatter: (value) => formatTimestampAsDateTime(value),
             selectable: true,
-            visible: true
+            visible: false
         },
         {
             key: 'media.uploaded_at',

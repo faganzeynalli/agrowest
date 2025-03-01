@@ -18,7 +18,7 @@
                 :label="$gettext('Enable')"
                 :description="$gettext('If disabled, the playlist will not be included in radio playback, but can still be managed.')"
             />
-
+            <!-- fagan edit
             <form-group-multi-check
                 id="edit_form_source"
                 class="col-md-12"
@@ -28,13 +28,14 @@
                 radio
                 :label="$gettext('Source')"
             />
+        -->
         </div>
-
         <section
             v-show="form.source === 'songs'"
             class="card mb-3"
             role="region"
         >
+
             <div class="card-header text-bg-primary">
                 <h2 class="card-title">
                     {{ $gettext('Song-Based Playlist') }}
@@ -42,6 +43,7 @@
             </div>
             <div class="card-body">
                 <div class="row g-3 mb-3">
+                    <!-- fagan edit
                     <form-group-checkbox
                         id="form_edit_avoid_duplicates"
                         class="col-md-6"
@@ -76,7 +78,7 @@
                             {{ $gettext('Hide Metadata from Listeners ("Jingle Mode")') }}
                         </template>
                     </form-group-checkbox>
-
+                -->
                     <form-group-multi-check
                         id="edit_form_type"
                         class="col-md-6"
@@ -86,6 +88,7 @@
                         radio
                         :label="$gettext('Playlist Type')"
                     >
+                    <!-- fagan edit
                         <template #description>
                             <a
                                 href="/docs/user-guide/playlists/#advanced-playlists"
@@ -94,6 +97,7 @@
                                 {{ $gettext('Learn about Advanced Playlists') }}
                             </a>
                         </template>
+                    -->
                     </form-group-multi-check>
 
                     <form-group-multi-check
@@ -123,7 +127,7 @@
                         />
                     </div>
                 </form-fieldset>
-
+                <!-- fagan edit
                 <form-fieldset v-show="form.type === 'once_per_x_songs'">
                     <template #label>
                         {{ $gettext('Once per x Songs') }}
@@ -179,7 +183,9 @@
                 </form-fieldset>
             </div>
         </section>
+    -->
 
+        <!-- fagan edit
         <section
             v-show="form.source === 'remote_url'"
             class="card mb-3"
@@ -222,6 +228,7 @@
                 </div>
             </div>
         </section>
+    -->
     </tab>
 </template>
 
@@ -267,7 +274,8 @@ const {v$, tabClass} = useVuelidateOnFormTab(
         weight: 3,
         type: 'default',
         source: 'songs',
-        order: 'shuffle',
+        /* fagan edit order: 'shuffle', */
+        order: 'sequential',
         remote_url: null,
         remote_type: 'stream',
         remote_buffer: 0,
@@ -275,7 +283,7 @@ const {v$, tabClass} = useVuelidateOnFormTab(
         play_per_songs: 0,
         play_per_minutes: 0,
         play_per_hour_minute: 0,
-        include_in_requests: true,
+        include_in_requests: false,
         avoid_duplicates: true,
     }
 );
@@ -300,7 +308,7 @@ const typeOptions = [
         value: 'default',
         text: $gettext('General Rotation'),
         description: $gettext('Standard playlist, shuffles with other standard playlists based on weight.')
-    },
+    }
     {
         value: 'once_per_x_songs',
         text: $gettext('Once per x Songs'),

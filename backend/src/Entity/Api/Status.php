@@ -12,15 +12,15 @@ class Status
     #[OA\Property(example: true)]
     public bool $success;
 
-    #[OA\Property(example: 'Changes saved successfully.')]
+    #[OA\Property(example: 'Dəyişikliklər uğurla yadda saxlanıldı.')]
     public string $message;
 
-    #[OA\Property(example: '<b>Changes saved successfully.</b>')]
+    #[OA\Property(example: '<b>Dəyişikliklər uğurla yadda saxlanıldı.</b>')]
     public string $formatted_message;
 
     public function __construct(
         bool $success = true,
-        string $message = 'Changes saved successfully.',
+        string $message = 'Dəyişikliklər uğurla yadda saxlanıldı.',
         ?string $formattedMessage = null
     ) {
         $this->success = $success;
@@ -30,21 +30,21 @@ class Status
 
     public static function success(): self
     {
-        return new self(true, __('Changes saved successfully.'));
+        return new self(true, __('Dəyişikliklər uğurla yadda saxlanıldı.'));
     }
 
     public static function created(): self
     {
-        return new self(true, __('Record created successfully.'));
+        return new self(true, __('Məlumat uğurla yaradıldı.'));
     }
 
     public static function updated(): self
     {
-        return new self(true, __('Record updated successfully.'));
+        return new self(true, __('Uğurla yeniləndi.'));
     }
 
     public static function deleted(): self
     {
-        return new self(true, __('Record deleted successfully.'));
+        return new self(true, __('Uğurla silindi.'));
     }
 }

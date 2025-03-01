@@ -11,10 +11,12 @@
         <tabs>
             <form-basic-info v-model:form="form" />
             <form-schedule v-model:schedule-items="form.schedule_items" />
+            <!-- fagan edit
             <form-advanced
                 v-if="enableAdvancedFeatures"
                 v-model:form="form"
             />
+        -->
         </tabs>
     </modal-form>
 </template>
