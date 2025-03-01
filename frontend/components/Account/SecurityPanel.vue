@@ -24,7 +24,7 @@
                 </div>
             </div>
         </template>
-
+        <!-- fagan edit
         <loading :loading="securityLoading">
             <div class="card-body">
                 <h5>
@@ -65,6 +65,7 @@
             </div>
         </loading>
 
+
         <div class="card-body">
             <h5>
                 {{ $gettext('Passkey Authentication') }}
@@ -90,6 +91,7 @@
             </div>
         </div>
 
+
         <data-table
             id="account_passkeys"
             ref="$dataTable"
@@ -109,6 +111,7 @@
                 </div>
             </template>
         </data-table>
+           -->
     </card-page>
 
     <account-change-password-modal ref="$changePasswordModal" />

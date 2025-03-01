@@ -23,12 +23,14 @@
     </section>
 
     <div class="row row-of-cards">
-        <div class="col-sm-12 col-md-6">
+        <div class="col-sm-12 col-md-12">
             <security-panel />
         </div>
+        <!-- fagan edit
         <div class="col-sm-12 col-md-6">
             <api-keys-panel />
         </div>
+    -->
     </div>
 
     <account-edit-modal

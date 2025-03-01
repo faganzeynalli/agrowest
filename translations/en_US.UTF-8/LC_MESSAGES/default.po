@@ -4837,7 +4837,7 @@ msgstr ""
 #: frontend/components/Account/SecurityPanel.vue:10
 #: frontend/components/Admin/Settings/SecurityPrivacyTab.vue:27
 msgid "Security"
-msgstr ""
+msgstr "Təhlükəsizlik"
 
 #: frontend/components/Admin/Settings/SecurityPrivacyTab.vue:3
 msgid "Security & Privacy"
@@ -5214,7 +5214,7 @@ msgstr ""
 
 #: frontend/components/Stations/Profile/NowPlayingPanel.vue:211
 msgid "Skip Song"
-msgstr ""
+msgstr "Mahnını atla"
 
 #: frontend/components/PanelLayout.vue:6
 msgid "Skip to main content"

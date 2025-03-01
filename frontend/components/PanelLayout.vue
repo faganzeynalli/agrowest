@@ -53,6 +53,7 @@
                 />
             </button>
             <ul class="dropdown-menu dropdown-menu-end">
+                <!--
                 <li>
                     <a
                         class="dropdown-item"
@@ -62,6 +63,7 @@
                         {{ $gettext('Dashboard') }}
                     </a>
                 </li>
+            -->
                 <li class="dropdown-divider">
 &nbsp;
                 </li>
@@ -83,6 +85,7 @@
                         {{ $gettext('My Account') }}
                     </a>
                 </li>
+                <!-- fagan edit
                 <li>
                     <a
                         class="dropdown-item theme-switcher"
@@ -119,6 +122,7 @@
                 <li class="dropdown-divider">
 &nbsp;
                 </li>
+            -->
                 <li>
                     <a
                         class="dropdown-item"
