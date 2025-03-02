@@ -20,12 +20,12 @@ msgid "%{ dj } is now live on %{ station }! Tune in now: %{ url }"
 msgstr ""
 
 #: frontend/components/Stations/Webhooks/Form/Common/RateLimitFields.vue:45
-msgid "%{ hours } saat"
-msgstr "%{ hours } saat"
+msgid "%{hours} saat"
+msgstr "%{hours} saat"
 
 #: frontend/components/Stations/Webhooks/Form/Common/RateLimitFields.vue:44
-msgid "%{ minutes } dəqiqə"
-msgstr "%{ minutes } dəqiqə"
+msgid "%{minutes} dəqiqə"
+msgstr "%{minutes} dəqiqə"
 
 #: frontend/components/Stations/Webhooks/Form/Common/RateLimitFields.vue:43
 msgid "%{ seconds } saniyə"
@@ -4652,7 +4652,7 @@ msgstr "Qarışdır (shuffle)"
 #: frontend/components/Stations/Profile/BackendPanel.vue:53
 #: frontend/components/Stations/Profile/FrontendPanel.vue:140
 msgid "Restart"
-msgstr ""
+msgstr "Yenidən başlat"
 
 #: frontend/components/Stations/menu.ts:298
 #: frontend/components/Stations/Restart.vue:73

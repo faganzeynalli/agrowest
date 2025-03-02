@@ -59,7 +59,6 @@
                                             {{ $gettext('Remote URL') }}
                                         </template>
                                     </span>
-                                -->
                                     <span
                                         v-if="row.item.is_jingle"
                                         class="badge text-bg-primary"
@@ -67,16 +66,17 @@
                                         {{ $gettext('Jingle Mode') }}
                                     </span>
                                     <span
-                                        v-if="row.item.source === 'songs' && row.item.order === 'sequential'"
-                                        class="badge text-bg-info"
-                                    >
-                                        {{ $gettext('Sequential') }}
-                                    </span>
-                                    <span
                                         v-if="row.item.include_in_on_demand"
                                         class="badge text-bg-info"
                                     >
                                         {{ $gettext('On-Demand') }}
+                                    </span>
+                                -->
+                                    <span
+                                        v-if="row.item.source === 'songs' && row.item.order === 'sequential'"
+                                        class="badge text-bg-info"
+                                    >
+                                        {{ $gettext('Sequential') }}
                                     </span>
                                     <span
                                         v-if="row.item.schedule_items.length > 0"
@@ -102,8 +102,7 @@
                                 <template v-else-if="item.type === 'default'">
                                     {{ $gettext('General Rotation') }}<br>
                                     {{ $gettext('Weight') }}: {{ item.weight }}
-                                </template>
-                                <!--
+                                </template>                                
                                 <template v-else-if="item.type === 'once_per_x_songs'">
                                     {{
                                         $gettext(
@@ -131,8 +130,6 @@
                                 <template v-else>
                                     {{ $gettext('Custom') }}
                                 </template>
-                            -->
-
                             </template>
                             <template #cell(num_songs)="row">
                                 <template v-if="row.item.source === 'songs'">
