@@ -20,16 +20,16 @@ msgid "%{ dj } is now live on %{ station }! Tune in now: %{ url }"
 msgstr ""
 
 #: frontend/components/Stations/Webhooks/Form/Common/RateLimitFields.vue:45
-msgid "%{hours} saat"
-msgstr "%{hours} saat"
+msgid "%{ hours } saat"
+msgstr "%{ hours } saat"
 
 #: frontend/components/Stations/Webhooks/Form/Common/RateLimitFields.vue:44
-msgid "%{minutes} dəqiqə"
-msgstr "%{minutes} dəqiqə"
+msgid "%{ minutes } dəqiqə"
+msgstr "%{ minutes } dəqiqə"
 
 #: frontend/components/Stations/Webhooks/Form/Common/RateLimitFields.vue:43
-msgid "%{seconds} saniyə"
-msgstr "%{seconds} saniyə"
+msgid "%{ seconds } saniyə"
+msgstr "%{ seconds } saniyə"
 
 #: frontend/components/Stations/Webhooks/Form/Common/SocialPostFields.vue:135
 msgid "%{ station } is back online! Tune in now: %{ url }"
@@ -1642,7 +1642,7 @@ msgstr ""
 
 #: frontend/components/Stations/Playlists.vue:429
 msgid "Delete Playlist?"
-msgstr "Playlist silinsin?"
+msgstr "Pleylist silinsin?"
 
 #: frontend/components/Stations/Podcasts.vue:163
 msgid "Delete Podcast?"
@@ -3882,7 +3882,7 @@ msgstr ""
 #: frontend/components/Common/DateRangeDropdown.vue:13
 #: frontend/components/Stations/Profile/SchedulePanel.vue:32
 msgid "Now"
-msgstr ""
+msgstr "İndi"
 
 #: frontend/components/Dashboard.vue:332
 #: frontend/components/Stations/Profile/NowPlayingPanel.vue:56
@@ -4107,7 +4107,7 @@ msgstr "Şifrə"
 #: frontend/components/Stations/Profile/FrontendPanel.vue:82
 #: frontend/components/Stations/Streamers/ConnectionInfo.vue:68
 msgid "Password:"
-msgstr ""
+msgstr "Şifrə"
 
 #: frontend/components/Admin/GeoLite.vue:45
 msgid "Paste the generated license key into the field on this page."
@@ -4149,7 +4149,7 @@ msgstr ""
 #: frontend/components/Stations/Playlists.vue:227
 #: frontend/components/Stations/Playlists/QueueModal.vue:6
 msgid "Playback Queue"
-msgstr ""
+msgstr "Səsləndirmə növbəsi"
 
 #: frontend/components/Stations/Profile/NowPlayingPanel.vue:129
 msgid "Playing Next"
@@ -4171,12 +4171,12 @@ msgstr ""
 #: frontend/components/Public/WebDJ/MixerPanel.vue:13
 #: frontend/components/Public/WebDJ/PlaylistPanel.vue:271
 msgid "Playlist 1"
-msgstr ""
+msgstr "Pleylist 1"
 
 #: frontend/components/Public/WebDJ/MixerPanel.vue:28
 #: frontend/components/Public/WebDJ/PlaylistPanel.vue:272
 msgid "Playlist 2"
-msgstr ""
+msgstr "Pleylist 2"
 
 #: frontend/components/Stations/Playlists/Form/BasicInfo.vue:11
 msgid "Playlist Name"
@@ -4231,7 +4231,7 @@ msgstr "Pleylist:"
 #: frontend/components/Stations/Playlists.vue:14
 #: frontend/components/Stations/Profile/BackendPanel.vue:37
 msgid "Playlists"
-msgstr "PLEYLİSTLƏR"
+msgstr "Pleylistlər"
 
 #: frontend/components/Stations/Media/MediaToolbar.vue:379
 msgid "Playlists cleared for selected files:"
@@ -4367,7 +4367,7 @@ msgstr ""
 
 #: frontend/components/Stations/Media/MediaToolbar.vue:146
 msgid "Queue"
-msgstr ""
+msgstr "Növbə"
 
 #: frontend/components/Stations/Media/MediaToolbar.vue:142
 msgid "Queue the selected media to play next"
@@ -4406,7 +4406,7 @@ msgid "Random"
 msgstr "Təsadüfi seçim (Random)"
 
 #: frontend/components/Stations/Sidebar.vue:39
-msgid "Ready to start broadcasting? Click to start your station."
+msgid "Yayımlanmağa hazırsınız? Stansiyanızı işə salmaq üçün klikləyin."
 msgstr ""
 
 #: frontend/components/Admin/Index/NetworkStatsPanel.vue:19
@@ -4646,7 +4646,7 @@ msgstr ""
 
 #: frontend/components/Stations/Playlists.vue:211
 msgid "Reshuffle"
-msgstr ""
+msgstr "Qarışdır (shuffle)"
 
 #: frontend/components/Admin/Index/ServicesPanel.vue:39
 #: frontend/components/Stations/Profile/BackendPanel.vue:53
@@ -4769,7 +4769,7 @@ msgstr "Dəyişiklikləri yadda saxla"
 #: frontend/components/Stations/Streamers/Form/Schedule.vue:2
 #: /var/azuracast/www/backend/src/Controller/Frontend/PublicPages/ScheduleAction.php:50
 msgid "Schedule"
-msgstr ""
+msgstr "Planlaşdırma"
 
 #: frontend/components/Stations/Playlists.vue:265
 #: frontend/components/Stations/Streamers.vue:84
@@ -4779,7 +4779,7 @@ msgstr ""
 #: frontend/components/Stations/Playlists.vue:83
 #: frontend/components/Stations/Profile/SchedulePanel.vue:6
 msgid "Scheduled"
-msgstr ""
+msgstr "Planlaşdrılıb"
 
 #: frontend/components/Admin/Backups/ConfigureModal.vue:30
 msgid "Scheduled Backup Time"
@@ -5211,6 +5211,10 @@ msgstr ""
 #: frontend/components/Stations/Streamers/BroadcastsModal.vue:120
 msgid "Size"
 msgstr "Həcmi"
+
+#: frontend/components/Stations/Profile/NowPlayingPanel.vue:308
+msgid "Skip current song?"
+msgstr "Bu mahnı atlansın?"
 
 #: frontend/components/Stations/Profile/NowPlayingPanel.vue:211
 msgid "Skip Song"
@@ -7998,40 +8002,40 @@ msgid "File Processing"
 msgstr ""
 
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/ServicesController.php:143
-msgid "Station reloaded."
+msgid "Stansiya yenidən yükləndi."
 msgstr "Stansiya yenidən yükləndi."
 
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/ServicesController.php:152
-msgid "Station restarted."
+msgid "Stansiya yenidən başladıldı."
 msgstr "Stansiya yenidən başladıldı."
 
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/ServicesController.php:187
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/ServicesController.php:239
-msgid "Service stopped."
+msgid "Xidmət dayandırıldı."
 msgstr "Xidmət dayandırıldı."
 
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/ServicesController.php:192
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/ServicesController.php:244
-msgid "Service started."
+msgid "Xidmət başladıldı."
 msgstr "Xidmət başladıldı."
 
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/ServicesController.php:198
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/ServicesController.php:250
-msgid "Service reloaded."
+msgid "Xidmət yenidən yükləndi."
 msgstr "Xidmət yenidən yükləndi."
 
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/ServicesController.php:210
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/ServicesController.php:262
-msgid "Service restarted."
+msgid "Xidmət yenidən başladıldı."
 msgstr "Xidmət yenidən başladıldı."
 
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/ServicesController.php:229
-msgid "Song skipped."
-msgstr "Mahnı atlandı"
+msgid "Mahnı atlandı."
+msgstr "Mahnı atlandı."
 
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/ServicesController.php:234
-msgid "Streamer disconnected."
-msgstr ""
+msgid "Bağlantısı kəsildi."
+msgstr "Bağlantısı kəsildi."
 
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/BulkMedia/UploadAction.php:175
 #, php-format

@@ -140,7 +140,7 @@ final class ServicesController
     ): ResponseInterface {
         $this->reloadOrRestartStation($request->getStation(), true);
 
-        return $response->withJson(new Status(true, __('Station reloaded.')));
+        return $response->withJson(new Status(true, __('Stansiya yenidən yükləndi.')));
     }
 
     public function restartAction(
@@ -149,7 +149,7 @@ final class ServicesController
     ): ResponseInterface {
         $this->reloadOrRestartStation($request->getStation(), false);
 
-        return $response->withJson(new Status(true, __('Station restarted.')));
+        return $response->withJson(new Status(true, __('Stansiya yenidən başladıldı.')));
     }
 
     protected function reloadOrRestartStation(
@@ -184,18 +184,18 @@ final class ServicesController
             case 'stop':
                 $frontend->stop($station);
 
-                return $response->withJson(new Status(true, __('Service stopped.')));
+                return $response->withJson(new Status(true, __('Xidmət dayandırıldı.')));
 
             case 'start':
                 $frontend->start($station);
 
-                return $response->withJson(new Status(true, __('Service started.')));
+                return $response->withJson(new Status(true, __('Xidmət başladıldı.')));
 
             case 'reload':
                 $frontend->write($station);
                 $frontend->reload($station);
 
-                return $response->withJson(new Status(true, __('Service reloaded.')));
+                return $response->withJson(new Status(true, __('Xidmət yenidən yükləndi.')));
 
             case 'restart':
             default:
@@ -207,7 +207,7 @@ final class ServicesController
                 $frontend->write($station);
                 $frontend->start($station);
 
-                return $response->withJson(new Status(true, __('Service restarted.')));
+                return $response->withJson(new Status(true, __('Xidmət yenidən başladıldı.')));
         }
     }
 
@@ -226,22 +226,22 @@ final class ServicesController
             case 'skip':
                 $backend->skip($station);
 
-                return $response->withJson(new Status(true, __('Song skipped.')));
+                return $response->withJson(new Status(true, __('Mahnı atlandı.')));
 
             case 'disconnect':
                 $backend->disconnectStreamer($station);
 
-                return $response->withJson(new Status(true, __('Streamer disconnected.')));
+                return $response->withJson(new Status(true, __('Bağlantısı kəsildi.')));
 
             case 'stop':
                 $backend->stop($station);
 
-                return $response->withJson(new Status(true, __('Service stopped.')));
+                return $response->withJson(new Status(true, __('Xidmət dayandırıldı.')));
 
             case 'start':
                 $backend->start($station);
 
-                return $response->withJson(new Status(true, __('Service started.')));
+                return $response->withJson(new Status(true, __('Xidmət başladıldı.')));
 
             case 'reload':
                 $backend->write($station);

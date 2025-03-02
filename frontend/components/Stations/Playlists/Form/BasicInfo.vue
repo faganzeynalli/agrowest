@@ -145,6 +145,7 @@
                         />
                     </div>
                 </form-fieldset>
+            -->
 
                 <form-fieldset v-show="form.type === 'once_per_x_minutes'">
                     <template #label>
@@ -181,7 +182,6 @@
                         />
                     </div>
                 </form-fieldset>
-            -->
 
             </div>
         </section>
