@@ -247,7 +247,7 @@ final class ServicesController
                 $backend->write($station);
                 $backend->reload($station);
 
-                return $response->withJson(new Status(true, __('Service reloaded.')));
+                return $response->withJson(new Status(true, __('Xidmət yenidən yükləndi.')));
 
             case 'restart':
             default:
@@ -259,7 +259,7 @@ final class ServicesController
                 $backend->write($station);
                 $backend->start($station);
 
-                return $response->withJson(new Status(true, __('Service restarted.')));
+                return $response->withJson(new Status(true, __('Xidmət yenidən başladıldı.')));
         }
     }
 }

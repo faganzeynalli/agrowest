@@ -131,6 +131,8 @@
                                 <template v-else>
                                     {{ $gettext('Custom') }}
                                 </template>
+                            -->
+
                             </template>
                             <template #cell(num_songs)="row">
                                 <template v-if="row.item.source === 'songs'">
@@ -147,7 +149,6 @@
 
                                     ({{ formatLength(row.item.total_length) }})
                                 </template>
-                            -->
                                 <template v-else>
                                     &nbsp;
                                 </template>
