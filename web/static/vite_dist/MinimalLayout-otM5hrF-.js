@@ -1,1 +1,0 @@
-import{a as n}from"./usePlayerStore-iWc_R0_O.js";import{_ as e}from"./MinimalLayout-DRuxQ8zJ.js";import{d as s,l as o}from"./vue-Cts3TEHg.js";function p(r){return s({setup(){const{componentProps:t}=n();return{componentProps:t}},render(){return o(e,{},{default:()=>o(r,this.componentProps)})}})}export{p as u};
