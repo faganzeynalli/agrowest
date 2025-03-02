@@ -254,7 +254,7 @@ msgstr ""
 #: frontend/components/Stations/Playlists/Form/Schedule.vue:33
 #: frontend/components/Stations/Streamers/Form/Schedule.vue:31
 msgid "Add Schedule Item"
-msgstr ""
+msgstr "Planlaşdırma elementini əlavə edin"
 
 #: frontend/components/Stations/SftpUsers.vue:10
 #: frontend/components/Stations/SftpUsers/EditModal.vue:57
@@ -2176,14 +2176,14 @@ msgstr ""
 #: frontend/components/Stations/Reports/SoundExchange.vue:77
 #: frontend/components/Stations/Streamers/Form/ScheduleRow.vue:88
 msgid "End Date"
-msgstr ""
+msgstr "Bitmə tarixi"
 
 #: frontend/components/Stations/Playlists/Form/ScheduleRow.vue:44
 #: frontend/components/Stations/Reports/Listeners.vue:280
 #: frontend/components/Stations/Streamers/BroadcastsModal.vue:110
 #: frontend/components/Stations/Streamers/Form/ScheduleRow.vue:47
 msgid "End Time"
-msgstr ""
+msgstr "Bitmə vaxtı"
 
 #: frontend/components/Admin/StorageLocations/Form/S3.vue:39
 msgid "Endpoint"
@@ -2460,7 +2460,7 @@ msgstr ""
 #: frontend/components/Stations/Streamers/Form/ScheduleRow.vue:149
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:113
 msgid "Friday"
-msgstr ""
+msgstr "Cümə"
 
 #: frontend/components/Account/TwoFactorModal.vue:20
 msgid ""
@@ -2474,7 +2474,7 @@ msgstr ""
 
 #: frontend/components/Common/Waveform.vue:58
 msgid "Full Volume"
-msgstr ""
+msgstr "Tam səs"
 
 #: frontend/components/Stations/Playlists.vue:98
 #: frontend/components/Stations/Playlists/Form/BasicInfo.vue:112
@@ -2759,7 +2759,7 @@ msgstr ""
 #: frontend/components/Stations/Playlists/Form/ScheduleRow.vue:45
 msgid ""
 "If the end time is before the start time, the playlist will play overnight."
-msgstr ""
+msgstr "Bitmə vaxtı başlama vaxtından əvvəldirsə, pleylist gecə səslənəcək."
 
 #: frontend/components/Stations/Streamers/Form/ScheduleRow.vue:51
 msgid ""
@@ -3336,7 +3336,7 @@ msgstr ""
 
 #: frontend/components/Stations/Playlists/Form/ScheduleRow.vue:85
 msgid "Loop Once"
-msgstr ""
+msgstr "Bir döngə"
 
 #: frontend/components/Stations/Webhooks/Form/Discord.vue:25
 #: frontend/components/Stations/Webhooks/Form/Telegram.vue:48
@@ -3592,7 +3592,7 @@ msgstr "Dəyişdirilmə"
 #: frontend/components/Stations/Streamers/Form/ScheduleRow.vue:145
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:109
 msgid "Monday"
-msgstr ""
+msgstr "Bazar ertəsi"
 
 #: frontend/components/Stations/Media/MediaToolbar.vue:134
 #: frontend/components/Stations/Playlists.vue:172
@@ -3839,7 +3839,7 @@ msgstr "İşləmir"
 #: frontend/components/Stations/Playlists/Form/Schedule.vue:8
 #: frontend/components/Stations/Streamers/Form/Schedule.vue:8
 msgid "Not Scheduled"
-msgstr ""
+msgstr "Planlaşdırma cədvəli təyin edilməyib"
 
 #: frontend/components/Admin/Backups.vue:80
 msgid ""
@@ -4001,7 +4001,7 @@ msgstr ""
 
 #: frontend/components/Stations/Playlists/Form/ScheduleRow.vue:86
 msgid "Only loop through playlist once."
-msgstr ""
+msgstr "Əgər playlisti müəyyən zaman çərçivəsində DÖVR ETMƏDƏN sadəcə bir dəfə səsləndirmək istəyirsinizsə, bu seçimi aktiv edə bilərsiniz."
 
 #: frontend/components/Stations/Playlists/Form/Advanced.vue:56
 msgid "Only play one track at scheduled time."
@@ -4735,7 +4735,7 @@ msgstr ""
 #: frontend/components/Stations/Streamers/Form/ScheduleRow.vue:150
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:114
 msgid "Saturday"
-msgstr ""
+msgstr "Şənbə"
 
 #: frontend/components/Stations/Media/MediaToolbar.vue:96
 msgid "Save"
@@ -4788,7 +4788,7 @@ msgstr ""
 #: frontend/components/Stations/Playlists/Form/ScheduleRow.vue:93
 #: frontend/components/Stations/Streamers/Form/ScheduleRow.vue:97
 msgid "Scheduled Play Days of Week"
-msgstr ""
+msgstr "Həftənin planlaşdılan günləri"
 
 #: frontend/components/Admin/Stations/Form/ProfileForm.vue:44
 msgid ""
@@ -4799,7 +4799,7 @@ msgstr ""
 #: frontend/components/Stations/Playlists/Form/ScheduleRow.vue:6
 #: frontend/components/Stations/Streamers/Form/ScheduleRow.vue:6
 msgid "Scheduled Time #%{num}"
-msgstr ""
+msgstr "Planlaşdırılmış Vaxt"
 
 #: frontend/components/Stations/Playlists.vue:346
 msgid "Scheduling"
@@ -5389,7 +5389,7 @@ msgstr "Başlat"
 #: frontend/components/Stations/Reports/SoundExchange.vue:65
 #: frontend/components/Stations/Streamers/Form/ScheduleRow.vue:79
 msgid "Start Date"
-msgstr ""
+msgstr "Başlama tarixi"
 
 #: frontend/components/Stations/Sidebar.vue:37
 msgid "Start Station"
@@ -5404,7 +5404,7 @@ msgstr ""
 #: frontend/components/Stations/Streamers/BroadcastsModal.vue:103
 #: frontend/components/Stations/Streamers/Form/ScheduleRow.vue:30
 msgid "Start Time"
-msgstr ""
+msgstr "Başlama saatı"
 
 #: frontend/components/Stations/Webhooks/Form/TypeSelect.vue:25
 msgid "Station Directories"
@@ -5470,7 +5470,7 @@ msgstr ""
 #: frontend/components/Stations/Playlists/Form/ScheduleRow.vue:59
 #: frontend/components/Stations/Streamers/Form/ScheduleRow.vue:68
 msgid "Station Time Zone"
-msgstr ""
+msgstr "Filialın saat qurşağı"
 
 #: frontend/components/Admin/Debug.vue:174
 msgid "Station-Specific Debugging"
@@ -5478,12 +5478,12 @@ msgstr ""
 
 #: frontend/components/Admin/StorageLocations.vue:130
 msgid "Station(s)"
-msgstr ""
+msgstr "Stansiya"
 
 #: frontend/components/Admin/menu.ts:115 frontend/components/Admin/menu.ts:120
 #: frontend/components/Admin/Stations.vue:2
 msgid "Stations"
-msgstr ""
+msgstr "Stansiyalar"
 
 #: frontend/components/Stations/Restart.vue:24
 msgid ""
@@ -5644,7 +5644,7 @@ msgstr ""
 #: frontend/components/Stations/Streamers/Form/ScheduleRow.vue:151
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:115
 msgid "Sunday"
-msgstr ""
+msgstr "Bazar günü"
 
 #: frontend/components/Stations/Logs.vue:49
 msgid "Support Documents"
@@ -5652,7 +5652,7 @@ msgstr ""
 
 #: frontend/components/Admin/Backups/RunBackupModal.vue:45
 msgid "Supported file formats:"
-msgstr ""
+msgstr "Dəstəklənən fayl formatları:"
 
 #: frontend/components/PanelLayout.vue:93
 msgid "Switch Theme"
@@ -6112,7 +6112,7 @@ msgstr "Bu şifrə çox etibarsızdır."
 msgid ""
 "This playlist currently has no scheduled times. It will play at all times. "
 "To add a new scheduled time, click the button below."
-msgstr ""
+msgstr "Bu pleylistdə hazırda planlaşdırılmış vaxt yoxdur. O, hər zaman səslənəck. Əlavə etmək üçün aşağıdakı düyməni klikləyin"
 
 #: frontend/components/Stations/Playlists/Form/BasicInfo.vue:158
 msgid "This playlist will play every $x minutes, where $x is specified here."
@@ -6237,22 +6237,22 @@ msgstr ""
 #: frontend/components/Stations/Streamers/Form/ScheduleRow.vue:148
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:112
 msgid "Thursday"
-msgstr ""
+msgstr "Cümə axşamı"
 
 #: frontend/components/Stations/Reports/Listeners.vue:249
 #: frontend/components/Stations/Reports/Listeners/Map.vue:18
 #: frontend/components/Stations/Reports/Overview/CommonMetricsView.vue:89
 msgid "Time"
-msgstr ""
+msgstr "Saat"
 
 #: frontend/components/Stations/Reports/Listeners.vue:259
 #: frontend/components/Stations/Reports/Overview/CommonMetricsView.vue:90
 msgid "Time (sec)"
-msgstr ""
+msgstr "Vaxt (saniyə)"
 
 #: frontend/components/Account/EditForm.vue:28
 msgid "Time Display"
-msgstr ""
+msgstr "Saat formatı"
 
 #: frontend/components/Admin/Index/CpuStatsHelpModal.vue:39
 msgid "Time spent waiting for disk I/O to be completed."
@@ -6301,7 +6301,7 @@ msgstr ""
 
 #: frontend/components/Stations/Playlists/Form/ScheduleRow.vue:29
 msgid "To play once per day, set the start and end times to the same value."
-msgstr ""
+msgstr "Gündə bir dəfə səsləndirmək üçün başlanğıc və bitmə vaxtlarını eyni dəyərə təyin edin."
 
 #: frontend/components/Admin/Backups.vue:72
 msgid "To restore a backup from your host computer, run:"
@@ -6318,7 +6318,7 @@ msgstr ""
 msgid ""
 "To set this schedule to run only within a certain date range, specify a "
 "start and end date."
-msgstr ""
+msgstr "Bu cədvəli yalnız müəyyən bir tarix diapazonunda işləyəcək şəkildə qurmaq üçün başlanğıc və bitmə tarixini təyin edin."
 
 #: frontend/components/Public/WebDJ/SettingsPanel.vue:62
 msgid ""
@@ -6393,7 +6393,7 @@ msgstr ""
 #: frontend/components/Stations/Streamers/Form/ScheduleRow.vue:146
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:110
 msgid "Tuesday"
-msgstr ""
+msgstr "Çərşənbə axşamı"
 
 #: frontend/entities/Webhooks.ts:100
 msgid "TuneIn AIR"
@@ -6875,7 +6875,7 @@ msgstr ""
 #: frontend/components/Stations/Streamers/Form/ScheduleRow.vue:147
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:111
 msgid "Wednesday"
-msgstr ""
+msgstr "Çərşənbə"
 
 #: frontend/components/Stations/Playlists.vue:99
 msgid "Weight"
@@ -7935,7 +7935,7 @@ msgid "This playlist is not a sequential playlist."
 msgstr ""
 
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/Playlists/ReshuffleAction.php:38
-msgid "Playlist reshuffled."
+msgid "Pleylist qarışdırıldı."
 msgstr "Pleylist qarışdırıldı."
 
 #: /var/azuracast/www/backend/src/Controller/Api/Stations/Playlists/PutApplyToAction.php:62

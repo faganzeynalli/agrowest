@@ -35,7 +35,7 @@ final class ReshuffleAction implements SingleActionInterface
         return $response->withJson(
             new Status(
                 true,
-                __('Playlist reshuffled.')
+                __('Pleylist qarışdırıldı.')
             )
         );
     }

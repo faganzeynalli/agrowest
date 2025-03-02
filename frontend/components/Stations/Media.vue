@@ -329,8 +329,9 @@ const fields = computed<DataTableField<ApiFileList>[]>(() => {
         {key: 'media.genre', label: $gettext('Genre'), sortable: true, selectable: true, visible: false},
         /* fagan edit
         {key: 'media.isrc', label: $gettext('ISRC'), sortable: true, selectable: true, visible: false},
-        {key: 'media.length', label: $gettext('Length'), sortable: true, selectable: true, visible: true}
         */
+        {key: 'media.length', label: $gettext('Length'), sortable: true, selectable: true, visible: true}
+        
     ];
 
     forEach({...props.customFields}, (field: CustomField) => {

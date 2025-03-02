@@ -50,6 +50,7 @@
                                     {{ row.item.name }}
                                 </h5>
                                 <div class="badges">
+                                    <!-- fagan edit
                                     <span class="badge text-bg-secondary">
                                         <template v-if="row.item.source === 'songs'">
                                             {{ $gettext('Song-based') }}
@@ -58,6 +59,7 @@
                                             {{ $gettext('Remote URL') }}
                                         </template>
                                     </span>
+                                -->
                                     <span
                                         v-if="row.item.is_jingle"
                                         class="badge text-bg-primary"
@@ -101,6 +103,7 @@
                                     {{ $gettext('General Rotation') }}<br>
                                     {{ $gettext('Weight') }}: {{ item.weight }}
                                 </template>
+                                <!--
                                 <template v-else-if="item.type === 'once_per_x_songs'">
                                     {{
                                         $gettext(
@@ -144,6 +147,7 @@
 
                                     ({{ formatLength(row.item.total_length) }})
                                 </template>
+                            -->
                                 <template v-else>
                                     &nbsp;
                                 </template>
@@ -213,6 +217,7 @@
                                     >
                                         {{ $gettext('Reshuffle') }}
                                     </button>
+                                    <!-- fagan edit
                                     <button
                                         v-if="item.links.import"
                                         type="button"
@@ -237,6 +242,7 @@
                                     >
                                         {{ $gettext('Apply to Folders') }}
                                     </button>
+                                -->
                                     <button
                                         type="button"
                                         class="btn btn-sm btn-secondary"
@@ -244,6 +250,7 @@
                                     >
                                         {{ $gettext('Duplicate') }}
                                     </button>
+                                    <!-- fagan edit
                                     <a
                                         v-for="format in ['pls', 'm3u']"
                                         :key="format"
@@ -258,6 +265,7 @@
                                             )
                                         }}
                                     </a>
+                                -->
                                 </div>
                             </template>
                         </data-table>
