@@ -127,8 +127,23 @@
                         />
                     </div>
                 </form-fieldset>
-                <!-- fagan detele once per x song form-fieldset -->
+                <form-fieldset v-show="form.type === 'once_per_x_songs'">
+                    <template #label>
+                        {{ $gettext('Once per x Songs') }}
+                    </template>
 
+                    <div class="row g-3">
+                        <form-group-field
+                            id="form_edit_play_per_songs"
+                            class="col-md-12"
+                            :field="v$.play_per_songs"
+                            input-type="number"
+                            :input-attrs="{min: '0', max: '150'}"
+                            :label="$gettext('Number of Songs Between Plays')"
+                            :description="$gettext('This playlist will play every $x songs, where $x is specified here.')"
+                        />
+                    </div>
+                </form-fieldset>
                 <form-fieldset v-show="form.type === 'once_per_x_minutes'">
                     <template #label>
                         {{ $gettext('Once per x Minutes') }}
@@ -291,7 +306,8 @@ const typeOptions = [
         value: 'default',
         text: $gettext('General Rotation'),
         description: $gettext('Standard playlist, shuffles with other standard playlists based on weight.')
-    },
+    }
+    /* fagan edit
     {
         value: 'once_per_x_songs',
         text: $gettext('Once per x Songs'),
@@ -312,6 +328,7 @@ const typeOptions = [
         text: $gettext('Advanced'),
         description: $gettext('Manually define how this playlist is used in Liquidsoap configuration.')
     }
+*/
 ];
 
 const orderOptions = [
