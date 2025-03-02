@@ -1,5 +1,5 @@
-import {DateTime, Duration, Settings} from "luxon";
-import {useAzuraCast} from "~/vendor/azuracast";
+import { DateTime, Duration, Settings } from "luxon";
+import { useAzuraCast } from "~/vendor/azuracast";
 
 interface TimestampToRelative {
     (timestamp: number | null | undefined): string;
@@ -11,8 +11,10 @@ interface UseLuxon {
     timestampToRelative: TimestampToRelative
 }
 
+// Force Luxon to use English globally
 Settings.defaultLocale = "en";
 
+// Function to override relative time formatting safely
 function customRelativeTime(timestamp: number | null | undefined): string {
     if (typeof timestamp !== 'number') {
         return '';
@@ -20,36 +22,29 @@ function customRelativeTime(timestamp: number | null | undefined): string {
 
     let timeString = DateTime.fromSeconds(timestamp).toRelative({ locale: 'en' });
 
-    // Replace words dynamically
-    if (timeString) {
-        timeString = timeString
-            .replace(/in (\d+) hours/, "idvn $1 hrs")   // Modify hours
-            .replace(/in (\d+) days/, "ivsn $1 d")      // Modify days
-            .replace(/in (\d+) weeks/, "idvn $1 w")     // Modify weeks
-            .replace(/in (\d+) months/, "isdvn $1 mo")   // Modify months
-            .replace(/in (\d+) years/, "ivdan $1 yrs");  // Modify years
-    }
+    // Ensure timeString is not null before replacing words
+    if (!timeString) return '';
 
-    return timeString;
+    return timeString
+        .replace(/in (\d+) hours/, "in $1 hrs")   // Modify hours
+        .replace(/in (\d+) days/, "in $1 d")      // Modify days
+        .replace(/in (\d+) weeks/, "in $1 w")     // Modify weeks
+        .replace(/in (\d+) months/, "in $1 mo")   // Modify months
+        .replace(/in (\d+) years/, "in $1 yrs");  // Modify years
 }
 
 export function useLuxon(): UseLuxon {
-    const {localeWithDashes, timeConfig} = useAzuraCast();
+    const { localeWithDashes, timeConfig } = useAzuraCast();
     Settings.defaultLocale = localeWithDashes;
 
-    // const timestampToRelative: TimestampToRelative = (timestamp: number | null | undefined): string => {
-    //     if (typeof timestamp !== 'number') {
-    //         return '';
-    //     }
-
-    //     return DateTime.fromSeconds(timestamp).toRelative({
-    //         ...timeConfig
-    //     });
-    // }
+    // Ensure timestampToRelative is defined before returning
+    const timestampToRelative: TimestampToRelative = (timestamp: number | null | undefined): string => {
+        return customRelativeTime(timestamp);  // Use fixed function
+    };
 
     return {
         DateTime,
         Duration,
-        timestampToRelative
-    }
+        timestampToRelative  // Now this exists in the return object
+    };
 }

@@ -1,1 +1,0 @@
-import{D as t,a as o,S as a}from"./datetime-BTmRqpun.js";import{a as s}from"./usePlayerStore-CC_kVnAb.js";a.defaultLocale="en";function r(){const{localeWithDashes:e,timeConfig:i}=s();return a.defaultLocale=e,{DateTime:o,Duration:t,timestampToRelative}}export{r as u};
