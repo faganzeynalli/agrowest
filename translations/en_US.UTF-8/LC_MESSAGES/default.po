@@ -6121,7 +6121,7 @@ msgstr "Bu şifrə çox etibarsızdır."
 msgid ""
 "This playlist currently has no scheduled times. It will play at all times. "
 "To add a new scheduled time, click the button below."
-msgstr "Bu pleylistdə hazırda planlaşdırılmış vaxt yoxdur. O, hər zaman səslənəck. Əlavə etmək üçün aşağıdakı düyməni klikləyin"
+msgstr "Bu pleylistdə hazırda planlaşdırılmış vaxt yoxdur. O, hər zaman səslənəcək. Əlavə etmək üçün aşağıdakı düyməni klikləyin"
 
 #: frontend/components/Stations/Playlists/Form/BasicInfo.vue:158
 msgid "This playlist will play every $x minutes, where $x is specified here."

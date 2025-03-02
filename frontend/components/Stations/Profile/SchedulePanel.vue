@@ -71,7 +71,10 @@ const processedScheduleItems = computed(() => {
         const startMoment = timestampToDateTime(row.start_timestamp);
         const endMoment = timestampToDateTime(row.end_timestamp);
 
+        row.time_until = startMoment.toRelative({ locale: 'en' });
+        /* fagan edit OLD
         row.time_until = startMoment.toRelative();
+    */
 
         row.start_formatted = formatDateTime(
             startMoment,
