@@ -4654,6 +4654,11 @@ msgstr "Qarışdır (shuffle)"
 msgid "Restart"
 msgstr "Yenidən başlat"
 
+#: frontend/components/Stations/Profile/BackendPanel.vue:155
+#: frontend\components\Stations\Profile\FrontendPanel.vue:242
+msgid "Restart service?"
+msgstr "Yenidən başladılsın?"
+
 #: frontend/components/Stations/menu.ts:298
 #: frontend/components/Stations/Restart.vue:73
 #: frontend/components/Stations/Restart.vue:96
