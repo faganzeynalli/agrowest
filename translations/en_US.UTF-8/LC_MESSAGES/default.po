@@ -20,12 +20,12 @@ msgid "%{ dj } is now live on %{ station }! Tune in now: %{ url }"
 msgstr ""
 
 #: frontend/components/Stations/Webhooks/Form/Common/RateLimitFields.vue:45
-msgid "%{hours} saat"
-msgstr "%{hours} saat"
+msgid "%{ hours } saat"
+msgstr "%{ hours } saat"
 
 #: frontend/components/Stations/Webhooks/Form/Common/RateLimitFields.vue:44
-msgid "%{minutes} dəqiqə"
-msgstr "%{minutes} dəqiqə"
+msgid "%{ minutes } dəqiqə"
+msgstr "%{ minutes } dəqiqə"
 
 #: frontend/components/Stations/Webhooks/Form/Common/RateLimitFields.vue:43
 msgid "%{ seconds } saniyə"

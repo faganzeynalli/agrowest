@@ -291,8 +291,7 @@ const typeOptions = [
         value: 'default',
         text: $gettext('General Rotation'),
         description: $gettext('Standard playlist, shuffles with other standard playlists based on weight.')
-    }
-    /* fagan edit
+    },
     {
         value: 'once_per_x_songs',
         text: $gettext('Once per x Songs'),
@@ -313,7 +312,6 @@ const typeOptions = [
         text: $gettext('Advanced'),
         description: $gettext('Manually define how this playlist is used in Liquidsoap configuration.')
     }
-*/
 ];
 
 const orderOptions = [

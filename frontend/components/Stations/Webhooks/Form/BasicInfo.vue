@@ -97,8 +97,8 @@ const triggerOptions = computed(() => {
 const {$gettext, interpolate} = useTranslate();
 
 const langSeconds = $gettext('%{ seconds } saniyə');
-const langMinutes = $gettext('%{minutes} dəqiqə');
-const langHours = $gettext('%{hours} saat');
+const langMinutes = $gettext('%{ minutes } dəqiqə');
+const langHours = $gettext('%{ hours } saat');
 
 const rateLimitOptions = [
     {
