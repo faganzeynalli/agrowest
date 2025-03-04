@@ -322,9 +322,26 @@ const {formatTimestampAsDateTime} = useStationDateTimeFormatter();
 
 const fields = computed<DataTableField<ApiFileList>[]>(() => {
     const fields: DataTableField<ApiFileList>[] = [
+        { 
+            key: 'path', 
+            isRowHeader: true, 
+            label: $gettext('Name'), 
+            sortable: true,
+            sortFn: (a, b) => {
+                const nameA = a.path.match(/\d+/g) ? a.path.match(/\d+/g).map(Number) : [a.path];
+                const nameB = b.path.match(/\d+/g) ? b.path.match(/\d+/g).map(Number) : [b.path];
 
-        {key: 'path', isRowHeader: true, label: $gettext('Name'),sortable: true,
-        sortFn: (a, b) => a.path.localeCompare(b.path, undefined, { numeric: true })},
+                for (let i = 0; i < Math.min(nameA.length, nameB.length); i++) {
+                    if (nameA[i] !== nameB[i]) {
+                        return nameA[i] - nameB[i];
+                    }
+                }
+
+                return a.path.localeCompare(b.path, undefined, { numeric: true });
+            }
+        },
+        /*{key: 'path', isRowHeader: true, label: $gettext('Name'),sortable: true,
+        sortFn: (a, b) => a.path.localeCompare(b.path, undefined, { numeric: true })},*/
         /*{key: 'path', isRowHeader: true, label: $gettext('Name'), sortable: true},*/
         {key: 'media.title', label: $gettext('Title'), sortable: true, selectable: true, visible: true},
         {key: 'media.artist', label: $gettext('Artist'), sortable: true, selectable: true, visible: false},
