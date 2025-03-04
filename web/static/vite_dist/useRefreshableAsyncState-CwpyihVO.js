@@ -1,0 +1,1 @@
+import{a as o}from"./index-DP9oPqoW.js";import{G as r}from"./usePlayerStore-BlBABSf7.js";import{U as c,r as f}from"./vue-Cts3TEHg.js";function u(s){const t=c(s),n=f(t.value);return r(t,e=>{n.value=e}),n}function l(s,t,n={}){const e=o(s,t,{resetOnExecute:!1,...n}),a=e.isLoading;return e.isLoading=u(a),e}export{l as u};

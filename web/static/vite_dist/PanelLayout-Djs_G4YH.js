@@ -1,0 +1,1 @@
+import{a as t}from"./usePlayerStore-BlBABSf7.js";import{_ as s}from"./PanelLayout-BDS3qVxA.js";import{d as a,l as o}from"./vue-Cts3TEHg.js";function i(r){return a({setup(){const{panelProps:e,componentProps:n}=t();return{panelProps:e,componentProps:n}},render(){return o(s,this.panelProps,{default:()=>o(r,this.componentProps)})}})}export{i as u};

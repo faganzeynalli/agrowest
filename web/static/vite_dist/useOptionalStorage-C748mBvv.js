@@ -1,1 +1,0 @@
-import{e as a}from"./index-BnEhpeRR.js";import{N as s,r as l}from"./vue-Cts3TEHg.js";const n=t=>{try{const r=window[t],e="__storage_test__";return r.setItem(e,e),r.removeItem(e),!0}catch{return!1}};function m(t,r,e){if(n("localStorage"))return a(t,r,e);const{shallow:o}=e??{};return(o?s:l)(r)}export{m as u};
