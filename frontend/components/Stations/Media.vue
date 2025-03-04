@@ -322,7 +322,10 @@ const {formatTimestampAsDateTime} = useStationDateTimeFormatter();
 
 const fields = computed<DataTableField<ApiFileList>[]>(() => {
     const fields: DataTableField<ApiFileList>[] = [
-        {key: 'path', isRowHeader: true, label: $gettext('Name'), sortable: true},
+
+        {key: 'path', isRowHeader: true, label: $gettext('Name'),sortable: true,
+        sortFn: (a, b) => a.path.localeCompare(b.path, undefined, { numeric: true })},
+        /*{key: 'path', isRowHeader: true, label: $gettext('Name'), sortable: true},*/
         {key: 'media.title', label: $gettext('Title'), sortable: true, selectable: true, visible: true},
         {key: 'media.artist', label: $gettext('Artist'), sortable: true, selectable: true, visible: false},
         {key: 'media.album', label: $gettext('Album'), sortable: true, selectable: true, visible: false},
