@@ -1,0 +1,1 @@
+function a(r){r=Math.floor(Number(r));const t=Math.floor(r/86400),f=Math.floor(r/3600)%24,l=Math.floor(r/60)%60,o=r%60;return(t>0?t+"d ":"")+(f>0?("0"+f).slice(-2)+":":"")+("0"+l).slice(-2)+":"+("0"+o).slice(-2)}export{a as f};
