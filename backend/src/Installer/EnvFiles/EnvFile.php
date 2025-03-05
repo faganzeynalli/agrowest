@@ -43,14 +43,14 @@ final class EnvFile extends AbstractEnvFile
                     'description' => __(
                         'The main port Aplus listens to for insecure HTTP connections.',
                     ),
-                    'default' => 8050,
+                    'default' => 80,
                 ],
                 'AZURACAST_HTTPS_PORT' => [
                     'name' => __('HTTPS Port'),
                     'description' => __(
                         'The main port Aplus listens to for secure HTTPS connections.',
                     ),
-                    'default' => 8443,
+                    'default' => 443,
                 ],
                 'AZURACAST_SFTP_PORT' => [
                     'name' => __('SFTP Port'),
