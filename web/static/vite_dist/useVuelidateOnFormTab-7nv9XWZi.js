@@ -1,1 +1,0 @@
-import{u as m}from"./index-D7eigDz9.js";import{b as v}from"./useVuelidateOnForm-D4fm_wSq.js";import{c as e}from"./vue-Cts3TEHg.js";function b(r,n,u,a={}){const t=m(n,r,a),o=e(()=>!t.value.$invalid),s=e(()=>t.value.$anyDirty&&t.value.$invalid?"text-danger":"");return v().on((c,i)=>{i(u)}),{v$:t,isValid:o,tabClass:s}}export{b as u};
