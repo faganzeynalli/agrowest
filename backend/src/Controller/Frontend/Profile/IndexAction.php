@@ -26,7 +26,7 @@ final class IndexAction implements SingleActionInterface
             response: $response,
             component: 'Account',
             id: 'account',
-            title: __('My Account'),
+            title: __('Hesabım'),
             props: [
                 'supportedLocales' => $supportedLocales,
             ]

@@ -50,8 +50,12 @@ const {form, resetForm, v$, ifValid} = useVuelidateOnForm(
     {
         name: '',
         email: '',
+        /* fagan edit 
         locale: 'default',
         show_24_hour_time: null,
+        */
+        locale: 'en_US',
+        show_24_hour_time: true,
     }
 );
 

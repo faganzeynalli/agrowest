@@ -48,11 +48,6 @@ import AccountEditModal from "~/components/Account/EditModal.vue";
 import UserInfoPanel from "~/components/Account/UserInfoPanel.vue";
 import SecurityPanel from "~/components/Account/SecurityPanel.vue";
 import ApiKeysPanel from "~/components/Account/ApiKeysPanel.vue";
-import { onMounted } from "vue";
-
-onMounted(() => {
-    document.title = "Hesabım"; 
-});
 
 defineProps<{
     supportedLocales: Record<string, string>

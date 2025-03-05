@@ -87,7 +87,7 @@ final class RecoverAction implements SingleActionInterface
             component: 'Recover',
             id: 'account-recover',
             layout: 'minimal',
-            title: __('Recover Account'),
+            title: __('Hesabı bərpa et'),
             props: [
                 'csrf' => $csrf->generate('recover'),
                 'error' => $error,

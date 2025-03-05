@@ -359,6 +359,12 @@ const formatLength = (length: number) => {
     return duration
         .replace("days", "gün")
         .replace("day", "gün")
+        .replace("weeks", "həftə")
+        .replace("week", "həftə")
+        .replace("months", "ay")
+        .replace("month", "ay")
+        .replace("years", "il")
+        .replace("year", "il")
         .replace("hours", "saat")
         .replace("hour", "saat")
         .replace("minutes", "dəqiqə")

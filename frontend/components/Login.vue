@@ -127,11 +127,6 @@ import {IconMail, IconVpnKey} from "~/components/Common/icons.ts";
 import useWebAuthn, {ProcessedValidateResponse} from "~/functions/useWebAuthn.ts";
 import {useAxios} from "~/vendor/axios.ts";
 import {nextTick, onMounted, ref, useTemplateRef} from "vue";
-/* fagan edit - adding title */
-
-onMounted(() => {
-    document.title = "Daxil ol"; 
-});
 
 const props = defineProps<{
     hideProductName: boolean,

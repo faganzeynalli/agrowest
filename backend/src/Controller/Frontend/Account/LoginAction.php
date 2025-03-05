@@ -134,7 +134,7 @@ final class LoginAction implements SingleActionInterface
             component: 'Login',
             id: 'account-login',
             layout: 'minimal',
-            title: __('Log In'),
+            title: __('Daxil Ol'),
             layoutParams: [
                 'page_class' => 'login-content',
             ],

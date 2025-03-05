@@ -32,7 +32,7 @@ final class DashboardAction implements SingleActionInterface
             response: $response,
             component: 'Dashboard',
             id: 'dashboard',
-            title: __('Dashboard'),
+            title: __('Filiallar'),
             props: [
                 'profileUrl' => $router->named('profile:index'),
                 'adminUrl' => $router->named('admin:index:index'),

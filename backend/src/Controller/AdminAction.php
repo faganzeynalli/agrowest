@@ -19,7 +19,7 @@ final class AdminAction implements SingleActionInterface
             response: $response,
             component: 'Admin',
             id: 'admin-index',
-            title: __('Administration'),
+            title: __('İdarəetmə Paneli'),
             props: [
                 'baseUrl' => $request->getRouter()->named('admin:index:index'),
             ]

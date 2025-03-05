@@ -110,7 +110,7 @@ final class SetupController
             component: 'Setup/Register',
             id: 'setup-register',
             layout: 'minimal',
-            title: __('Set Up Aplus'),
+            title: __('Aplus quraşdırma'),
             props: [
                 'csrf' => $csrf->generate('register'),
                 'error' => $error,

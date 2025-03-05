@@ -47,7 +47,7 @@ final class ScheduleAction implements SingleActionInterface
             component: 'Public/Schedule',
             id: 'station-schedule',
             layout: 'minimal',
-            title: __('Schedule') . ' - ' . $station->getName(),
+            title: __('Planlaşdırma') . ' - ' . $station->getName(),
             layoutParams: [
                 'page_class' => $pageClass,
                 'hide_footer' => true,

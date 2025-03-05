@@ -42,7 +42,7 @@ final class HistoryAction implements SingleActionInterface
             component: 'Public/History',
             id: 'song-history',
             layout: 'minimal',
-            title: __('History') . ' - ' . $station->getName(),
+            title: __('Tarixçə') . ' - ' . $station->getName(),
             layoutParams: [
                 'page_class' => 'embed station-' . $station->getShortName(),
                 'hide_footer' => true,
