@@ -265,6 +265,12 @@ import UserInfoPanel from "~/components/Account/UserInfoPanel.vue";
 import {getApiUrl} from "~/router.ts";
 import DataTable, {DataTableField} from "~/components/Common/DataTable.vue";
 import useHasDatatable from "~/functions/useHasDatatable.ts";
+/* fagan edit - adding title */
+import { onMounted } from "vue";
+
+onMounted(() => {
+    document.title = "Fiallar"; 
+});
 
 defineProps<{
     profileUrl: string,

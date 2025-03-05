@@ -37,7 +37,7 @@ import {useClipboard} from "@vueuse/core";
 import Modal from "~/components/Common/Modal.vue";
 import {useHasModal} from "~/functions/useHasModal.ts";
 
-const logs = ref<string>('Loading...');
+const logs = ref<string>('Yüklənilir...');
 
 const $modal = useTemplateRef('$modal');
 const {show: showModal, hide} = useHasModal($modal);

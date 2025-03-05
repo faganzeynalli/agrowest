@@ -18,14 +18,19 @@
                     &nbsp;
                     </th>
                     <th style="width: 25%;">
+                        {{ $gettext('Name') }}
+                    </th>
+                    <th style="width: 25%;">
                         {{ $gettext('Title') }}
                     </th>
                     <th style="width: 25%;">
                         {{ $gettext('Artist') }}
                     </th>
+                    <!-- fagan edit
                     <th style="width: 25%;">
                         {{ $gettext('Album') }}
                     </th>
+                -->
                     <th style="width: 20%;">
                         {{ $gettext('Actions') }}
                     </th>
@@ -42,10 +47,16 @@
                             :url="element.media.links.play"
                         />
                     </td>
+                    <!-- fagan edit add path -->
+                    <td class="ps-2">
+                        <span class="typography-subheading">{{ element.path }}</span>
+                    </td>
                     <td class="ps-2">
                         <span class="typography-subheading">{{ element.media.title }}</span>
                     </td>
+                    <!-- fagan edit
                     <td>{{ element.media.artist }}</td>
+                -->
                     <td>{{ element.media.album }}</td>
                     <td>
                         <div class="btn-group btn-group-sm">
