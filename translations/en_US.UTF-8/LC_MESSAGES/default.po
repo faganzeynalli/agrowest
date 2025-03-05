@@ -601,7 +601,7 @@ msgstr "Ağıllı Pleylist"
 #: frontend/components/Stations/Mounts/Form/AutoDj.vue:35
 #: frontend/components/Stations/Remotes/Form/AutoDj.vue:35
 msgid "AutoDJ Bitrate (kbps)"
-msgstr "Ağıllı Pleylist Bitrate (kbps"
+msgstr "Ağıllı Pleylist Bitrate (kbps)"
 
 #: frontend/components/Stations/Profile/BackendNonePanel.vue:5
 msgid "AutoDJ Disabled"
@@ -691,7 +691,7 @@ msgstr ""
 
 #: frontend/components/Setup/Register.vue:15
 msgid "Aplus First-Time Setup"
-msgstr "Aplus - İlik quraşdırma"
+msgstr "Aplus - İlkin quraşdırma"
 
 #: frontend/components/Admin/Settings/GeneralTab.vue:21
 msgid "Aplus Instance Name"
