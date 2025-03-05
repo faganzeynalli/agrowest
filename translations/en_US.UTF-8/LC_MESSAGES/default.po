@@ -5172,7 +5172,7 @@ msgstr ""
 
 #: frontend/components/Stations/Profile/FrontendPanel.vue:200
 msgid "Show Credentials"
-msgstr "Rekvizilər"
+msgstr "Rekvizit"
 
 #: frontend/components/Admin/Stations/Form/HlsForm.vue:33
 msgid "Show HLS Stream on Public Player"

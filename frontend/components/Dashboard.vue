@@ -269,7 +269,7 @@ import useHasDatatable from "~/functions/useHasDatatable.ts";
 import { onMounted } from "vue";
 
 onMounted(() => {
-    document.title = "Fiallar"; 
+    document.title = "Filiallar"; 
 });
 
 defineProps<{
