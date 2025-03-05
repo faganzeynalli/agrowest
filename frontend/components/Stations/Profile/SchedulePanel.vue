@@ -71,10 +71,29 @@ const processedScheduleItems = computed(() => {
         const startMoment = timestampToDateTime(row.start_timestamp);
         const endMoment = timestampToDateTime(row.end_timestamp);
 
-        row.time_until = startMoment.toRelative({ locale: 'az' });
         /* fagan edit OLD
         row.time_until = startMoment.toRelative();
     */
+         let timeUntil = startMoment.toRelative({ locale: 'az' });
+
+        // Check if the output is incorrect (e.g., "+4 h", "+1 d")
+        if (timeUntil && /^[+\d]/.test(timeUntil)) {
+            // Manually replace English words with Azerbaijani
+            timeUntil = startMoment.toRelative()
+                .replace("in ", "Başlayır:")  // Remove "in" for future times
+                .replace("hours", "saat")
+                .replace("hour", "saat")
+                .replace("minutes", "dəqiqə")
+                .replace("minute", "dəqiqə")
+                .replace("seconds", "saniyə")
+                .replace("second", "saniyə")
+                .replace("days", "gün")
+                .replace("day", "gün")
+                .replace("ago", "əvvəl")
+                .replace("after", "sonra");
+        }
+
+        row.time_until = timeUntil;
 
         row.start_formatted = formatDateTime(
             startMoment,

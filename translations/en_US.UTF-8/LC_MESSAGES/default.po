@@ -1980,7 +1980,7 @@ msgstr ""
 #: frontend/components/Stations/Profile/StationDisabledPanel.vue:19
 #: frontend/components/Stations/Sidebar.vue:24
 msgid "Edit Profile"
-msgstr "Filialı redaktə et"
+msgstr "Redaktə et"
 
 #: frontend/components/Stations/Remotes/EditModal.vue:70
 msgid "Edit Remote Relay"
