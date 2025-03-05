@@ -355,14 +355,7 @@ const formatLength = (length: number) => {
     }
 
     const duration = Duration.fromMillis(length * 1000);
-    //original- return duration.rescale().toHuman();
-    
-    //fagan edit
-    return duration
-    .replace("day", $gettext("gün"))
-    .replace("hours", $gettext("saat"))
-    .replace("minutes", $gettext("dəqiqə"))
-    .replace("seconds", $gettext("saniyə"));
+    return duration.rescale().toHuman();
 };
 
 const $dataTable = useTemplateRef('$dataTable');
