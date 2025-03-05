@@ -1,0 +1,1 @@
+import{b as n}from"./usePlayerStore-DOYQnJem.js";import{d as s,t as o,u as r}from"./vue-Cts3TEHg.js";const u=s({__name:"TimeZone",setup(a){const{timezone:t}=n();return(e,i)=>o(e.$gettext("This station's time zone is currently %{tz}.",{tz:r(t)}))}});export{u as _};
