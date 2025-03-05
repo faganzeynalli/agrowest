@@ -355,13 +355,14 @@ const formatLength = (length: number) => {
     }
 
     const duration = Duration.fromMillis(length * 1000);
-    // original-  return duration.rescale().toHuman();
+    //original- return duration.rescale().toHuman();
     
-    // fagan edit- Format it using the correct locale (Azerbaijani)
-    return duration.rescale().toHuman({ 
-        unitDisplay: "long", 
-        locale: "az" 
-    });
+    //fagan edit
+    return duration
+    .replace("day", $gettext("gün"))
+    .replace("hours", $gettext("saat"))
+    .replace("minutes", $gettext("dəqiqə"))
+    .replace("seconds", $gettext("saniyə"));
 };
 
 const $dataTable = useTemplateRef('$dataTable');
