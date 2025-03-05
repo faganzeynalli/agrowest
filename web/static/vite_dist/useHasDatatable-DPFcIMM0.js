@@ -1,1 +1,0 @@
-function l(r){return{refresh:()=>{var e;return(e=r.value)==null?void 0:e.refresh()},relist:()=>{var e;return(e=r.value)==null?void 0:e.relist()},navigate:()=>{var e;return(e=r.value)==null?void 0:e.navigate()},setFilter:e=>{var t;return(t=r.value)==null?void 0:t.setFilter(e)}}}export{l as u};

@@ -212,7 +212,9 @@ class StationPlaylist implements
 
         $this->type = PlaylistTypes::default();
         $this->source = PlaylistSources::Songs;
-        $this->order = PlaylistOrders::Shuffle;
+        // fagan edit
+        //$this->order = PlaylistOrders::Shuffle;
+        $this->order = PlaylistOrders::Sequential;
         $this->remote_type = PlaylistRemoteTypes::Stream;
 
         $this->media_items = new ArrayCollection();
