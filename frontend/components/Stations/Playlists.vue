@@ -355,7 +355,13 @@ const formatLength = (length: number) => {
     }
 
     const duration = Duration.fromMillis(length * 1000);
-    return duration.rescale().toHuman();
+    // original-  return duration.rescale().toHuman();
+    
+    // fagan edit- Format it using the correct locale (Azerbaijani)
+    return duration.rescale().toHuman({ 
+        unitDisplay: "long", 
+        locale: "az" 
+    });
 };
 
 const $dataTable = useTemplateRef('$dataTable');

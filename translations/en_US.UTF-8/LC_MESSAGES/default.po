@@ -508,7 +508,7 @@ msgstr ""
 #: frontend/components/Stations/Profile/EnabledProfile.vue:156
 #: frontend/components/Stations/Restart.vue:135
 msgid "Are you sure?"
-msgstr ""
+msgstr "Əminsiniz?"
 
 #: frontend/components/Public/OnDemand.vue:98
 #: frontend/components/Stations/PodcastEpisodes.vue:194
@@ -596,12 +596,12 @@ msgstr ""
 #: frontend/components/Stations/Remotes.vue:94
 #: frontend/components/Stations/Remotes/Form/AutoDj.vue:3
 msgid "AutoDJ"
-msgstr ""
+msgstr "Ağıllı Pleylist"
 
 #: frontend/components/Stations/Mounts/Form/AutoDj.vue:35
 #: frontend/components/Stations/Remotes/Form/AutoDj.vue:35
 msgid "AutoDJ Bitrate (kbps)"
-msgstr ""
+msgstr "Ağıllı Pleylist Bitrate (kbps"
 
 #: frontend/components/Stations/Profile/BackendNonePanel.vue:5
 msgid "AutoDJ Disabled"
@@ -691,7 +691,7 @@ msgstr ""
 
 #: frontend/components/Setup/Register.vue:15
 msgid "Aplus First-Time Setup"
-msgstr ""
+msgstr "Aplus - İlik quraşdırma"
 
 #: frontend/components/Admin/Settings/GeneralTab.vue:21
 msgid "Aplus Instance Name"
@@ -1296,7 +1296,7 @@ msgstr ""
 #: frontend/components/Setup/Register.vue:95
 #: frontend/components/Setup/SetupStep.vue:8
 msgid "Create Account"
-msgstr ""
+msgstr "Hesab yaradın"
 
 #: frontend/components/Admin/GeoLite.vue:29
 msgid "Create an account on the MaxMind developer site."
@@ -1980,7 +1980,7 @@ msgstr ""
 #: frontend/components/Stations/Profile/StationDisabledPanel.vue:19
 #: frontend/components/Stations/Sidebar.vue:24
 msgid "Edit Profile"
-msgstr "Profili redaktə et"
+msgstr "Filialı redaktə et"
 
 #: frontend/components/Stations/Remotes/EditModal.vue:70
 msgid "Edit Remote Relay"
@@ -2568,7 +2568,7 @@ msgstr ""
 
 #: frontend/components/Stations/Profile/FrontendPanel.vue:199
 msgid "Hide Credentials"
-msgstr ""
+msgstr "Gizlət"
 
 #: frontend/components/Stations/Playlists/Form/BasicInfo.vue:76
 msgid "Hide Metadata from Listeners (\"Jingle Mode\")"
@@ -2914,7 +2914,7 @@ msgstr ""
 msgid ""
 "Information about the current playing track will appear here once your "
 "station has started."
-msgstr ""
+msgstr "Stansiyanız işə salındıqdan sonra cari ifa olunan trek haqqında məlumat burada görünəcək."
 
 #: frontend/components/Admin/AuditLog.vue:27
 msgid "Insert"
@@ -3111,7 +3111,7 @@ msgstr "Uzunluq"
 
 #: frontend/components/Setup/Register.vue:28
 msgid "Let's get started by creating your Super Administrator account."
-msgstr ""
+msgstr "Super Administrator hesabınızı yaratmaqla başlayaq."
 
 #: frontend/components/Admin/Settings/ServicesTab.vue:43
 msgid "LetsEncrypt"
@@ -4654,6 +4654,14 @@ msgstr "Qarışdır (shuffle)"
 msgid "Restart"
 msgstr "Yenidən başlat"
 
+#: frontend/components/Stations/Profile/FrontendPanel.vue:250
+msgid "Start service?"
+msgstr "Xidmət başladılsın?"
+
+#: frontend/components/Stations/Profile/FrontendPanel.vue:259
+msgid "Stop service?"
+msgstr "Xidmət dayandırılsın?"
+
 #: frontend/components/Stations/Profile/BackendPanel.vue:155
 #: frontend\components\Stations\Profile\FrontendPanel.vue:242
 msgid "Restart service?"
@@ -5402,7 +5410,7 @@ msgstr "Başlama tarixi"
 
 #: frontend/components/Stations/Sidebar.vue:37
 msgid "Start Station"
-msgstr ""
+msgstr "Stansiyanı başlat"
 
 #: frontend/components/Public/WebDJ/SettingsPanel.vue:289
 msgid "Start Streaming"
@@ -5498,7 +5506,7 @@ msgstr "Stansiyalar"
 msgid ""
 "Stations using Icecast can soft-reload the station configuration, applying "
 "changes while keeping the stream broadcast running."
-msgstr ""
+msgstr "Stansiya konfiqurasiyasını yumşaq şəkildə yenidən başlada, yayımını davam etdirərkən dəyişiklikləri tətbiq edə bilər."
 
 #: frontend/components/Admin/Index/CpuStatsPanel.vue:50
 msgid "Steal"
@@ -5578,11 +5586,11 @@ msgstr ""
 #: frontend/components/Stations/Profile/BackendPanel.vue:75
 #: frontend/components/Stations/Profile/FrontendPanel.vue:162
 msgid "Stop"
-msgstr ""
+msgstr "Dayandır"
 
 #: frontend/components/Public/WebDJ/SettingsPanel.vue:288
 msgid "Stop Streaming"
-msgstr ""
+msgstr "Yayımı dayandır"
 
 #: frontend/components/Admin/StorageLocations/Form.vue:14
 msgid "Storage Adapter"
@@ -5933,7 +5941,7 @@ msgstr ""
 msgid ""
 "This account will have full access to the system, and you'll automatically "
 "be logged in to it for the rest of setup."
-msgstr ""
+msgstr "Bu hesabın sistemə tam girişi olacaq və siz quraşdırmanın qalan hissəsi üçün avtomatik olaraq sistemə daxil olacaqsınız."
 
 #: frontend/components/Stations/Webhooks/Form/GoogleAnalyticsV4.vue:12
 msgid "This can be generated in the \"Events\" section for a measurement."
@@ -6455,7 +6463,7 @@ msgstr "Sil"
 #: frontend/components/Stations/Profile/StreamsPanel.vue:142
 #: frontend/components/Stations/Profile/StreamsPanel.vue:53
 msgid "Unique"
-msgstr "Unikal"
+msgstr "unikal"
 
 #: frontend/components/Stations/Webhooks/Form/Telegram.vue:28
 msgid ""
@@ -6550,7 +6558,7 @@ msgstr ""
 
 #: frontend/components/Stations/Restart.vue:3
 msgid "Update Station Configuration"
-msgstr ""
+msgstr "Stansiya Konfiqurasiyasını Yeniləyin"
 
 #: frontend/components/Admin/Updates.vue:120
 msgid "Update via Web"
@@ -7038,7 +7046,7 @@ msgstr ""
 
 #: frontend/components/Stations/Restart.vue:37
 msgid "Your station supports reloading configuration."
-msgstr ""
+msgstr "Stansiyanız yenidən yükləmə konfiqurasiyasını dəstəkləyir."
 
 #: frontend/components/Admin/Stations/Form/BackendForm.vue:515
 msgid "YouTube"
@@ -8175,11 +8183,11 @@ msgstr ""
 
 #: /var/azuracast/www/backend/src/Controller/Frontend/SetupController.php:113
 msgid "Set Up Aplus"
-msgstr ""
+msgstr "İlkin Quraşdırma"
 
 #: /var/azuracast/www/backend/src/Controller/Frontend/SetupController.php:192
 msgid "Setup has already been completed!"
-msgstr ""
+msgstr "Quraşdırma artıq tamamlandı!"
 
 #: /var/azuracast/www/backend/src/Controller/Frontend/Account/LoginAction.php:65
 msgid "Too many login attempts"
