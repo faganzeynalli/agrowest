@@ -1,0 +1,1 @@
+import{j as o}from"./usePlayerStore-DdQU5Axv.js";import{d as t,p as n,q as a,G as r}from"./vue-Cts3TEHg.js";const u=t({__name:"MinimalLayout",setup(s){return o("global"),n(()=>{a(()=>{document.dispatchEvent(new CustomEvent("vue-ready"))})}),(e,d)=>r(e.$slots,"default")}});export{u as _};
