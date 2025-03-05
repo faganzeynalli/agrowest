@@ -44,7 +44,7 @@ const {form, resetForm, v$, ifValid} = useVuelidateOnForm(
     {
         name: {},
         email: {required, email},
-        locale: {required},
+        locale: {},
         show_24_hour_time: {}
     },
     {
