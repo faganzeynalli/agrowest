@@ -80,15 +80,15 @@ const processedScheduleItems = computed(() => {
         if (timeUntil && /^[+\d]/.test(timeUntil)) {
             // Manually replace English words with Azerbaijani
             timeUntil = startMoment.toRelative()
-                .replace("in ", "Başlayır:")  // Remove "in" for future times
-                .replace("hours", "saat")
-                .replace("hour", "saat")
-                .replace("minutes", "dəqiqə")
-                .replace("minute", "dəqiqə")
-                .replace("seconds", "saniyə")
-                .replace("second", "saniyə")
-                .replace("days", "gün")
-                .replace("day", "gün")
+                .replace("in ", "Başlayacaq: ")  // Remove "in" for future times
+                .replace("hours", "saata")
+                .replace("hour", "saata")
+                .replace("minutes", "dəqiqəyə")
+                .replace("minute", "dəqiqəyə")
+                .replace("seconds", "saniyəyə")
+                .replace("second", "saniyəyə")
+                .replace("days", "günə")
+                .replace("day", "günə")
                 .replace("ago", "əvvəl")
                 .replace("after", "sonra");
         }

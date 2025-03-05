@@ -44,7 +44,9 @@ const {form, resetForm, v$, ifValid} = useVuelidateOnForm(
     {
         name: {},
         email: {required, email},
-        locale: {},
+        /* fagan edit
+        locale: {required}, */
+        locale: {required},
         show_24_hour_time: {}
     },
     {
