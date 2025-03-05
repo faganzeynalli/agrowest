@@ -346,7 +346,7 @@ const fields: DataTableField[] = [
     {key: 'num_songs', label: $gettext('# Songs'), sortable: false},
     {key: 'actions', label: $gettext('Actions'), sortable: false, class: 'shrink'}
 ];
-
+/*
 const {Duration} = useLuxon();
 
 const formatLength = (length: number) => {
@@ -356,6 +356,18 @@ const formatLength = (length: number) => {
 
     const duration = Duration.fromMillis(length * 1000);
     return duration.rescale().toHuman();
+};
+*/
+const {Duration, Settings} = useLuxon();
+
+Settings.defaultLocale = 'az';
+
+const formatLength = (length) => {
+    if (length === 0) {
+        return $gettext('None');
+    }
+
+    return Duration.fromMillis(length * 1000).rescale().toHuman();
 };
 
 const $dataTable = useTemplateRef('$dataTable');

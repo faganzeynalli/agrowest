@@ -17,6 +17,12 @@ import {getStationApiUrl} from "~/router.ts";
 import StationDisabledPanel from "~/components/Stations/Profile/StationDisabledPanel.vue";
 import Loading from "~/components/Common/Loading.vue";
 import EnabledProfile, {EnabledProfileProps} from "~/components/Stations/Profile/EnabledProfile.vue";
+/* fagan edit - adding title */
+import { onMounted } from "vue";
+
+onMounted(() => {
+    document.title = "Şəxsi Profil"; 
+});
 
 const {isEnabled} = useAzuraCastStation();
 

@@ -295,7 +295,7 @@ msgstr ""
 #: /var/azuracast/www/backend/src/Notification/Check/ServiceCheck.php:42
 #: /var/azuracast/www/backend/src/Controller/AdminAction.php:22
 msgid "Administration"
-msgstr ""
+msgstr "İdarəedici"
 
 #: frontend/components/Admin/Stations/Form/BackendForm.vue:215
 #: frontend/components/Admin/Stations/Form/FrontendForm.vue:142
@@ -4107,7 +4107,7 @@ msgstr "Şifrə"
 #: frontend/components/Stations/Profile/FrontendPanel.vue:82
 #: frontend/components/Stations/Streamers/ConnectionInfo.vue:68
 msgid "Password:"
-msgstr "Şifrə"
+msgstr "Şifrə:"
 
 #: frontend/components/Admin/GeoLite.vue:45
 msgid "Paste the generated license key into the field on this page."
@@ -5172,7 +5172,7 @@ msgstr ""
 
 #: frontend/components/Stations/Profile/FrontendPanel.vue:200
 msgid "Show Credentials"
-msgstr ""
+msgstr "Rekvizilər"
 
 #: frontend/components/Admin/Stations/Form/HlsForm.vue:33
 msgid "Show HLS Stream on Public Player"
@@ -5363,11 +5363,11 @@ msgstr ""
 #: frontend/components/Stations/Queue.vue:99
 #: frontend/components/Stations/Reports/Timeline.vue:165
 msgid "Source"
-msgstr ""
+msgstr "Mənbə"
 
 #: frontend/components/Admin/StorageLocations.vue:129
 msgid "Space Used"
-msgstr ""
+msgstr "Yer istifadə olunub"
 
 #: frontend/components/Stations/Remotes/Form/BasicInfo.vue:46
 msgid ""
@@ -6713,13 +6713,13 @@ msgstr ""
 #: frontend/components/Stations/SftpUsers/Form.vue:9
 #: frontend/components/Stations/Streamers.vue:151
 msgid "Username"
-msgstr ""
+msgstr "İstifadəçi"
 
 #: frontend/components/Stations/Profile/FrontendPanel.vue:38
 #: frontend/components/Stations/Profile/FrontendPanel.vue:78
 #: frontend/components/Stations/Profile/FrontendPanel.vue:99
 msgid "Username:"
-msgstr ""
+msgstr "İstifadəçi:"
 
 #: frontend/components/Admin/menu.ts:76 frontend/components/Admin/Users.vue:2
 msgid "Users"

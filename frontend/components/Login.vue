@@ -1,4 +1,4 @@
-<template>
+F<template>
     <div class="public-page">
         <div class="card p-2">
             <div class="card-body">
@@ -127,6 +127,12 @@ import {IconMail, IconVpnKey} from "~/components/Common/icons.ts";
 import useWebAuthn, {ProcessedValidateResponse} from "~/functions/useWebAuthn.ts";
 import {useAxios} from "~/vendor/axios.ts";
 import {nextTick, onMounted, ref, useTemplateRef} from "vue";
+/* fagan edit - adding title */
+import { onMounted } from "vue";
+
+onMounted(() => {
+    document.title = "Daxil ol"; 
+});
 
 const props = defineProps<{
     hideProductName: boolean,
